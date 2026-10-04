@@ -1,0 +1,495 @@
+{
+ "description": "Saved final results from which Route 1 rebuilds every figure and table.",
+ "files": [
+  {
+   "path": "results/appendix/hyperonic_nuclear_amortization_bands.npz",
+   "bytes": 32609,
+   "sha256": "4e2d31f87123451262eef43db4446239a5239776aa470d46d68fbcc574ae35d5"
+  },
+  {
+   "path": "results/appendix/hyperonic_nuclear_amortization_report.json",
+   "bytes": 14096,
+   "sha256": "085766e08181f84e3634b90706885f5cc2bfe2226e834897d0416d76925185f4"
+  },
+  {
+   "path": "results/appendix/pp_calibration_ranks.npz",
+   "bytes": 51254,
+   "sha256": "aae857e5f21e6fe2a6989b40d1601914323de404f469102362bc3a23ab9f5636"
+  },
+  {
+   "path": "results/cost/en_and_tsnpe_timing_constants.json",
+   "bytes": 1352,
+   "sha256": "1781a254d1573e230856b4e13b24fb3ed414584f6b6e9f4e3af2377f621e3325"
+  },
+  {
+   "path": "results/cost/table_VII_VIII_values.json",
+   "bytes": 17437,
+   "sha256": "87670b3aa7cf14ba9c050ee8dd5facede6999e1dd29d5ca299b3fc871402535b"
+  },
+  {
+   "path": "results/evidence/green_en_vs_ultranest_16_rows.json",
+   "bytes": 22063,
+   "sha256": "a70fbbeaa57e1df4f6ed1c12fa5ee1bc2a367a348cc30d16777916d8e7c9c5cd"
+  },
+  {
+   "path": "results/evidence/table_VI_independent_ultranest_rows.json",
+   "bytes": 2547,
+   "sha256": "966e58420301813278adb90b3e1292567043c7efff7a116d4ca9b1250eff64ab"
+  },
+  {
+   "path": "results/hyperonic/A1/anet_certificate.npz",
+   "bytes": 2237415,
+   "sha256": "df04ef1fd5c8cc293a33ea44039072bda61aa976c136348fb94d82307924f1f8"
+  },
+  {
+   "path": "results/hyperonic/A1/anet_comparison_bands.npz",
+   "bytes": 11500,
+   "sha256": "0cfbd7ab0119a955e234587c905a3bc9cbff82c5e366122e3935fdb736ccee4e"
+  },
+  {
+   "path": "results/hyperonic/A1/anet_curves.npz",
+   "bytes": 9680440,
+   "sha256": "fb1acb105dc9a2ebd6806ee703c111ad34d7f640735bfb4f1e161c5aaa029b14"
+  },
+  {
+   "path": "results/hyperonic/A1/anet_resample6000.npz",
+   "bytes": 302381,
+   "sha256": "63af9c88c1b004f6aaba3515e37faa7eb7a32ac80fdadaf8d3fb513c4deaaa87"
+  },
+  {
+   "path": "results/hyperonic/A1/mass_tidal_bands.npz",
+   "bytes": 16984,
+   "sha256": "68eb29ecf309e3adc4899954f6cd647316320dab5b04283d6aee85cef80372db"
+  },
+  {
+   "path": "results/hyperonic/A1/tsnpe_comparison_bands.npz",
+   "bytes": 15111,
+   "sha256": "70efa82c12b39e22a4d23427b3c477a314a4ce4df0ec91090b4dd75f04a601a1"
+  },
+  {
+   "path": "results/hyperonic/A1/tsnpe_curves.npz",
+   "bytes": 9001475,
+   "sha256": "9089d0cd6fa029bdf6effb711abe9375c7708a9e37009e6ecbad93a7934e1399"
+  },
+  {
+   "path": "results/hyperonic/A1/tsnpe_resample6000.npz",
+   "bytes": 286677,
+   "sha256": "d3afca0e31fdc88277b90b16ad405219bd0da4e9f45bdece06741242de479a63"
+  },
+  {
+   "path": "results/hyperonic/J0614/anet_certificate.npz",
+   "bytes": 2238847,
+   "sha256": "d9848af7c3d3cf537c4866d9b732422fdaea81d5ba53f1d195e5b5fdeac8b08b"
+  },
+  {
+   "path": "results/hyperonic/J0614/anet_curves.npz",
+   "bytes": 6515855,
+   "sha256": "0ad74bf9d245a52340a3393aa9f306f5ae8847bb3bcb5f886fdd7bed91e607d9"
+  },
+  {
+   "path": "results/hyperonic/J0614/anet_resample6000.npz",
+   "bytes": 209152,
+   "sha256": "fc715cb8939b7341247d2f3a834d73670f47f7d69d7ed97df4a8df77b7b02a35"
+  },
+  {
+   "path": "results/hyperonic/J1231/anet_certificate.npz",
+   "bytes": 4481035,
+   "sha256": "b9f82bef1497903c2cbafce0b0078959018a22856015116ee9bbab1b0c3eb1b0"
+  },
+  {
+   "path": "results/hyperonic/J1231/anet_curves.npz",
+   "bytes": 11006756,
+   "sha256": "433840622c25f1fa27b7462c3a5d4793f20a6349d8a05c4d123dbc8c3cc23ddb"
+  },
+  {
+   "path": "results/hyperonic/J1231/anet_resample6000.npz",
+   "bytes": 342738,
+   "sha256": "036e423b601bdfa4045fd22503a3e8dd7f63da345b536a652b90e366d44653c3"
+  },
+  {
+   "path": "results/hyperonic/J1614/anet_certificate.npz",
+   "bytes": 2238243,
+   "sha256": "f8925993466ba224828df936364c76629062a8242aa62b85904fbe2b78e39589"
+  },
+  {
+   "path": "results/hyperonic/J1614/anet_curves.npz",
+   "bytes": 8819899,
+   "sha256": "1f07e5a930cb04fdbaebaeb97f109f4fbc224c91acfaf0972bc7863c3d12d6ef"
+  },
+  {
+   "path": "results/hyperonic/J1614/anet_resample6000.npz",
+   "bytes": 281720,
+   "sha256": "f9c228f8afe1fbbcd8b5c3dd59249275430d4ddf309245b6ed9020fd1630712d"
+  },
+  {
+   "path": "results/hyperonic/J1614/ultranest_mass_radius.npz",
+   "bytes": 32348267,
+   "sha256": "c29c193f55f746ce80d3b066f31216f436ac82a539f95cee2642c74aa3cdc1f5"
+  },
+  {
+   "path": "results/hyperonic/hyperonic_mass_radius_tail_support.npz",
+   "bytes": 16844,
+   "sha256": "11b6778fe3d15df6059c408692d6482a6cad12533b36d7030b77e6f508bf0cb0"
+  },
+  {
+   "path": "results/hyperonic/table_II_IV_hyperonic_values.json",
+   "bytes": 5783,
+   "sha256": "925b3c1e07d3a1126005a155980b921dc0fcba857c1365eeedf2f99b625dd114"
+  },
+  {
+   "path": "results/nucleonic/a1_mass_tidal_bands.npz",
+   "bytes": 37870,
+   "sha256": "65732d5994e74bd95534264a785aee401ff84b8e6e9d2cc4c681cc19c0b6cf82"
+  },
+  {
+   "path": "results/nucleonic/a1_parameter_posteriors.json",
+   "bytes": 810,
+   "sha256": "01c480572c1aaae505b428db3f1c7d4e054391d9f01bed9e74058a7c81900eb3"
+  },
+  {
+   "path": "results/nucleonic/a1_parameter_posteriors.npz",
+   "bytes": 6169365,
+   "sha256": "b9ec0c973b66d7d328321ae27bd1efb1f64a75e1212b3d28e90714f9d20e905e"
+  },
+  {
+   "path": "results/nucleonic/a1_scalar_summary.json",
+   "bytes": 4610,
+   "sha256": "06c8bf4153a7dcb2950fcde297195e7c4d534b197994bb42a4cf31f41bb636bd"
+  },
+  {
+   "path": "results/nucleonic/j1614_anet_mass_radius_curves.json",
+   "bytes": 961,
+   "sha256": "68c6449cbf1c1db97dd29664aaae90a4173bafba6bfb672ce250ba84c8d6274b"
+  },
+  {
+   "path": "results/nucleonic/j1614_anet_mass_radius_curves.npz",
+   "bytes": 38346161,
+   "sha256": "9b20c2eef51bbdd8db01afe83d4f01e29dd79870da0960e2b242ab8f36988e71"
+  },
+  {
+   "path": "results/nucleonic/j1614_mass_radius_comparison.json",
+   "bytes": 3537,
+   "sha256": "fa0bbf089e843bea76b6c45c93a70b79c4e7c033e89d3aede80b60b218f6c765"
+  },
+  {
+   "path": "results/nucleonic/j1614_ultranest_mass_radius_curves.json",
+   "bytes": 968,
+   "sha256": "fc4f94d45a5e87a88df5a51a009a0048ecdf1999df3fe0dbe5fcfbf641e12b52"
+  },
+  {
+   "path": "results/nucleonic/j1614_ultranest_mass_radius_curves.npz",
+   "bytes": 34353821,
+   "sha256": "c27e3a04facbb7f2b88d75227fb5d4f1fd84cfb35c816ae8b107ca9f9aacb6aa"
+  },
+  {
+   "path": "results/nucleonic/nuclear_amortization_bands.npz",
+   "bytes": 37739,
+   "sha256": "a226d1efe7e3465b137391188aaed3f7fa55c64ed983078017bd7e210d318282"
+  },
+  {
+   "path": "results/nucleonic/nuclear_amortization_verification.json",
+   "bytes": 32411,
+   "sha256": "cda81b05b6297e923fb86c8d4c7e2c3a7c286fa63a3729c96b860b4d3a42f7da"
+  },
+  {
+   "path": "results/nucleonic/nuclear_shift_scalar_summary.json",
+   "bytes": 6053,
+   "sha256": "4f0cc535c9644f6a511ada43136e675bb3ff90025260886d703de87462103706"
+  },
+  {
+   "path": "results/nucleonic/nucleonic_mass_radius_bands.npz",
+   "bytes": 56999,
+   "sha256": "93ab0ba63d47a3b6199bbd199af65c937c3dc7d86a8a2ab6c94a7b1aab735ba1"
+  },
+  {
+   "path": "results/nucleonic/substituted_source_scalar_summary.json",
+   "bytes": 4004,
+   "sha256": "00a020b4d5de388a772e7e4acb23855931a622e6454163a58d35c61bb4615c25"
+  },
+  {
+   "path": "results/nucleonic/tsnpe_mis_a1_summary.json",
+   "bytes": 1773,
+   "sha256": "2ea7dc9d11ef439b3abe24ee77834e77c80a0a033579b5d12a4455a4949c8907"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/A1_steps1024_n4000_s0.npz",
+   "bytes": 323812,
+   "sha256": "32aba80a2857007d18523a72f3277ebed0f8cb5ce6638f51102c2303b763aa38"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/A1_steps256_n8000_s0.npz",
+   "bytes": 643812,
+   "sha256": "1018d2259aab20f4a4a5bd7c61ce74187bf2b64239911a31298c33bab74a25ca"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/A1_steps64_n8000_s0.npz",
+   "bytes": 643812,
+   "sha256": "6ca143106b5873253e0600e6ac44178eeb12c3a2fbb8ec6a42c7463b8e1a8581"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/appendix_c_aggregate.json",
+   "bytes": 1951,
+   "sha256": "d289644c9201e190d900895bfe75ccb167648f0cf5c0c8799359a31eea4aa813"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/conv_hyp_A1.json",
+   "bytes": 41614,
+   "sha256": "f850f2a7fffff6394d29731019c4751ce076461155865a2a12d3d2d6b7492d40"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/conv_hyp_J0614.json",
+   "bytes": 41735,
+   "sha256": "4995fac0f3eb1634a43cc856ec9c7ea56a486f51df1d0b94e4d1a991e9d34d14"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/conv_hyp_J1231.json",
+   "bytes": 41534,
+   "sha256": "73a6659795c7c4bbc5d379e668d1d691742c7000134a43453e5bcfc7c6319e54"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/conv_hyp_J1614.json",
+   "bytes": 39816,
+   "sha256": "78e6834ecb8ee4a5912f6a063968907cd3776881f1c8376f266f31eada90f865"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/conv_nuc_A1.json",
+   "bytes": 41506,
+   "sha256": "0e634c600d67d9aa4e4be1ba9c812b6894bec493cec88f00ad1253a204e02357"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/conv_nuc_J0614.json",
+   "bytes": 41530,
+   "sha256": "c90ce6d63b3dcab8e7d6d88dc2838e41bc9dc89dd74f69c4c68ffe98ece5e578"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/conv_nuc_J1231.json",
+   "bytes": 41386,
+   "sha256": "80ef6e1ca1d66ce9d97b091e772698a349a9459ce6aba947136481c39a0fad27"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/conv_nuc_J1614.json",
+   "bytes": 39782,
+   "sha256": "ade2d3a42c9e272ede67fdb9f169872f284088ca3ba1a0e802db1ca3c1183a9f"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/ev1024_A1_J0614.npz",
+   "bytes": 323824,
+   "sha256": "9d459bbf25f9619d341451d4530d8fede7305d451ee5f886f1dd48caab536c05"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/ev1024_A1_J1231.npz",
+   "bytes": 323824,
+   "sha256": "a5928d393466dc353e9b967701863d5ba0ce6bf31ee35787e132a394bfba86da"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/ev1024_A1_J1614.npz",
+   "bytes": 323824,
+   "sha256": "9be2d899b619edfcd358eb6c9e954bc2192828b5857553f511353ea89b355b6e"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/ev1024_Jsym_29_A1.npz",
+   "bytes": 323832,
+   "sha256": "d037f4d7658ee37eb248f483ccae3d710ae76031023877ae465ae7c59beb216d"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/ev1024_Jsym_36_A1.npz",
+   "bytes": 323832,
+   "sha256": "0a1718c13ded9efeeaa53968529612a4342419c94b57b807a85320b9b097f19b"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/ev1024_K0_200_A1.npz",
+   "bytes": 323828,
+   "sha256": "57706ea5c1300ba3849164d1ff0e23a85396ac4b1b21fa43809aff6eecb5b0ed"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/ev1024_K0_260_A1.npz",
+   "bytes": 323828,
+   "sha256": "698bc3aaecf3e97c26e49e9a3e78aec86a459d3ba7c03163f62697568adca0ee"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/dense_hyp_A1.json",
+   "bytes": 1411,
+   "sha256": "c6e01de1a99443e9f35b17aabd26c99840d40c0506cf90408a44459e9b191017"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/dense_hyp_J0614.json",
+   "bytes": 1409,
+   "sha256": "a33a21e2f60f95b92de731ab52456a3ed0690b461705a3142fede90b4b4feec1"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/dense_hyp_J1231.json",
+   "bytes": 1397,
+   "sha256": "4f9d8a3674e772b64733b3913f275ce32937807896cb51e3113fcc444ce84cf9"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/dense_hyp_J1614.json",
+   "bytes": 1403,
+   "sha256": "b22f77cf1d1d91eafbedb6739fc8786db9b40c71bf2587f85c334ae2705d37c4"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/dense_nuc_A1.json",
+   "bytes": 1395,
+   "sha256": "c739c04cc813a7f892cf69b824fa167161cb4e20d90f1057729a2158e94b6286"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/dense_nuc_J0614.json",
+   "bytes": 1399,
+   "sha256": "4cd9d7355e3172a0f250070821ef5a3af9543fd26d36ddec1a86a76cbef90465"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/dense_nuc_J1231.json",
+   "bytes": 1402,
+   "sha256": "cdc72aa38c624088f5a63251a03f1e09f423851da964fab25a6d586981d0b5cf"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/dense_nuc_J1614.json",
+   "bytes": 1400,
+   "sha256": "090dc6f55cef0e74c0155a27cca9d577372ca1d1349c410b68d63f063827dc93"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/extra_hyp_A1.json",
+   "bytes": 6424,
+   "sha256": "8d980559db269f1c264bcba9d937e14e5561d203303561ea18ae0e912725be6b"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/extra_hyp_J0614.json",
+   "bytes": 6460,
+   "sha256": "32540e1c2bf6df92575cad4ffedf01b597cded3d6091a98232854bbb7d07f2ae"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/extra_hyp_J1231.json",
+   "bytes": 6405,
+   "sha256": "2a2a80ec5b5f8d1d30850e28519a805948534b3cca89518e23829e1c2be00aca"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/extra_hyp_J1614.json",
+   "bytes": 6261,
+   "sha256": "df933050b7e3dc893c47b2d104c00feb73e7207be34bad0d198080a16905590d"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/extra_likelihood_checks.json",
+   "bytes": 62724,
+   "sha256": "4dac4d022896d446dcbff743e278fb5eb41f724ce68341396ffdbd6cda4ae3fc"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/extra_nuc_A1.json",
+   "bytes": 6406,
+   "sha256": "66e4862d303098805e1186eb898bc519934a335c97419cba43038979e8522b9a"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/extra_nuc_J0614.json",
+   "bytes": 6417,
+   "sha256": "de64f4d85d2c8e589a0a31e736d93fbfbe1a3e4f29a5e50bff4ad4a5e99edddb"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/extra_nuc_J1231.json",
+   "bytes": 6390,
+   "sha256": "593845b462e36d6d54174a061a21a7afb97f8d40eb0ba56f62b382aa99e0f810"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/extra_likelihood_checks/extra_nuc_J1614.json",
+   "bytes": 6207,
+   "sha256": "3edbcb2ffe01bc6b200fcf7e60791d05a38f184897fc83d5a996ec565fa4b65d"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/flow_exact/flow_exact_hyperonic_A1.json",
+   "bytes": 2558,
+   "sha256": "c75e674244a3e698dc7d391daf5cd43ffe1301183d5b67923b81c18a9b2b8baa"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/flow_exact/flow_exact_nucleonic_A1.json",
+   "bytes": 4141,
+   "sha256": "e2c8ed158d3ec85a3fb5004fcac0a677562a1eacae539c6e07de3d063187b959"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/hyperonic_9d_parameter_summary.json",
+   "bytes": 3710,
+   "sha256": "49cc3bfcac956883093c14caa33e8e67efed06e593849f832595c7d0f863bbb3"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/is_table.json",
+   "bytes": 2738,
+   "sha256": "488147dd7b0badbc1a2559b62a8d88c6a484e900b2fa032ab974131fb058935f"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/mmax_factor_removal.json",
+   "bytes": 3382,
+   "sha256": "c0a4d9aa16f68e9434adc3077da4c2389bfc68de672f5f50566e2a01524aa327"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/prior_hyp_A1.json",
+   "bytes": 3401,
+   "sha256": "8b5c25f50c4422863a9e66741afa2314db9639cc6e26e3ac3a9490b9670b392a"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/prior_nuc_A1.json",
+   "bytes": 3381,
+   "sha256": "9902ac4686dcc868e3292c09ed664ba06a464f26a6c1b5d0e755797f9465abf0"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/prior_nuc_J0614.json",
+   "bytes": 3397,
+   "sha256": "6fa236871cf1b3b1dcd7c997e6f2ab50194e88ac5d16041170ed4b8841386b0d"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/prior_nuc_J1614.json",
+   "bytes": 2240,
+   "sha256": "7efe782663a3cc7ab35f22b5cb34a1ef86d00e5a60e4b57f503d57f86457a77d"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/step_posteriors.json",
+   "bytes": 6572,
+   "sha256": "90badada0af8a92ed885e496997c2503704bdda690669384b04849a23a7af14f"
+  },
+  {
+   "path": "results/numerical_checks/appendix_c/ultranest_seed_scatter.json",
+   "bytes": 582,
+   "sha256": "328ccfcd24855dbf08ff57ca1ebbda46645f16619a54af7458280cf0112ac70d"
+  },
+  {
+   "path": "results/numerical_checks/cost/en_bank_timing/density_table_repeats_cpu.json",
+   "bytes": 245,
+   "sha256": "1553082a6f638b440cc6ac7d4d14a3185d39b2eed5331cb7349c6cc763dc2d5f"
+  },
+  {
+   "path": "results/numerical_checks/cost/en_bank_timing/en_bank_vs_query_timing_cpu.json",
+   "bytes": 9029,
+   "sha256": "a954b2359d313ea8109f7c94fa8b5f01e3d8774ab0b153d3cd4629558657b97c"
+  },
+  {
+   "path": "results/numerical_checks/cost/one_time_with_preparation_values.json",
+   "bytes": 1486,
+   "sha256": "bb86814f9fc09ef29f3c84be227e9812bbfd0c34e458b15409d0a1c8e860afe3"
+  },
+  {
+   "path": "results/numerical_checks/cost/per_ess_ratios.json",
+   "bytes": 4314,
+   "sha256": "9af35781150418e459418fa2eefbdce4ba53c97fe3d2f375f1a1fa20882bdb30"
+  },
+  {
+   "path": "results/numerical_checks/reweighting_vs_fresh/rw_vs_fresh_hyp.json",
+   "bytes": 3115,
+   "sha256": "baf423de1132ddbb8735b7766bcd06111100e3789ae0d16e37879da611123b54"
+  },
+  {
+   "path": "results/numerical_checks/reweighting_vs_fresh/rw_vs_fresh_nuc.json",
+   "bytes": 7084,
+   "sha256": "c87e8d72aa48d3b985c615372e1f03b87de4bda42aed5ed5cd29bc7cdc2d1fee"
+  },
+  {
+   "path": "results/numerical_checks/reweighting_vs_fresh/rw_vs_fresh_summary.json",
+   "bytes": 6498,
+   "sha256": "28218f54a683456f51240b37ba32037518432ccf080d2a4a795606cebb8e33a7"
+  },
+  {
+   "path": "results/numerical_checks/software_versions.txt",
+   "bytes": 484,
+   "sha256": "5e6d0b491c07e4efafd5c7eaf7950bf42ab0544212134a1bd5204df099bf7c07"
+  },
+  {
+   "path": "results/tables/table_I_priors.json",
+   "bytes": 647,
+   "sha256": "fdef1fffe4c30279425283113afa799fa2603c6476cbe9cac97fdfc5b190006b"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "description": "Timing constants used in Tables VII and VIII in addition to table_VII_VIII_values.json. Wall-clock convention: process start to final result; sequential stages add; concurrent shards count the longest.",
+ "evidence_network": {
+  "nucleonic": {
+   "one_time_seconds": 1825.654,
+   "one_time_exact_likelihood_evaluations": 62486,
+   "query_seconds_A1_and_four_nuclear_changes_together": 0.026,
+   "query_seconds": {
+    "J0614": 3.381,
+    "J1231": 3.511,
+    "J1614": 3.548
+   }
+  },
+  "hyperonic": {
+   "one_time_seconds": 3300.85,
+   "one_time_exact_likelihood_evaluations": 145639,
+   "one_time_exact_likelihood_evaluations_parts": [
+    83106,
+    62533
+   ],
+   "query_seconds_A1_and_four_nuclear_changes_together": 0.0273,
+   "query_seconds": {
+    "J0614": 3.37,
+    "J1231": 3.502,
+    "J1614": 3.54
+   }
+  },
+  "source": "EN rows of Table VIII: one-time = Green-EN training-data generation, training and freezing; queries are warm queries of the frozen networks."
+ },
+ "tsnpe_nucleonic_reference_equivalence": {
+  "ultranest_A1_minutes_on_reference_desktop": 195.645,
+  "ultranest_A1_minutes_on_tsnpe_desktop": 110.22,
+  "meaning": "Nucleonic TSNPE+MIS ran on a different desktop; its recorded 48.26 min is scaled by 195.645/110.22 (the same UltraNest A1 run timed on both desktops) to the UltraNest reference desktop."
+ }
+}

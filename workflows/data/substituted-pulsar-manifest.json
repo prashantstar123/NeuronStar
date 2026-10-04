@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "redistribution_status": "published data releases, redistributed unchanged; sources, licences and citations in data/SOURCES.md",
+  "artifacts": [
+    {
+      "scenario": "J0614",
+      "filename": "J0614_mrsamples.dat",
+      "bytes": 10047350,
+      "sha256": "d3e128070955ca3d30577254489efd58849686d377f4e0aa9674ac17b2df44a6",
+      "role": "PSR J0614-3329 mass-radius posterior replacing PSR J0437-4715",
+      "columns": {"mass_msun": 0, "radius_km": 1},
+      "weighted": false,
+      "replacement_slot": 2,
+      "replaces": "J0437",
+      "source_url": null
+    },
+    {
+      "scenario": "J1231",
+      "filename": "J1231_wmrsamples.txt",
+      "bytes": 79151100,
+      "sha256": "7f963ffa3a8667f22c71d55d99df6512daa7e41c8ca63a62fde96da472d5932e",
+      "role": "weighted PSR J1231-1411 mass-radius posterior replacing PSR J0030+0451",
+      "columns": {"weight": 0, "mass_msun": 1, "radius_km": 2},
+      "weighted": true,
+      "replacement_slot": 0,
+      "replaces": "J0030",
+      "source_url": null
+    },
+    {
+      "scenario": "J1614",
+      "filename": "J1614_STU_mrsamples_post_equal_weights.dat",
+      "bytes": 24886750,
+      "sha256": "bebc04bb8be8e827dc957c13d1dad48b715cdb0720a1cccb0149ed556b9545f4",
+      "role": "PSR J1614-2230 mass-radius posterior replacing PSR J0740+6620",
+      "columns": {
+        "mass_msun": 0,
+        "radius_km": 1
+      },
+      "weighted": false,
+      "replacement_slot": 1,
+      "replaces": "J0740",
+      "source_url": null
+    }
+  ]
+}

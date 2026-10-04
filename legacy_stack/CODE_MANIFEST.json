@@ -1,0 +1,50 @@
+{
+ "description": "Certified DDB forward model and astrophysical likelihood modules imported by the hyperonic target and UltraNest driver.",
+ "files": [
+  {
+   "file": "legacy_stack/ddb_astro_mod/astro_forward.py",
+   "sha256": "589cecb5fdcd82eed6b630fc54249de321f23c44f6609b68b3e7d605d0fca29f",
+   "role": "certified legacy module (ddb_astro_mod)"
+  },
+  {
+   "file": "legacy_stack/ddb_astro_mod/gw_like.py",
+   "sha256": "07bee2b00341d6d6f7ff591d31bec3ad93da0082723b029e2281d83c04409477",
+   "role": "certified legacy module (ddb_astro_mod)"
+  },
+  {
+   "file": "legacy_stack/ddb_astro_mod/nicer_like.py",
+   "sha256": "a6faa28fb852ece8828f3da1cc207ab4d5f89b6da0e86d8267f28f3c2e5a68b8",
+   "role": "certified legacy module (ddb_astro_mod)"
+  },
+  {
+   "file": "legacy_stack/ddb_astro_mod/pqcd_like.py",
+   "sha256": "dd9e2f51d7f1be75fb20294d6e19b8c885618c2d4b02206b111eb552a73e7d2e",
+   "role": "certified legacy module (ddb_astro_mod)"
+  },
+  {
+   "file": "legacy_stack/ddb_astro_mod/tidal_tov.py",
+   "sha256": "fcb372e7bc0ddec65fbd3035bfdc1f8e2defe4f8e34e00d6c9ee4546405e5a25",
+   "role": "certified legacy module (ddb_astro_mod)"
+  },
+  {
+   "file": "legacy_stack/validated_code_DDB/bps.dat",
+   "sha256": "ebaefaff84f5fa3461f79702dc6c079d7a17c0ec88aa28d9db6d0ad5cff7ca0c",
+   "role": "certified legacy module (validated_code_DDB)"
+  },
+  {
+   "file": "legacy_stack/validated_code_DDB/ddb_certified_forward.py",
+   "sha256": "1ffbc680ac8e29db635585902a0d77d8aca019253409a01d1d1261bdcca2ce6a",
+   "role": "certified legacy module (validated_code_DDB)"
+  },
+  {
+   "file": "legacy_stack/validated_code_DDB/ddb_crust.py",
+   "sha256": "c7104216df54c09eb69e15e5675a17b6aec6060ca4373f1e042113aaa8d8e1ff",
+   "role": "certified legacy module (validated_code_DDB)"
+  },
+  {
+   "file": "legacy_stack/validated_code_DDB/tov_numba.py",
+   "sha256": "be51c5921fac86e6bbe80a31c55b37442dabc8294027865e7eb92db2d8a67ba9",
+   "role": "certified legacy module (validated_code_DDB)"
+  }
+ ]
+}

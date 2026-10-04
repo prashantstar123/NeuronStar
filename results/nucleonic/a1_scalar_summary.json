@@ -1,0 +1,132 @@
+{
+  "definition": {
+    "UltraNest_role": "Compact conventional reference for the reported distance, not a privileged ground truth.",
+    "agreement_column": "Mean absolute separation of the 5th- and 95th-percentile radius edges from UltraNest over their common band support.",
+    "credible_interval": "weighted 5th, 50th, and 95th percentiles",
+    "posterior": "The corrected 4,000-curve posterior representations used to draw the nucleonic A1 mass-radius figure (Figure 3a)."
+  },
+  "pairwise_band_agreement": {
+    "A-NET+IS_vs_UltraNest": {
+      "max_abs_90pct_edge_separation_km": 0.41038856727784,
+      "mean_abs_90pct_edge_separation_km": 0.05046215218247345,
+      "n_common_mass_points": 177
+    },
+    "TSNPE+MIS_vs_A-NET+IS": {
+      "max_abs_90pct_edge_separation_km": 0.6179231432787109,
+      "mean_abs_90pct_edge_separation_km": 0.05396649782603868,
+      "n_common_mass_points": 177
+    },
+    "TSNPE+MIS_vs_UltraNest": {
+      "max_abs_90pct_edge_separation_km": 0.3908833807701928,
+      "mean_abs_90pct_edge_separation_km": 0.02888408977144035,
+      "n_common_mass_points": 178
+    }
+  },
+  "replay_gates": {
+    "A-NET+IS": {
+      "all_4000_curves_valid": true,
+      "cache_sha256": "2cf63bfe066da075078ca28d54bd96155d74f0d0678eea90a06c3c07eb726f13",
+      "log_evidence_shift_replay_error": 0.0,
+      "maximum_mass_max_abs_replay_error": 0.0,
+      "reweight_ess_replay_error": 0.0,
+      "theta_exactly_matches_Figure3a_selection": true
+    },
+    "TSNPE+MIS": {
+      "all_4000_curves_valid": true,
+      "cache_sha256": "f23182f3a55297420d72aaba04f50bb60f9605baf93fc28e22dabb7855629360",
+      "log_evidence_shift_replay_error": 0.0,
+      "maximum_mass_max_abs_replay_error": 0.0,
+      "reweight_ess_replay_error": 0.0,
+      "theta_exactly_matches_Figure3a_selection": true
+    },
+    "UltraNest": {
+      "all_4000_curves_valid": true,
+      "cache_sha256": "72eba676b82b3044f84c23a0ddea10a2c540a02eb343b1f5f777f4337196331a",
+      "log_evidence_shift_replay_error": 0.0,
+      "maximum_mass_max_abs_replay_error": 0.0,
+      "reweight_ess_replay_error": 0.0,
+      "theta_exactly_matches_Figure3a_selection": true
+    }
+  },
+  "rows": {
+    "A-NET+IS": {
+      "Mmax_msun": {
+        "median": 2.0997335757313316,
+        "minus": 0.1226310822276655,
+        "plus": 0.12012896712974985,
+        "q05": 1.977102493503666,
+        "q95": 2.2198625428610814
+      },
+      "R_1p4_km": {
+        "median": 12.45604576148461,
+        "minus": 0.6343641957038209,
+        "plus": 0.5726043610349301,
+        "q05": 11.82168156578079,
+        "q95": 13.02865012251954
+      },
+      "R_at_Mmax_km": {
+        "median": 11.003353643897894,
+        "minus": 0.4830497141541077,
+        "plus": 0.48278019929135674,
+        "q05": 10.520303929743786,
+        "q95": 11.48613384318925
+      },
+      "corrected_reweight_ess": 3998.243308696058,
+      "mean_abs_90pct_edge_separation_from_UltraNest_km": 0.05046215218247345,
+      "n_draws": 4000
+    },
+    "TSNPE+MIS": {
+      "Mmax_msun": {
+        "median": 2.1078505411258113,
+        "minus": 0.11898657854529326,
+        "plus": 0.12232592340860204,
+        "q05": 1.988863962580518,
+        "q95": 2.2301764645344133
+      },
+      "R_1p4_km": {
+        "median": 12.42015011169746,
+        "minus": 0.6371739079047831,
+        "plus": 0.6021113134140492,
+        "q05": 11.782976203792677,
+        "q95": 13.022261425111509
+      },
+      "R_at_Mmax_km": {
+        "median": 11.014032392673107,
+        "minus": 0.5067733346603926,
+        "plus": 0.49380559326426443,
+        "q05": 10.507259058012714,
+        "q95": 11.507837985937371
+      },
+      "corrected_reweight_ess": 3998.1997752987636,
+      "mean_abs_90pct_edge_separation_from_UltraNest_km": 0.02888408977144035,
+      "n_draws": 4000
+    },
+    "UltraNest": {
+      "Mmax_msun": {
+        "median": 2.1048428736454916,
+        "minus": 0.1258062651873404,
+        "plus": 0.1171548754440126,
+        "q05": 1.9790366084581512,
+        "q95": 2.221997749089504
+      },
+      "R_1p4_km": {
+        "median": 12.414040152375906,
+        "minus": 0.6396531616671464,
+        "plus": 0.6194965290755992,
+        "q05": 11.77438699070876,
+        "q95": 13.033536681451505
+      },
+      "R_at_Mmax_km": {
+        "median": 11.012666254528055,
+        "minus": 0.5086359677052279,
+        "plus": 0.4850514021275991,
+        "q05": 10.504030286822827,
+        "q95": 11.497717656655654
+      },
+      "corrected_reweight_ess": 3998.106964917697,
+      "mean_abs_90pct_edge_separation_from_UltraNest_km": null,
+      "n_draws": 4000
+    }
+  },
+  "status": "PASS"
+}

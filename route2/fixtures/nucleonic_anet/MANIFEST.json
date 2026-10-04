@@ -1,0 +1,17 @@
+{
+ "description": "Fixtures of route2/checks/nucleonic_anet.py, extracted from the nucleonic A-NET archives of the paper after their relations were verified on all rows.",
+ "files": [
+  {
+   "file": "route2/fixtures/nucleonic_anet/archives.npz",
+   "sha256": "488039aebd2dcac16a288194ce4ab1d58f6e56da15289bb6d17edfab4b8a6498"
+  },
+  {
+   "file": "route2/fixtures/nucleonic_anet/replay_rows.npz",
+   "sha256": "1a49f2b83079a20a6dd7bf14ec467e7822490be1d41ef18a8eb9442f209a428c"
+  },
+  {
+   "file": "route2/fixtures/nucleonic_anet/expected.json",
+   "sha256": "958f6b55975782336d80367c5a16220cbd70831c823bbabc36922b2911f6fa60"
+  }
+ ]
+}

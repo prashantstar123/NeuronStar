@@ -1,0 +1,45 @@
+{
+ "description": "Nucleonic TSNPE+MIS posterior for A1: final mixture importance-sampling stage, run on 2026-10-03 with the package defaults (inference/tsnpe/run_mis.py, frozen TSNPE estimator, seed 0); release file tsnpe_nucleonic_mis_a1_20261003.npz. Values printed in the paper: Table III (M_max, R(M_max), R_1.4, Lambda_1.4, band-edge agreement with UltraNest), Sec. III A (largest parameter-median displacement, Figure 2) and Table VII (ESS).",
+ "posterior_file_sha256": "4f4c67bfd0ace88f6d69fac383b44284c5f97a462b2ebf4a0f5a674ae1c2a594",
+ "ESS": 30762.69954869431,
+ "table_scalars": {
+  "Mmax_msun": {
+   "q05": 1.9861432999115776,
+   "median": 2.1067967236127227,
+   "q95": 2.2199512359290003,
+   "minus": 0.12065342370114518,
+   "plus": 0.1131545123162776
+  },
+  "R_at_Mmax_km": {
+   "q05": 10.52443722253504,
+   "median": 11.014626941878115,
+   "q95": 11.496656683655418,
+   "minus": 0.49018971934307487,
+   "plus": 0.4820297417773034
+  },
+  "R_1p4_km": {
+   "q05": 11.786805225635034,
+   "median": 12.428469450203364,
+   "q95": 13.042997836433024,
+   "minus": 0.6416642245683306,
+   "plus": 0.6145283862296598
+  },
+  "bank_valid_curves": 4000
+ },
+ "table_scalars_recipe": "4,000 rows resampled with numpy default_rng(3).choice(N, 4000, p=w); weighted quantiles with equal weights",
+ "mass_radius_agreement_with_UltraNest": {
+  "mean_abs_90pct_edge_separation_km": 0.03289856483713984
+ },
+ "mass_tidal": {
+  "Lambda_1p4_q05_q50_q95": [
+   276.20631655999756,
+   436.28044996900564,
+   580.8340427512268
+  ],
+  "mean_abs_fractional_90pct_edge_difference_percent_vs_pooled_UltraNest": 1.0321814922608075
+ },
+ "parameter_comparison": {
+  "largest_median_shift_percent_of_UltraNest_90pct_width": 0.7265347043323761,
+  "all_central_90pct_intervals_overlap": true
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "aggregation": "equal-weight evidence-space mean of all three members",
+ "checkpoint_mutation": false,
+ "created_at": "2026-09-23T17:01:44+09:00",
+ "heldout_files_present_on_training_host": false,
+ "heldout_query_performed_before_freeze": false,
+ "independence": {
+  "anet_used": false,
+  "heldout_sources_used_during_labels_or_training": false,
+  "tsnpe_used": false,
+  "ultranest_used": false
+ },
+ "label_cache_index_sha256": "90ddb217b53e6ebe05d40730c2bef87937fbc14f8ab5103f2187c3aeabe5a4c3",
+ "label_cache_matrix_sha256": "01a9714b9410862dcde29cebbc291da24a954b2b29b427242e89b6ef9052dd3d",
+ "members": [
+  {
+   "all_gates_pass": true,
+   "checkpoint_frozen": true,
+   "checkpoint_sha256": "d77d7984d15852820cf569996de18f933b6ae67aa25824637f148d106c40617b",
+   "evidence_space_weight": 0.3333333333333333,
+   "gate_limits": {
+    "axis_mae": 0.08,
+    "baseline_cloud_mae": 0.1,
+    "box_mae": 0.18,
+    "gauss_mae": 0.15,
+    "identity_residual": 0.1,
+    "paper_mae": 0.1
+   },
+   "gate_values": {
+    "axis_mae": 0.026482546481621513,
+    "baseline_cloud_mae": 0.024428558349609376,
+    "box_mae": 0.09496875947423435,
+    "gauss_mae": 0.05601297937800326,
+    "identity_residual": 0.019720077514648438,
+    "paper_mae": 0.026784579991741136
+   },
+   "member": 9311,
+   "query_authorized": true,
+   "sector": "hyperonic",
+   "training_report_sha256": "928deca8b50e006a1f7d83785b44d578ab747bc628e0fba4c1c31871ce3364cf"
+  },
+  {
+   "all_gates_pass": true,
+   "checkpoint_frozen": true,
+   "checkpoint_sha256": "6382b5d28ce1be1f111532997521198739c49b7316973f42c0b2a0a544f8539e",
+   "evidence_space_weight": 0.3333333333333333,
+   "gate_limits": {
+    "axis_mae": 0.08,
+    "baseline_cloud_mae": 0.1,
+    "box_mae": 0.18,
+    "gauss_mae": 0.15,
+    "identity_residual": 0.1,
+    "paper_mae": 0.1
+   },
+   "gate_values": {
+    "axis_mae": 0.022159632632461335,
+    "baseline_cloud_mae": 0.025254058837890624,
+    "box_mae": 0.09102777711476638,
+    "gauss_mae": 0.05600303162554854,
+    "identity_residual": 0.018514633178710938,
+    "paper_mae": 0.020455186494265244
+   },
+   "member": 9312,
+   "query_authorized": true,
+   "sector": "hyperonic",
+   "training_report_sha256": "04dcf0b3cadb28eec35507c7bfa8e16dc22fa69fedfd2b76e2204fcbaa4ae2f1"
+  },
+  {
+   "all_gates_pass": true,
+   "checkpoint_frozen": true,
+   "checkpoint_sha256": "15704e1563bc5b8c1eb44f78eaadbf96a344f7581c650565d9db2b8e2a1fd6e5",
+   "evidence_space_weight": 0.3333333333333333,
+   "gate_limits": {
+    "axis_mae": 0.08,
+    "baseline_cloud_mae": 0.1,
+    "box_mae": 0.18,
+    "gauss_mae": 0.15,
+    "identity_residual": 0.1,
+    "paper_mae": 0.1
+   },
+   "gate_values": {
+    "axis_mae": 0.024331307328217543,
+    "baseline_cloud_mae": 0.028174209594726562,
+    "box_mae": 0.09068368911189989,
+    "gauss_mae": 0.05777671241704936,
+    "identity_residual": 0.04725456237792969,
+    "paper_mae": 0.022420805291620594
+   },
+   "member": 9313,
+   "query_authorized": true,
+   "sector": "hyperonic",
+   "training_report_sha256": "15f281b16923b404b9979e2114fbefdac50d3aaff7e51a6aaabbdccec99ad8f1"
+  }
+ ],
+ "parent_bank_sha256": "02357702e85e86d8154d1641e7d4fb818c66145d0364e127ad520986c2fe1fce",
+ "schema": "green-en-hyperonic-checkpoint-freeze-manifest-v1",
+ "bank_sha256": "f669d84ffca0dd92d4164ec2c0cc4a30a4baa07c3cd8a3ad68a27647a382ba00"
+}

@@ -1,0 +1,235 @@
+{
+ "row_selection": {
+  "seed": 20260925,
+  "posterior_rows": "4 highest weights + one random accepted row of each of the 8 proposal components, taken in turn from exact shards 0, 1, 2 + 2 random rejected rows",
+  "flow_rows": "for each frozen flow proposal: 6 flow-drawn, 2 Student-t and 2 uniform rows"
+ },
+ "posterior": {
+  "release_name": "tsnpe_hyperonic_posterior_9d_mis.npz",
+  "sha256": "ae0bfba7a47517c462c3ab44f76b548d98cc7889b6ccd6603eb3286d088bfcaa",
+  "report_sha256": "ee2fbf91ee3253d51f828ac5587a8cca8102f53d00a35bea90a6f0c384de7ebb",
+  "candidate_rows": 150000,
+  "valid_rows": 128707,
+  "finite_weight_rows": 128707,
+  "ess": 1513.7694295249498,
+  "log_evidence": -28.709144581496847,
+  "log_evidence_standard_error": 0.025572256042419722,
+  "maximum_normalized_weight": 0.013451868370136335,
+  "minimum_ess": 1500.0,
+  "posterior_rows": 20000,
+  "resample_seed": 2026095501,
+  "target_gate": {
+   "actual_valid_rows": 51,
+   "certification_basis": "frozen_A1_full_target",
+   "expected_valid_rows": 51,
+   "max_abs_log_likelihood_error": 3.004970494657755e-09,
+   "model": "ddb-hyperonic",
+   "nuclear_observation": [
+    0.153,
+    -16.1,
+    230.0,
+    32.5,
+    0.505714285714279,
+    1.24142857142857,
+    2.4857142857143
+   ],
+   "nuclear_scenario": "A1",
+   "rows": 64,
+   "source_scenario": "A1",
+   "status": "PASS",
+   "tolerance": 0.0001,
+   "valid_mask_equal": true,
+   "valid_mask_mismatch_indices": []
+  }
+ },
+ "candidate": {
+  "release_name": "tsnpe_hyperonic_candidates_150k.npz",
+  "sha256": "82f4692062607dd761a992d12a7df9e422d4d494c8214eed1531e4549871fc68",
+  "report_sha256": "a983ae287368ebad7bd7095d89c99b34300a88cc0bade610ae35260cba3883e8",
+  "bridge_sha256": "66948847795cfeefeb81a6e0822a345c5cca8bfcf2428e8544810d35d6a8369f",
+  "parent_hybrid_model_sha256": "a04f65dc183dffbde7dbc08ac725f7bd59a324a14dfed47e2617e58623d2cf36",
+  "old_proposal_sha256": "57f39d743f80bdf08df9b967a609386d5fb10c4bf8947e54a1ed18dbb18a9a46",
+  "new_proposal_sha256": "63d32d82bc86983157221ad1fe0390c5bcc05e818a9d358c6a79069caeb65700",
+  "component_order": [
+   "crossfit_GMM",
+   "crossfit_defensive_Student_t",
+   "crossfit_uniform_full_prior",
+   "parent_old_flow",
+   "parent_old_Student_t",
+   "parent_new_flow",
+   "parent_new_Student_t",
+   "parent_uniform_full_prior"
+  ],
+  "component_counts": [
+   108000,
+   20250,
+   6750,
+   600,
+   1500,
+   600,
+   1500,
+   10800
+  ],
+  "component_weights": [
+   0.7200000000000001,
+   0.135,
+   0.045000000000000005,
+   0.0039999999999999055,
+   0.009999999999999768,
+   0.0039999999999999055,
+   0.009999999999999768,
+   0.07200000000000066
+  ],
+  "seed": 2026095401,
+  "cuda_device": "NVIDIA GeForce RTX 4090",
+  "parent_tsnpe_fraction": 0.1,
+  "repair_fractions_gmm_broad_uniform": [
+   0.8,
+   0.15,
+   0.05
+  ]
+ },
+ "exact_shards": [
+  {
+   "rows": [
+    0,
+    15000
+   ],
+   "sha256": "b448ab70456b0ed4bfb8510c718197a577c64851f1b652694f8b955b933647fc",
+   "where": "desktop workstation, 22 workers"
+  },
+  {
+   "rows": [
+    15000,
+    60000
+   ],
+   "sha256": "97a56af492298a4f8ce970af26da429ca14ee1e8879093e4fb86578c930712e0",
+   "where": "cluster node 1, 60 workers"
+  },
+  {
+   "rows": [
+    60000,
+    150000
+   ],
+   "sha256": "b53ee8659524b155d05e19f89e6c5c20135a9d7e3f70e932bad600d3323ee0e5",
+   "where": "cluster node 2, 60 workers"
+  }
+ ],
+ "curve_resample": {
+  "seed": 20260921,
+  "draws": 6000,
+  "unique_rows": 4015,
+  "sha256": "d3afca0e31fdc88277b90b16ad405219bd0da4e9f45bdece06741242de479a63",
+  "in": "results/hyperonic/A1/tsnpe_resample6000.npz"
+ },
+ "flows": {
+  "old": {
+   "proposal_release_name": "tsnpe_hyperonic_old_flow_proposal.npz",
+   "checkpoint_release_names": [
+    "tsnpe_hyperonic_old_flow_00.pt",
+    "tsnpe_hyperonic_old_flow_01.pt",
+    "tsnpe_hyperonic_old_flow_02.pt"
+   ],
+   "proposal_sha256": "57f39d743f80bdf08df9b967a609386d5fb10c4bf8947e54a1ed18dbb18a9a46",
+   "seed": 2026093001,
+   "training_configuration": {
+    "architecture": "unconditional_zuko_NSF",
+    "bins": 10,
+    "ensemble": 3,
+    "hidden_features": [
+     192,
+     192,
+     192
+    ],
+    "jitter": 0.03,
+    "maximum_epochs": 100,
+    "patience": 12,
+    "training_resamples_per_member": 120000,
+    "transforms": 8,
+    "validation_resamples_per_member": 30000
+   },
+   "component_counts": [
+    60000,
+    10000,
+    5000
+   ],
+   "wall_seconds": 534.5433263778687,
+   "members": [
+    {
+     "seed": 2026093001,
+     "checkpoint_sha256": "2a894a1f0abd2bf0c1cbca955097332a3676dd1498c1df18acde86cd035d0879",
+     "best_epoch": 100
+    },
+    {
+     "seed": 2026094010,
+     "checkpoint_sha256": "99adbed26a5e0f9db2e56c06fa7f07b03e6ba001adca3478481cee3d93adc8af",
+     "best_epoch": 99
+    },
+    {
+     "seed": 2026095019,
+     "checkpoint_sha256": "0f00a3a5c9fa0563f9f6554c83fe8188827566481f76facb3c7a75d212042431",
+     "best_epoch": 98
+    }
+   ]
+  },
+  "new": {
+   "proposal_release_name": "tsnpe_hyperonic_new_flow_proposal.npz",
+   "checkpoint_release_names": [
+    "tsnpe_hyperonic_new_flow_00.pt",
+    "tsnpe_hyperonic_new_flow_01.pt",
+    "tsnpe_hyperonic_new_flow_02.pt",
+    "tsnpe_hyperonic_new_flow_03.pt"
+   ],
+   "proposal_sha256": "63d32d82bc86983157221ad1fe0390c5bcc05e818a9d358c6a79069caeb65700",
+   "seed": 2026094001,
+   "training_configuration": {
+    "architecture": "unconditional_zuko_NSF",
+    "bins": 10,
+    "ensemble": 4,
+    "hidden_features": [
+     192,
+     192,
+     192
+    ],
+    "jitter": 0.025,
+    "maximum_epochs": 100,
+    "patience": 12,
+    "training_resamples_per_member": 150000,
+    "transforms": 8,
+    "validation_resamples_per_member": 40000
+   },
+   "component_counts": [
+    80000,
+    15000,
+    5000
+   ],
+   "wall_seconds": 827.6647584438324,
+   "members": [
+    {
+     "seed": 2026094001,
+     "checkpoint_sha256": "35c7e7633dd8669720400ae8167f7bf774247836980230afc96ca2c446f23041",
+     "best_epoch": 96
+    },
+    {
+     "seed": 2026095010,
+     "checkpoint_sha256": "a503c4f8564665cbe5dbae89d5af3a573ef1ddf89abd7a5b3e6e34bee49f70dc",
+     "best_epoch": 100
+    },
+    {
+     "seed": 2026096019,
+     "checkpoint_sha256": "54952565d0b814fec4078ea741d8ee62812fc028ce8a78e8e0811bd4cfa56c76",
+     "best_epoch": 97
+    },
+    {
+     "seed": 2026097028,
+     "checkpoint_sha256": "33e2a9ff79717025180b035393b2f8b88bca095d178cdb394a8630060ae324ce",
+     "best_epoch": 99
+    }
+   ]
+  }
+ },
+ "fixtures": {
+  "bridge": "crossfit_gmm_bridge.npz",
+  "parent_mixture": "optimized_hybrid_model.npz"
+ }
+}

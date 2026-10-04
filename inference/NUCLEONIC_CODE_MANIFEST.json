@@ -1,0 +1,100 @@
+{
+ "description": "SHA-256 of the nucleonic A-NET, TSNPE and UltraNest packages and frozen checkpoints in inference/.",
+ "files": [
+  {
+   "file": "inference/anet/__init__.py",
+   "sha256": "7f75368ee6ac3af7f68533a6ceebc2c1d21f5ed741aa1e4d47ddcb5dfa2ab885",
+   "role": ""
+  },
+  {
+   "file": "inference/anet/build_bank.py",
+   "sha256": "5ac4403c6c1054707cc391feac18eabf3e9ede3886c8005cc838d1e6a9570c57",
+   "role": ""
+  },
+  {
+   "file": "inference/anet/build_scenarios.py",
+   "sha256": "1015b0f7cca257bbd71e9b93312679067c908623530efddcadceb106af3de9cf",
+   "role": ""
+  },
+  {
+   "file": "inference/anet/checkpoints/fmpe9c_net.pt",
+   "sha256": "ba18cc4b86cc6c95475f3e1380ea0ac6b68a84f736663dd70babbf4c4ac0cc7a",
+   "role": ""
+  },
+  {
+   "file": "inference/anet/checkpoints/fmpe9c_std.npz",
+   "sha256": "01adb6333a9164eaf9d517bb719d6862a1460292e6b2341bae36501a914ed3bb",
+   "role": ""
+  },
+  {
+   "file": "inference/anet/proposal.py",
+   "sha256": "0455bd3553228c64963968b0acce99ce20f5e4d261b741ece8b21d79287f1880",
+   "role": ""
+  },
+  {
+   "file": "inference/anet/refine_tidal.py",
+   "sha256": "0b52a1c877090c08a9317b3e0720067edbb0a750574e6dcc90f31199b3588650",
+   "role": ""
+  },
+  {
+   "file": "inference/anet/run_is.py",
+   "sha256": "9bdc38faef43efcede3c4b692408be43d46e22c2d83e1ab6cad4acfb1cb1fd46",
+   "role": ""
+  },
+  {
+   "file": "inference/anet/shifted_nicer.py",
+   "sha256": "869ce01a01493d4560b9bc1fa5c3ad1cb037b05e8b7199dd8353ce3d4733cfd1",
+   "role": ""
+  },
+  {
+   "file": "inference/anet/train.py",
+   "sha256": "895af332e4ae84dd3b27bbcf95c20f0ef56c076f6db67f0cd34fd59f7d03c8ed",
+   "role": ""
+  },
+  {
+   "file": "inference/tsnpe/__init__.py",
+   "sha256": "0f0ecbb8328c34c2db4bd334adf939b52f7de86c77442d3169371261bd8ee4cb",
+   "role": ""
+  },
+  {
+   "file": "inference/tsnpe/checkpoints/flow_nucmm_tight.pt",
+   "sha256": "5edc669c649337466d1af6248751eec41473005c4e6b4544eb0a29801ac3a68b",
+   "role": ""
+  },
+  {
+   "file": "inference/tsnpe/checkpoints/flow_nucmm_tight_std.npz",
+   "sha256": "0a9d955d3a5d1617b8caca5ed8c22e8ab152ecb99257574552213dcb87196a48",
+   "role": ""
+  },
+  {
+   "file": "inference/tsnpe/mixture.py",
+   "sha256": "2750fab89140948bcf858576fdb042fc8409940f369463bac8822e966e4afead",
+   "role": ""
+  },
+  {
+   "file": "inference/tsnpe/run_mis.py",
+   "sha256": "9ceff458829be36ab86c88b9f539f3e85ff7138bf61efc24c4740e8e78fc90aa",
+   "role": ""
+  },
+  {
+   "file": "inference/tsnpe/train.py",
+   "sha256": "d9c06a6611c261066608fa7d35ee81da3efc071342e22cfafd16c0ba726ee67f",
+   "role": ""
+  },
+  {
+   "file": "inference/tsnpe/train_seed.py",
+   "sha256": "b29dc8ec8973a6f9eb9acfcbc60bc042187a88ec266b16015c34984a1ef7dbdb",
+   "role": ""
+  },
+  {
+   "file": "inference/ultranest/__init__.py",
+   "sha256": "75df77cb357a7b9faef2cbfdd24c5ad8583c4d55242bd8430c33128bae2a7144",
+   "role": ""
+  },
+  {
+   "file": "inference/ultranest/run.py",
+   "sha256": "57cc034255fc7a7a66d95b015c42e6572ff0bb0f9dff5011b0ea11be3e0cdd1c",
+   "role": ""
+  }
+ ]
+}

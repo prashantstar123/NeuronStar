@@ -1,0 +1,211 @@
+{
+ "release": "route2-data-v1",
+ "optional": true,
+ "description": "Large inputs and intermediate products for a full rerun from any stage. Not needed by route2-check. Fetch with: python -m route2.fetch --group full_rerun",
+ "files": [
+  {
+   "name": "full_nucleonic_shared_prior_physics_bank.npz",
+   "bytes": 3157558246,
+   "sha256": "06dda51aa7c1cbbf421f365cd782e6fb4dc814becfa6eb07a749ce1345c33a07",
+   "used_by": "nucleonic shared prior physics bank",
+   "parts": [
+    {
+     "name": "full_nucleonic_shared_prior_physics_bank.npz.part00",
+     "bytes": 1900000000,
+     "sha256": "4a2ec614ac808825c8e9182b84efa623581f255afa81834c4396413e6c457427"
+    },
+    {
+     "name": "full_nucleonic_shared_prior_physics_bank.npz.part01",
+     "bytes": 1257558246,
+     "sha256": "e4c70a7dc7046514eb4e0b96b0c8332b9822e73982e158416e5376de4e69a5a3"
+    }
+   ]
+  },
+  {
+   "name": "full_nucleonic_shared_exact_astrophysical_table.npz",
+   "bytes": 43919890,
+   "sha256": "e2dfb84d56a6f015ac12d14ae00d11b3098ce43c34bb25a4c2bfccbf27c66fa9",
+   "used_by": "nucleonic exact astrophysical table"
+  },
+  {
+   "name": "full_nucleonic_uniform_prior_support_bank.npz",
+   "bytes": 75307495,
+   "sha256": "4f50897beb3fdff046061229b694ca84d560462d4f29ab5b7f8c874b5969e8ae",
+   "used_by": "nucleonic uniform-prior support bank"
+  },
+  {
+   "name": "full_nucleonic_independent_common_physics_cache.npz",
+   "bytes": 91359565,
+   "sha256": "280f6f60bd93312ef34df821e037a6c4a61ea55bf1671c76f8efd852c7557a3d",
+   "used_by": "nucleonic independent common physics cache"
+  },
+  {
+   "name": "full_nucleonic_anet_training_scenarios.npz",
+   "bytes": 1084546294,
+   "sha256": "269581450402591763c95ce31728e26e2781a730580f3b5825ca7f298b54800a",
+   "used_by": "nucleonic A-NET training scenarios"
+  },
+  {
+   "name": "full_nucleonic_tidal_direct_theta_proposal_320k.npz",
+   "bytes": 41474956,
+   "sha256": "16096dda34996075b87874fafb6ca81a65c89ae89ded7b8ecba52e6ff9fea0b3",
+   "used_by": "nucleonic A-NET tidal-refinement proposal"
+  },
+  {
+   "name": "full_nucleonic_tidal_direct_theta_curves_320k.npz",
+   "bytes": 366558510,
+   "sha256": "1eec4b4b2c19a2a81c33cad7f4e8093330aab70d11c10795e8f3bfc21cefd53c",
+   "used_by": "nucleonic A-NET tidal-refinement curves"
+  },
+  {
+   "name": "full_green_en_nucleonic_bank.npz",
+   "bytes": 428342848,
+   "sha256": "0421508c9a15025080f57c036bf489df3a028ae951f4bac018b3ce6a19817929",
+   "used_by": "Green EN nucleonic training bank"
+  },
+  {
+   "name": "full_green_en_nucleonic_sext_screen.npz",
+   "bytes": 6889520,
+   "sha256": "e43000e05e088e94fe5cfe0f6e8d66db7b934bd6e46b4d98a232223fd7e5d514",
+   "used_by": "Green EN nucleonic support-extension screen"
+  },
+  {
+   "name": "full_green_en_nucleonic_sext_exact_rows.npz",
+   "bytes": 107317349,
+   "sha256": "1fcd9396075e44448b10ea8032f4f44e16dcdd205cc4cf17f2330cff40fb317c",
+   "used_by": "Green EN nucleonic support-extension exact rows"
+  },
+  {
+   "name": "full_hyperonic_uniform_bank_part1.npz",
+   "bytes": 529515486,
+   "sha256": "c188c4d0fc133271a384628b78c08928fc37a8a37577d9446079efb31c4299ef",
+   "used_by": "hyperonic uniform prior bank part 1"
+  },
+  {
+   "name": "full_hyperonic_uniform_bank_part2.npz",
+   "bytes": 529515486,
+   "sha256": "e9beaa28c8c90b9cbe275d5695e87fd90566a939744d5ddb16ed2c480be545d9",
+   "used_by": "hyperonic uniform prior bank part 2"
+  },
+  {
+   "name": "full_hyperonic_uniform_bank_part3.npz",
+   "bytes": 529515482,
+   "sha256": "2589bfec123f8d5b96003c7581183b7722ed2af880ae07d2c61941a7d3cedc06",
+   "used_by": "hyperonic uniform prior bank part 3"
+  },
+  {
+   "name": "full_hyperonic_uniform_bank_part4.npz",
+   "bytes": 529515486,
+   "sha256": "2880d62d8d0f64698f6ba4008bfcca8816781bd802eebb04a669c318e32e5851",
+   "used_by": "hyperonic uniform prior bank part 4"
+  },
+  {
+   "name": "full_hyperonic_uniform_training_cache_part1.npz",
+   "bytes": 177742685,
+   "sha256": "e51cf2f181ba3a814a522c5ababa70853dccf25e3852e59c8cbb4f146d5eb2cf",
+   "used_by": "hyperonic A-NET uniform training cache 1"
+  },
+  {
+   "name": "full_hyperonic_uniform_training_cache_part2.npz",
+   "bytes": 178852452,
+   "sha256": "e7ac3193ca790faf5e3e778e0c0bae03cbfde45394e426023716cbfeac0b098e",
+   "used_by": "hyperonic A-NET uniform training cache 2"
+  },
+  {
+   "name": "full_hyperonic_uniform_training_cache_part3.npz",
+   "bytes": 178474580,
+   "sha256": "e13a85668f4f7e4b633b841d5ad80f2a0c1507113d04a9eb98c0e97f9730499c",
+   "used_by": "hyperonic A-NET uniform training cache 3"
+  },
+  {
+   "name": "full_hyperonic_uniform_training_cache_part4.npz",
+   "bytes": 178557033,
+   "sha256": "575ebf362ad6b944aa24a0a39664d53c1d30b96be502cfd296e71706ea1a27f4",
+   "used_by": "hyperonic A-NET uniform training cache 4"
+  },
+  {
+   "name": "full_hyperonic_support_training_cache_part1.npz",
+   "bytes": 53842942,
+   "sha256": "479206d0dd72be042eb90d341a4f1967d9535583f6b200775fee93ccabe0c016",
+   "used_by": "hyperonic A-NET support cache 1"
+  },
+  {
+   "name": "full_hyperonic_support_training_cache_part2.npz",
+   "bytes": 53792694,
+   "sha256": "28e0894d07b9a14da2fa27cc8594a7b3dd4ac13ee213e81848768a21ef6f6ee4",
+   "used_by": "hyperonic A-NET support cache 2"
+  },
+  {
+   "name": "full_hyperonic_support_screen_160m.npz",
+   "bytes": 10224977,
+   "sha256": "442da1a47e447331166d51e1b83144ed67005739f1c90a90727c3cc0245907e3",
+   "used_by": "hyperonic support screen"
+  },
+  {
+   "name": "full_hyperonic_proposal_training_cache_part1.npz",
+   "bytes": 262169814,
+   "sha256": "5a48a8870930ed013d412ce30fbf8722e2e3188e39a6011d13b497651131e202",
+   "used_by": "hyperonic A-NET proposal cache 1"
+  },
+  {
+   "name": "full_hyperonic_proposal_training_cache_part2.npz",
+   "bytes": 261973671,
+   "sha256": "118acc3268f4852a7d8f1fa0dcecf3f3eb2f26f2e2e17865c74dd76dfca289a9",
+   "used_by": "hyperonic A-NET proposal cache 2"
+  },
+  {
+   "name": "full_hyperonic_proposal_training_cache_part3.npz",
+   "bytes": 104604478,
+   "sha256": "d1d80765914fd7ef1afb0846fb8032b9691ab64faa0c4f7121c9df5ac522086d",
+   "used_by": "hyperonic A-NET proposal cache 3"
+  },
+  {
+   "name": "full_hyperonic_student_proposal_draws_300k.npz",
+   "bytes": 22753264,
+   "sha256": "2b2e7827d1f302e8404cec7fd4cf7354c77e10d02153559b644d170ab05f017f",
+   "used_by": "hyperonic defensive Student draws"
+  },
+  {
+   "name": "full_hyperonic_augmented_counting_correction_300k.npz",
+   "bytes": 4115471,
+   "sha256": "a3a6f0296d582555cc6cfa291383ed7440668501dd5e4974844f064a7a399009",
+   "used_by": "hyperonic A-NET counting correction"
+  },
+  {
+   "name": "full_hyperonic_anet_training_scenarios.npz",
+   "bytes": 1151348439,
+   "sha256": "e942cb56f1678c8ad4531bdb8bf418e12f2f957eb2b2533d4c2912e8e0a38743",
+   "used_by": "hyperonic A-NET training scenarios"
+  },
+  {
+   "name": "full_hyperonic_stage_a_mis_1720k.npz",
+   "bytes": 139000136,
+   "sha256": "7740c7cd625f89e49758e74f03635e67f1b74404916ac8ad8646faf1251c4e8d",
+   "used_by": "hyperonic Stage-A MIS bank (documented defect, see STEPS_BANKS.md)"
+  },
+  {
+   "name": "full_green_en_hyperonic_bank.npz",
+   "bytes": 265184413,
+   "sha256": "f669d84ffca0dd92d4164ec2c0cc4a30a4baa07c3cd8a3ad68a27647a382ba00",
+   "used_by": "Green EN hyperonic training bank"
+  },
+  {
+   "name": "full_green_en_hyperonic_parent_bank.npz",
+   "bytes": 244687891,
+   "sha256": "02357702e85e86d8154d1641e7d4fb818c66145d0364e127ad520986c2fe1fce",
+   "used_by": "Green EN hyperonic parent bank"
+  },
+  {
+   "name": "full_green_en_hyperonic_sext_screen.npz",
+   "bytes": 7838415,
+   "sha256": "629c156a4e7da32cd3b5d11a31660f5492f3351b24799e7d846989d4e9fca158",
+   "used_by": "Green EN hyperonic support-extension screen"
+  },
+  {
+   "name": "full_green_en_hyperonic_sext_exact_rows.npz",
+   "bytes": 76455064,
+   "sha256": "aa5a8b23d7f02c6245d617c3b3bd01947fe7753f3f8b8eda3055d982a1af88d9",
+   "used_by": "Green EN hyperonic support-extension exact rows"
+  }
+ ]
+}

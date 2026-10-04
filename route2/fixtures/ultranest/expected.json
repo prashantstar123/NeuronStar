@@ -1,0 +1,293 @@
+{
+ "description": "Numbers used by route2/checks/ultranest.py that are not stored elsewhere in the repository.",
+ "records": {
+  "aggregation": {
+   "file": "route2/fixtures/ultranest/records/evidence_aggregation.json",
+   "sha256": "87a27353ed1a6c67eec42500fc769d27962188ab859928be36a10feb4e97a4c8"
+  },
+  "runs": {
+   "file": "route2/fixtures/ultranest/records/run_values.json",
+   "sha256": "09035b3aab7b4f724801053b49f83a57b6f9ba8fa253c662e75af22afd3674e5"
+  },
+  "run_reports": {
+   "hyp_k0200_desktopB": {
+    "file": "route2/fixtures/ultranest/records/run_reports/hyp_k0200_desktopB.json",
+    "sha256": "718350bc7282e9f3a9bfab2956d01e95a59d8bd34d56ba39977a0d13dfb9fddb"
+   },
+   "hyp_k0260_desktopB": {
+    "file": "route2/fixtures/ultranest/records/run_reports/hyp_k0260_desktopB.json",
+    "sha256": "972410f868619ea53e633b122a22b250e9e4f70880113e634a972a5295a048ff"
+   },
+   "hyp_j29_desktopB": {
+    "file": "route2/fixtures/ultranest/records/run_reports/hyp_j29_desktopB.json",
+    "sha256": "cb3d245caf5e920b26ac7d2539bab328b50b67e41bd9d4156aa3cee8039ef719"
+   },
+   "hyp_j36_desktopB": {
+    "file": "route2/fixtures/ultranest/records/run_reports/hyp_j36_desktopB.json",
+    "sha256": "32023a9ce7e32e94ffd9d1ded681344b8642aa570e27da03dcb490a26ecbecd2"
+   }
+  }
+ },
+ "table_vi_rows": {
+  "file": "results/evidence/table_VI_independent_ultranest_rows.json",
+  "sha256": "966e58420301813278adb90b3e1292567043c7efff7a116d4ca9b1250eff64ab",
+  "excluded_constituents": [
+   "hyp_j29_desktopB",
+   "hyp_j36_desktopB",
+   "hyp_k0200_desktopB",
+   "hyp_k0260_desktopB"
+  ],
+  "reason": "the four desktop reproduction runs share part of their initial random ancestry with a cluster run (bit-identical posterior rows), so they are not independent seeds"
+ },
+ "sixteen_row_comparison": {
+  "file": "results/evidence/green_en_vs_ultranest_16_rows.json",
+  "sha256": "a70fbbeaa57e1df4f6ed1c12fa5ee1bc2a367a348cc30d16777916d8e7c9c5cd"
+ },
+ "row_selection": {
+  "seed": 20260925,
+  "rows_per_run": 4,
+  "weighted_runs": "2 largest corrected weights + 2 random positive-weight rows",
+  "equal_weight_runs": "4 random rows"
+ },
+ "nucleonic": {
+  "a1_expected": {
+   "rows": 11773,
+   "ess": 4458.785820183439,
+   "compact_sha256": "b9ec0c973b66d7d328321ae27bd1efb1f64a75e1212b3d28e90714f9d20e905e",
+   "source": "rows and ESS of the corrected A1 UltraNest posterior; compact_sha256 is the SHA-256 of results/nucleonic/a1_parameter_posteriors.npz"
+  },
+  "runs": {
+   "nuc_a1": {
+    "posterior": "ultranest_nucleonic_A1_posterior.npz",
+    "terms": "ultranest_nucleonic_A1_terms.npz",
+    "correction_terms": [
+     "0740"
+    ],
+    "nuclear_scenario": "A1",
+    "source_scenario": "A1",
+    "rows": 11773
+   },
+   "nuc_j0614": {
+    "posterior": "ultranest_nucleonic_J0614_posterior.npz",
+    "terms": "ultranest_nucleonic_J0614_terms.npz",
+    "correction_terms": [
+     "0740"
+    ],
+    "nuclear_scenario": "A1",
+    "source_scenario": "J0614",
+    "rows": 12292
+   },
+   "nuc_j1231": {
+    "posterior": "ultranest_nucleonic_J1231_posterior.npz",
+    "terms": "ultranest_nucleonic_J1231_terms.npz",
+    "correction_terms": [
+     "0740",
+     "1231"
+    ],
+    "nuclear_scenario": "A1",
+    "source_scenario": "J1231",
+    "rows": 11948
+   },
+   "nuc_j29_s0": {
+    "posterior": "ultranest_nucleonic_Jsym_29_s0_posterior.npz",
+    "terms": "ultranest_nucleonic_Jsym_29_s0_terms.npz",
+    "correction_terms": [
+     "0740"
+    ],
+    "nuclear_scenario": "Jsym_29",
+    "source_scenario": "A1",
+    "rows": 12341
+   },
+   "nuc_j29_s1": {
+    "posterior": "ultranest_nucleonic_Jsym_29_s1_posterior.npz",
+    "terms": "ultranest_nucleonic_Jsym_29_s1_terms.npz",
+    "correction_terms": [
+     "0740"
+    ],
+    "nuclear_scenario": "Jsym_29",
+    "source_scenario": "A1",
+    "rows": 12215
+   },
+   "nuc_j36_s0": {
+    "posterior": "ultranest_nucleonic_Jsym_36_s0_posterior.npz",
+    "terms": "ultranest_nucleonic_Jsym_36_s0_terms.npz",
+    "correction_terms": [
+     "0740"
+    ],
+    "nuclear_scenario": "Jsym_36",
+    "source_scenario": "A1",
+    "rows": 12424
+   },
+   "nuc_j36_s1": {
+    "posterior": "ultranest_nucleonic_Jsym_36_s1_posterior.npz",
+    "terms": "ultranest_nucleonic_Jsym_36_s1_terms.npz",
+    "correction_terms": [
+     "0740"
+    ],
+    "nuclear_scenario": "Jsym_36",
+    "source_scenario": "A1",
+    "rows": 12434
+   },
+   "nuc_j36_s2": {
+    "posterior": "ultranest_nucleonic_Jsym_36_s2_posterior.npz",
+    "terms": "ultranest_nucleonic_Jsym_36_s2_terms.npz",
+    "correction_terms": [
+     "0740"
+    ],
+    "nuclear_scenario": "Jsym_36",
+    "source_scenario": "A1",
+    "rows": 12434
+   }
+  },
+  "J1614": {
+   "posterior": "ultranest_nucleonic_J1614_posterior.npz",
+   "run_id": "nuc_J1614_20260917",
+   "run_report": {
+    "logz": -25.565178048964246,
+    "logzerr": 0.2858673576171157,
+    "ncall": 835030,
+    "niter": 28847,
+    "seed": 20260917,
+    "min_live": 2000,
+    "workers": 20,
+    "wall_seconds": 22955.219448804855
+   },
+   "run_report_sha256": "2772b49d52a561c80466aed24320a692ddf7d18d6529b410cfb33f771a82a9a6"
+  }
+ },
+ "hyperonic": {
+  "desktop_b": {
+   "K0_200": {
+    "id": "hyp_k0200_desktopB",
+    "input": "ultranest_hyperonic_K0_200_desktopB_input.npz",
+    "terms": "ultranest_hyperonic_K0_200_desktopB_terms.npz",
+    "report": "route2/fixtures/ultranest/records/run_reports/hyp_k0200_desktopB.json"
+   },
+   "K0_260": {
+    "id": "hyp_k0260_desktopB",
+    "input": "ultranest_hyperonic_K0_260_desktopB_input.npz",
+    "terms": "ultranest_hyperonic_K0_260_desktopB_terms.npz",
+    "report": "route2/fixtures/ultranest/records/run_reports/hyp_k0260_desktopB.json"
+   },
+   "Jsym_29": {
+    "id": "hyp_j29_desktopB",
+    "input": "ultranest_hyperonic_Jsym_29_desktopB_input.npz",
+    "terms": "ultranest_hyperonic_Jsym_29_desktopB_terms.npz",
+    "report": "route2/fixtures/ultranest/records/run_reports/hyp_j29_desktopB.json"
+   },
+   "Jsym_36": {
+    "id": "hyp_j36_desktopB",
+    "input": "ultranest_hyperonic_Jsym_36_desktopB_input.npz",
+    "terms": "ultranest_hyperonic_Jsym_36_desktopB_terms.npz",
+    "report": "route2/fixtures/ultranest/records/run_reports/hyp_j36_desktopB.json"
+   }
+  },
+  "cluster": {
+   "K0_200": {
+    "id": "hyp_k0200",
+    "equal_weight": "ultranest_hyperonic_K0_200_equal_weight.npz",
+    "rows": 15291,
+    "curve_file_sha256": "99b3d44fbc0efdd7406bb180b2d3f8d068eb7e54e617f6c65c4c4193e6bc9d80",
+    "primary_summary": {
+     "file": "output summary of the UltraNest run hyp_k0200",
+     "sha256": "a7b427f1143a0ef564bc704458cb2bb0d39e9a6d06fd28be131b32bc971db07d",
+     "workers": 56,
+     "ndraw_min": 2048,
+     "storage_backend": "hdf5",
+     "wall_seconds": 6307.262784712017,
+     "wrapper_calls": 338930
+    }
+   },
+   "K0_260": {
+    "id": "hyp_k0260",
+    "equal_weight": "ultranest_hyperonic_K0_260_equal_weight.npz",
+    "rows": 14548,
+    "curve_file_sha256": "53f0a4bee0e1183623bd1b5e883f91aecf76a6c4a14760836a3f5e42d91371b3",
+    "primary_summary": {
+     "file": "output summary of the UltraNest run hyp_k0260",
+     "sha256": "4f901954d5439f91672d360f823753eadc7be08dbbaf457bd23d14ee9dcf148b",
+     "workers": 56,
+     "ndraw_min": 2048,
+     "storage_backend": "hdf5",
+     "wall_seconds": 14737.59810308367,
+     "wrapper_calls": 399199
+    }
+   },
+   "Jsym_29": {
+    "id": "hyp_j29_s1",
+    "equal_weight": "ultranest_hyperonic_Jsym_29_equal_weight.npz",
+    "rows": 14888,
+    "curve_file_sha256": "818565cc7faabf11e2e13267dfc4aa4369bdbcb540f641bc0bf3bd33d99fb13c",
+    "primary_summary": {
+     "file": "output summary of the UltraNest run hyp_j29_s1",
+     "sha256": "34514212e67c535502364af2528e8b4a1bdcd873d7cd3f1b8e084536a4c689ad",
+     "workers": 56,
+     "ndraw_min": 2048,
+     "storage_backend": "hdf5",
+     "wall_seconds": 12638.870929433964,
+     "wrapper_calls": 339397
+    }
+   },
+   "Jsym_36": {
+    "id": "hyp_j36",
+    "equal_weight": "ultranest_hyperonic_Jsym_36_equal_weight.npz",
+    "rows": 15829,
+    "curve_file_sha256": "e6a0d12ccc953d402e9ed39371732d9b24da78680fa9c33b6d3e1ab357405314",
+    "primary_summary": {
+     "file": "output summary of the UltraNest run hyp_j36",
+     "sha256": "136b31651e030c8205baf05c9143e15bb37916c16b57a6afe225ed72121407e5",
+     "workers": 56,
+     "ndraw_min": 2048,
+     "storage_backend": "hdf5",
+     "wall_seconds": 15356.552896307781,
+     "wrapper_calls": 423891
+    }
+   }
+  },
+  "shared_ancestry": {
+   "counts": {
+    "K0_200": {
+     "shared_distinct_rows": 71,
+     "cluster_copies": 132
+    },
+    "K0_260": {
+     "shared_distinct_rows": 80,
+     "cluster_copies": 148
+    },
+    "Jsym_29": {
+     "shared_distinct_rows": 107,
+     "cluster_copies": 180
+    },
+    "Jsym_36": {
+     "shared_distinct_rows": 78,
+     "cluster_copies": 140
+    }
+   }
+  },
+  "J1614": {
+   "label": "J1614 replica runs",
+   "replicas": {
+    "replica_1": {
+     "summary_sha256": "99c2211fa0320d9dea1831531572d2c425bc7c01659226a16c2953258f294bb7",
+     "niter": 29336,
+     "logz": -28.803828580547393,
+     "logzerr": 0.16038232277219577,
+     "ncall": 843512,
+     "workers": 48,
+     "wall_seconds": 22009.752987800166
+    },
+    "replica_2": {
+     "summary_sha256": "d82116675d0fc435f9e5e546ebbbe27ef32dfec311b9b2799d93ee95c1f9680a",
+     "niter": 30867,
+     "logz": -28.77571480468361,
+     "logzerr": 0.14964541413492727,
+     "ncall": 872943,
+     "workers": 44,
+     "wall_seconds": 27432.64283723384
+    }
+   },
+   "inverse_variance_combined_logz": -28.788799220151596,
+   "scatter_aware_combined_logzerr": 0.10941429661648008
+  }
+ }
+}

@@ -1,0 +1,690 @@
+{
+ "row_seed": 20260925,
+ "nucleonic_prior_bank": {
+  "file": "full_nucleonic_shared_prior_physics_bank.npz",
+  "bytes": 3157558246,
+  "sha256": "06dda51aa7c1cbbf421f365cd782e6fb4dc814becfa6eb07a749ce1345c33a07",
+  "rows": 914966,
+  "solved_rows": 806053,
+  "fixture_rows": 40,
+  "selection": "seed [20260925, 1]: per stream (seed-1234, seed-2026, B) 7 solved + 1 unsolved rows; C and D 8 rows",
+  "relations": {
+   "grids_and_observation_equal_shipped_code": true,
+   "base_rows_equal_seed_1234_and_2026_draws": true,
+   "enrichment_rows_equal_seeded_draws": {
+    "rows": 254966,
+    "row_ranges": {
+     "B": [
+      660000,
+      743400
+     ],
+     "C": [
+      743400,
+      839414
+     ],
+     "D": [
+      839414,
+      914966
+     ]
+    }
+   },
+   "ridge_and_intervals_refit_from_base_rows": {
+    "beta_r14_max_abs": 1.0802736483128683e-10,
+    "predC_int_max_abs": 1.1741718708435656e-12,
+    "predD_int_max_abs": 1.6395773627664312e-12,
+    "windows_equal": true
+   },
+   "support_flags_follow_from_stored_columns": true,
+   "logw_prior_max_abs_difference": 0.0,
+   "appended_rows_inside_their_stream_support": true
+  },
+  "constants": {
+   "OBS": [
+    0.153,
+    -16.1,
+    230.0,
+    32.5,
+    0.505714285714279,
+    1.24142857142857,
+    2.4857142857143
+   ],
+   "SIG": [
+    0.005,
+    0.2,
+    40.0,
+    1.8,
+    0.19428571428571,
+    0.608571428571428,
+    1.382857142857144
+   ],
+   "beta_r14": [
+    18.594233424405942,
+    -26.439458432611463,
+    0.039277188421958924,
+    0.005617552859765943,
+    -0.016892833785813577,
+    2.338317447200846,
+    -2.0067621337842585,
+    0.951722407915357
+   ],
+   "predC_int": [
+    4.967521434282771,
+    14.775860293519886
+   ],
+   "predD_int": [
+    12.551642223309464,
+    22.613564286298935
+   ],
+   "winC": [
+    9.4,
+    11.2,
+    1.9
+   ],
+   "winD": [
+    14.8,
+    18.0,
+    1.9
+   ],
+   "N0": 660000,
+   "MtotB": 160000000,
+   "MtotC": 2640000,
+   "MtotD": 1320000,
+   "enrich_seed": 20260729,
+   "cbox": 3.0,
+   "Mc_obs": 1.1858045699806394,
+   "base_streams": [
+    {
+     "seed": 1234,
+     "rows": [
+      0,
+      200000
+     ]
+    },
+    {
+     "seed": 2026,
+     "rows": [
+      200000,
+      660000
+     ]
+    }
+   ],
+   "enrichment_block_sizes": {
+    "B": 2000000,
+    "C": 60000,
+    "D": 60000
+   },
+   "enrichment_rows": {
+    "B": [
+     660000,
+     743400
+    ],
+    "C": [
+     743400,
+     839414
+    ],
+    "D": [
+     839414,
+     914966
+    ]
+   }
+  }
+ },
+ "nucleonic_exact_table": {
+  "file": "full_nucleonic_shared_exact_astrophysical_table.npz",
+  "bytes": 43919890,
+  "sha256": "e2dfb84d56a6f015ac12d14ae00d11b3098ce43c34bb25a4c2bfccbf27c66fa9",
+  "rows": 914966,
+  "fixture_rows": 40,
+  "selection": "the rows of nucleonic_prior_bank (the table is row-aligned with the bank)",
+  "relations": {
+   "rows_match_bank": true,
+   "Mmax_fresh_nan_pattern_equals_bank_MM": true,
+   "Mmax_fresh_vs_bank_MM_max_abs": 5.488942633746774e-13
+  }
+ },
+ "nucleonic_support_bank": {
+  "file": "full_nucleonic_uniform_prior_support_bank.npz",
+  "bytes": 75307495,
+  "sha256": "4f50897beb3fdff046061229b694ca84d560462d4f29ab5b7f8c874b5969e8ae",
+  "rows": 660000,
+  "fixture_rows": 20,
+  "selection": "seed [20260925, 2]: 18 solved + 2 unsolved rows, disjoint from nucleonic_prior_bank",
+  "relations": {
+   "equals_rows_0_to_659999_of_the_shared_bank": true
+  }
+ },
+ "nucleonic_independent_cache": {
+  "file": "full_nucleonic_independent_common_physics_cache.npz",
+  "bytes": 91359565,
+  "sha256": "280f6f60bd93312ef34df821e037a6c4a61ea55bf1671c76f8efd852c7557a3d",
+  "rows": 806053,
+  "fixture_rows": 30,
+  "selection": "seed [20260925, 3]: 15 rows from the uniform streams + 15 from the enrichment streams",
+  "relations": {
+   "theta_X_equal_solved_rows_of_the_shared_bank": true,
+   "LPC_equals_bank_logw_prior": true,
+   "lpc_all_lse_abs_difference": 2.753353101070388e-13
+  }
+ },
+ "green_en_nucleonic_bank": {
+  "file": "full_green_en_nucleonic_bank.npz",
+  "bytes": 428342848,
+  "sha256": "0421508c9a15025080f57c036bf489df3a028ae951f4bac018b3ce6a19817929",
+  "rows": 848017,
+  "shared_bank_rows": 806053,
+  "extension_rows": 41964,
+  "fixture_rows": 30,
+  "selection": "seed [20260925, 4]: 20 rows from the shared-bank part + 10 S_ext rows",
+  "parents": {
+   "extension_exact": {
+    "file": "full_green_en_nucleonic_sext_exact_rows.npz",
+    "bytes": 107317349,
+    "sha256": "1fcd9396075e44448b10ea8032f4f44e16dcdd205cc4cf17f2330cff40fb317c"
+   },
+   "extension_seed": 20260924,
+   "extension_block_size": 2000000
+  },
+  "relations": {
+   "shared_bank_rows_equal_shared_bank_cache_and_exact_table": true,
+   "sext_rows_equal_exact_file": true,
+   "LPC_recomputed_from_flags_max_abs": 0.0,
+   "sext_draws_regenerated_from_seed": true,
+   "note": "for shared-bank rows AC[:,0] holds the radius at the maximum mass (Rmm), as stored"
+  }
+ },
+ "hyperonic_uniform_bank_part1": {
+  "file": "full_hyperonic_uniform_bank_part1.npz",
+  "bytes": 529515486,
+  "sha256": "c188c4d0fc133271a384628b78c08928fc37a8a37577d9446079efb31c4299ef",
+  "rows": 150000,
+  "valid_rows": 103707,
+  "seed": 91,
+  "workers": 56,
+  "generation_seconds": 3364.1991657689214,
+  "schema": "ddbhy-bank-v1",
+  "fixture_rows": 8,
+  "selection": "seed [20260925, 11]: 6 valid + 2 failed rows",
+  "relations": {
+   "theta_equals_seeded_uniform_draws": true,
+   "valid_equals_failure_code_zero": true
+  }
+ },
+ "hyperonic_uniform_bank_part2": {
+  "file": "full_hyperonic_uniform_bank_part2.npz",
+  "bytes": 529515486,
+  "sha256": "e9beaa28c8c90b9cbe275d5695e87fd90566a939744d5ddb16ed2c480be545d9",
+  "rows": 150000,
+  "valid_rows": 103947,
+  "seed": 92,
+  "workers": 56,
+  "generation_seconds": 3352.484727103263,
+  "schema": "ddbhy-bank-v1",
+  "fixture_rows": 8,
+  "selection": "seed [20260925, 12]: 6 valid + 2 failed rows",
+  "relations": {
+   "theta_equals_seeded_uniform_draws": true,
+   "valid_equals_failure_code_zero": true
+  }
+ },
+ "hyperonic_uniform_bank_part3": {
+  "file": "full_hyperonic_uniform_bank_part3.npz",
+  "bytes": 529515482,
+  "sha256": "2589bfec123f8d5b96003c7581183b7722ed2af880ae07d2c61941a7d3cedc06",
+  "rows": 150000,
+  "valid_rows": 104094,
+  "seed": 93,
+  "workers": 56,
+  "generation_seconds": 3359.3437659293413,
+  "schema": "ddbhy-bank-v1",
+  "fixture_rows": 8,
+  "selection": "seed [20260925, 13]: 6 valid + 2 failed rows",
+  "relations": {
+   "theta_equals_seeded_uniform_draws": true,
+   "valid_equals_failure_code_zero": true
+  }
+ },
+ "hyperonic_uniform_bank_part4": {
+  "file": "full_hyperonic_uniform_bank_part4.npz",
+  "bytes": 529515486,
+  "sha256": "2880d62d8d0f64698f6ba4008bfcca8816781bd802eebb04a669c318e32e5851",
+  "rows": 150000,
+  "valid_rows": 103933,
+  "seed": 94,
+  "workers": 56,
+  "generation_seconds": 3373.6693961918354,
+  "schema": "ddbhy-bank-v1",
+  "fixture_rows": 8,
+  "selection": "seed [20260925, 14]: 6 valid + 2 failed rows",
+  "relations": {
+   "theta_equals_seeded_uniform_draws": true,
+   "valid_equals_failure_code_zero": true
+  }
+ },
+ "hyperonic_uniform_cache_part1": {
+  "file": "full_hyperonic_uniform_training_cache_part1.npz",
+  "bytes": 177742685,
+  "sha256": "e51cf2f181ba3a814a522c5ababa70853dccf25e3852e59c8cbb4f146d5eb2cf",
+  "rows": 103707,
+  "target_valid_rows": 65289,
+  "fixture_rows": 6,
+  "workers": 62,
+  "wall_seconds": 2414.369388103485,
+  "selection": "seed [20260925, 20]: 5 target-valid + 1 rejected rows",
+  "relations": {
+   "rows_are_all_solved_rows_of_the_uniform_bank": true
+  }
+ },
+ "hyperonic_uniform_cache_part2": {
+  "file": "full_hyperonic_uniform_training_cache_part2.npz",
+  "bytes": 178852452,
+  "sha256": "e7ac3193ca790faf5e3e778e0c0bae03cbfde45394e426023716cbfeac0b098e",
+  "rows": 103947,
+  "target_valid_rows": 65821,
+  "fixture_rows": 6,
+  "workers": 62,
+  "wall_seconds": 1248.9873723983765,
+  "selection": "seed [20260925, 21]: 5 target-valid + 1 rejected rows",
+  "relations": {
+   "rows_are_all_solved_rows_of_the_uniform_bank": true
+  }
+ },
+ "hyperonic_uniform_cache_part3": {
+  "file": "full_hyperonic_uniform_training_cache_part3.npz",
+  "bytes": 178474580,
+  "sha256": "e13a85668f4f7e4b633b841d5ad80f2a0c1507113d04a9eb98c0e97f9730499c",
+  "rows": 104094,
+  "target_valid_rows": 65601,
+  "fixture_rows": 6,
+  "workers": 62,
+  "wall_seconds": 1250.4440631866455,
+  "selection": "seed [20260925, 22]: 5 target-valid + 1 rejected rows",
+  "relations": {
+   "rows_are_all_solved_rows_of_the_uniform_bank": true
+  }
+ },
+ "hyperonic_uniform_cache_part4": {
+  "file": "full_hyperonic_uniform_training_cache_part4.npz",
+  "bytes": 178557033,
+  "sha256": "575ebf362ad6b944aa24a0a39664d53c1d30b96be502cfd296e71706ea1a27f4",
+  "rows": 103933,
+  "target_valid_rows": 65792,
+  "fixture_rows": 6,
+  "workers": 62,
+  "wall_seconds": 2420.38817858696,
+  "selection": "seed [20260925, 23]: 5 target-valid + 1 rejected rows",
+  "relations": {
+   "rows_are_all_solved_rows_of_the_uniform_bank": true
+  }
+ },
+ "hyperonic_support_cache_part1": {
+  "file": "full_hyperonic_support_training_cache_part1.npz",
+  "bytes": 53842942,
+  "sha256": "479206d0dd72be042eb90d341a4f1967d9535583f6b200775fee93ccabe0c016",
+  "rows": 41882,
+  "target_valid_rows": 20722,
+  "fixture_rows": 4,
+  "workers": 20,
+  "wall_seconds": 1105.7851071357727,
+  "selection": "seed [20260925, 24]: 3 target-valid + 1 rejected rows",
+  "relations": {
+   "rows_are_the_screen_rows_of_this_shard": true
+  }
+ },
+ "hyperonic_support_cache_part2": {
+  "file": "full_hyperonic_support_training_cache_part2.npz",
+  "bytes": 53792694,
+  "sha256": "28e0894d07b9a14da2fa27cc8594a7b3dd4ac13ee213e81848768a21ef6f6ee4",
+  "rows": 41882,
+  "target_valid_rows": 20630,
+  "fixture_rows": 4,
+  "workers": 62,
+  "wall_seconds": 491.03376054763794,
+  "selection": "seed [20260925, 25]: 3 target-valid + 1 rejected rows",
+  "relations": {
+   "rows_are_the_screen_rows_of_this_shard": true
+  }
+ },
+ "hyperonic_proposal_cache_part1": {
+  "file": "full_hyperonic_proposal_training_cache_part1.npz",
+  "bytes": 262169814,
+  "sha256": "5a48a8870930ed013d412ce30fbf8722e2e3188e39a6011d13b497651131e202",
+  "rows": 125000,
+  "target_valid_rows": 110319,
+  "fixture_rows": 3,
+  "workers": 62,
+  "wall_seconds": 2879.9564990997314,
+  "selection": "seed [20260925, 26]: 2 target-valid + 1 rejected rows",
+  "relations": {
+   "rows_are_the_student_draws_of_this_shard": true
+  }
+ },
+ "hyperonic_proposal_cache_part2": {
+  "file": "full_hyperonic_proposal_training_cache_part2.npz",
+  "bytes": 261973671,
+  "sha256": "118acc3268f4852a7d8f1fa0dcecf3f3eb2f26f2e2e17865c74dd76dfca289a9",
+  "rows": 125000,
+  "target_valid_rows": 110243,
+  "fixture_rows": 3,
+  "workers": 62,
+  "wall_seconds": 1484.258650302887,
+  "selection": "seed [20260925, 27]: 2 target-valid + 1 rejected rows",
+  "relations": {
+   "rows_are_the_student_draws_of_this_shard": true
+  }
+ },
+ "hyperonic_proposal_cache_part3": {
+  "file": "full_hyperonic_proposal_training_cache_part3.npz",
+  "bytes": 104604478,
+  "sha256": "d1d80765914fd7ef1afb0846fb8032b9691ab64faa0c4f7121c9df5ac522086d",
+  "rows": 50000,
+  "target_valid_rows": 44003,
+  "fixture_rows": 3,
+  "workers": 20,
+  "wall_seconds": 1341.4288637638092,
+  "selection": "seed [20260925, 28]: 2 target-valid + 1 rejected rows",
+  "relations": {
+   "rows_are_the_student_draws_of_this_shard": true
+  }
+ },
+ "hyperonic_support_screen": {
+  "file": "full_hyperonic_support_screen_160m.npz",
+  "bytes": 10224977,
+  "sha256": "442da1a47e447331166d51e1b83144ed67005739f1c90a90727c3cc0245907e3",
+  "rows": 83764,
+  "seed": 20260729,
+  "block_size": 2000000,
+  "total_proposals": 160000000,
+  "relations": {
+   "every_row_regenerated_from_its_seeded_block": true
+  }
+ },
+ "hyperonic_student_proposal_draws": {
+  "file": "full_hyperonic_student_proposal_draws_300k.npz",
+  "bytes": 22753264,
+  "sha256": "2b2e7827d1f302e8404cec7fd4cf7354c77e10d02153559b644d170ab05f017f",
+  "rows": 300000,
+  "seed": 20260992
+ },
+ "hyperonic_stage_a_mis": {
+  "file": "full_hyperonic_stage_a_mis_1720k.npz",
+  "bytes": 139000136,
+  "sha256": "7740c7cd625f89e49758e74f03635e67f1b74404916ac8ad8646faf1251c4e8d",
+  "rows": 1720000,
+  "valid_rows": 1245208,
+  "posterior_ess": 3282.4425566061404,
+  "target_beta": 0.2208750108267128,
+  "components": [
+   {
+    "component": 0,
+    "rows": [
+     0,
+     280000
+    ],
+    "evaluation_sha256": "5b3ed62c2e60887fa98183c34fb39538ff9a399d1caa4ceb92dae6a354412617"
+   },
+   {
+    "component": 1,
+    "rows": [
+     280000,
+     480000
+    ],
+    "evaluation_sha256": "e91759ef4113ad4006b8497affc76ba72be93c22330e05b64cadc057de982722"
+   },
+   {
+    "component": 2,
+    "rows": [
+     480000,
+     680000
+    ],
+    "evaluation_sha256": "25a9b7db866c2f6a76acd73d36c6c180681a26d60fc74421a6eb07ea2d39fc51"
+   },
+   {
+    "component": 3,
+    "rows": [
+     680000,
+     900000
+    ],
+    "evaluation_sha256": "f9e92e9d7438b819496dee5b1b97b13d882bfb3da6cf4b035517f2584de5e9d9"
+   },
+   {
+    "component": 4,
+    "rows": [
+     900000,
+     1120000
+    ],
+    "evaluation_sha256": "274ef673a5c689684ff8c1a7670b175f66d0e6d99b028c5964c26fd3fd78495d"
+   },
+   {
+    "component": 5,
+    "rows": [
+     1120000,
+     1320000
+    ],
+    "evaluation_sha256": "bc5919e822ed7e864f0432c155fc5a6c5ff14b51a3634987c703cf4a1497e3e4"
+   },
+   {
+    "component": 6,
+    "rows": [
+     1320000,
+     1520000
+    ],
+    "evaluation_sha256": "31056d5cbe299a4bd4f36f9d73aec432989d3d8810a1974d732610acc2f38945"
+   },
+   {
+    "component": 7,
+    "rows": [
+     1520000,
+     1720000
+    ],
+    "evaluation_sha256": "68e897b6d18691f99292d42abdcd4dfe570090fb5f92caf8e0176645d14419ef"
+   }
+  ],
+  "fixture_rows": 36,
+  "selection": "seed [20260925, 40]: per component 2 ordinary + 1 rejected row outside the leading-shard prefixes; 4 floor rows; 1 rejected row per prefix; 2 floor rows inside prefixes",
+  "zero_ordinary_value_prefixes": [
+   {
+    "component": 1,
+    "rows": [
+     280000,
+     330000
+    ],
+    "stored_values": {
+     "-1e+100": 47925,
+     "-4e+30": 2075
+    }
+   },
+   {
+    "component": 2,
+    "rows": [
+     480000,
+     530000
+    ],
+    "stored_values": {
+     "-1e+100": 48144,
+     "-4e+30": 1856
+    }
+   },
+   {
+    "component": 3,
+    "rows": [
+     680000,
+     735000
+    ],
+    "stored_values": {
+     "-1e+100": 52861,
+     "-4e+30": 2139
+    }
+   },
+   {
+    "component": 4,
+    "rows": [
+     900000,
+     955000
+    ],
+    "stored_values": {
+     "-1e+100": 53151,
+     "-4e+30": 1849
+    }
+   },
+   {
+    "component": 5,
+    "rows": [
+     1120000,
+     1171000
+    ],
+    "stored_values": {
+     "-1e+100": 49831,
+     "-4e+30": 1169
+    }
+   },
+   {
+    "component": 6,
+    "rows": [
+     1320000,
+     1360000
+    ],
+    "stored_values": {
+     "-1e+100": 39170,
+     "-4e+30": 830
+    }
+   }
+  ],
+  "relations": {
+   "rows_equal_the_eight_component_evaluations": true
+  }
+ },
+ "green_en_hyperonic_bank": {
+  "file": "full_green_en_hyperonic_bank.npz",
+  "bytes": 265184413,
+  "sha256": "f669d84ffca0dd92d4164ec2c0cc4a30a4baa07c3cd8a3ad68a27647a382ba00",
+  "rows": 645084,
+  "parent_rows": 582551,
+  "extension_rows": 62533,
+  "fixture_rows": 30,
+  "selection": "seed [20260925, 50]: 10 uniform-part rows, 5 rows of each support stream, 10 S_ext rows (each group includes rejected rows)",
+  "parents": {
+   "parent_bank": {
+    "file": "full_green_en_hyperonic_parent_bank.npz",
+    "bytes": 244687891,
+    "sha256": "02357702e85e86d8154d1641e7d4fb818c66145d0364e127ad520986c2fe1fce"
+   },
+   "parts": [
+    {
+     "file": "full_hyperonic_uniform_training_cache_part1.npz",
+     "sha256": "e51cf2f181ba3a814a522c5ababa70853dccf25e3852e59c8cbb4f146d5eb2cf",
+     "role": "uniform",
+     "rows": [
+      0,
+      103707
+     ]
+    },
+    {
+     "file": "full_hyperonic_uniform_training_cache_part2.npz",
+     "sha256": "e7ac3193ca790faf5e3e778e0c0bae03cbfde45394e426023716cbfeac0b098e",
+     "role": "uniform",
+     "rows": [
+      103707,
+      207654
+     ]
+    },
+    {
+     "file": "full_hyperonic_uniform_training_cache_part3.npz",
+     "sha256": "e13a85668f4f7e4b633b841d5ad80f2a0c1507113d04a9eb98c0e97f9730499c",
+     "role": "uniform",
+     "rows": [
+      207654,
+      311748
+     ]
+    },
+    {
+     "file": "full_hyperonic_uniform_training_cache_part4.npz",
+     "sha256": "575ebf362ad6b944aa24a0a39664d53c1d30b96be502cfd296e71706ea1a27f4",
+     "role": "uniform",
+     "rows": [
+      311748,
+      415681
+     ]
+    },
+    {
+     "file": "full_hyperonic_support_training_cache_part1.npz",
+     "sha256": "479206d0dd72be042eb90d341a4f1967d9535583f6b200775fee93ccabe0c016",
+     "role": "support",
+     "rows": [
+      415681,
+      457563
+     ]
+    },
+    {
+     "file": "full_hyperonic_support_training_cache_part2.npz",
+     "sha256": "28e0894d07b9a14da2fa27cc8594a7b3dd4ac13ee213e81848768a21ef6f6ee4",
+     "role": "support",
+     "rows": [
+      457563,
+      499445
+     ]
+    },
+    {
+     "sha256": "65b49dad09c03dc1c9c75f5c3afbed2f61cab11003fa3fb0eed80e60ed246f65",
+     "role": "support",
+     "rows": [
+      499445,
+      514445
+     ]
+    },
+    {
+     "sha256": "4bca1b088b602621b67d5fa98823c96a955f95027b95dfea64a06a2b32f1a99d",
+     "role": "support",
+     "rows": [
+      514445,
+      520445
+     ]
+    },
+    {
+     "sha256": "e72cd8c52e4edd3f162c4c929b6edaddde3741ea477a9712deb97ac9505dbae4",
+     "role": "support",
+     "rows": [
+      520445,
+      526445
+     ]
+    },
+    {
+     "sha256": "6f62c75757a8e8589048667cbb8a6ec54660350abde87b8093d3bf86c9952f2e",
+     "role": "support",
+     "rows": [
+      526445,
+      544445
+     ]
+    },
+    {
+     "sha256": "baaf83b249954364eb2b2c41decffd25bdc3c9b407bc9d10841957f9f91482df",
+     "role": "support",
+     "rows": [
+      544445,
+      582551
+     ]
+    }
+   ],
+   "stream2_screen": {
+    "bytes": 10144415,
+    "sha256": "75f1d4ace983b4b5802ebcd109a5e46fccc1ce01048a85f6239c0b132777c3c4"
+   },
+   "extension_exact": {
+    "file": "full_green_en_hyperonic_sext_exact_rows.npz",
+    "bytes": 76455064,
+    "sha256": "aa5a8b23d7f02c6245d617c3b3bd01947fe7753f3f8b8eda3055d982a1af88d9"
+   },
+   "extension_seed": 20260923
+  },
+  "relations": {
+   "parent_rows_equal_eleven_parts": true,
+   "sext_rows_equal_exact_file": true,
+   "LPC_recomputed_max_abs": 0.0,
+   "screens_and_sext_draws_regenerated": true
+  }
+ },
+ "hyperonic_student_checkpoint": {
+  "file": "route2/fixtures/banks/student/student_beta1_48c_df5_s075_seed20260990.joblib",
+  "bytes": 65134,
+  "sha256": "f5f4e11b6519d01b3ed740f43bdab4a3714bf1cacbecc900bd5015412751f78f"
+ }
+}

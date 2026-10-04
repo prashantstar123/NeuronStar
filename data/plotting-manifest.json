@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "redistribution_status": "sources and citations in data/SOURCES.md",
+  "roots": {
+    "mass_radius_overlays": [
+      {
+        "filename": "GW170817_50.csv",
+        "bytes": 5282,
+        "sha256": "47808dcb51fc0101d26ce5943045a42db5ddc4ede974bf885b4f7f28b4262e2c",
+        "role": "GW170817 50% mass-radius contour",
+        "source_url": null
+      },
+      {
+        "filename": "GW170817_90.csv",
+        "bytes": 4425,
+        "sha256": "ac3f73ebc352546124c9bc99ae063e35e8a144b83951947a76fb9e141ead8385",
+        "role": "GW170817 90% mass-radius contour",
+        "source_url": null
+      },
+      {
+        "filename": "J0437_4715_posterior_RM.dat",
+        "bytes": 5899036,
+        "sha256": "284f891221a2d36b52febed0bef78e7c3f0801997d0b527fa7ae22a4a4c7c9d7",
+        "role": "PSR J0437-4715 mass-radius posterior",
+        "source_url": null
+      },
+      {
+        "filename": "Miler_6620_lower1.png.dat",
+        "bytes": 459,
+        "sha256": "d79da3f58d94a9a857104bfc628be3496676996fbcc8a6ac41c82520be754cb6",
+        "role": "PSR J0740+6620 lower contour boundary",
+        "source_url": null
+      },
+      {
+        "filename": "Miler_6620_upper1.png.dat",
+        "bytes": 462,
+        "sha256": "29e89a862788aae4f7fe73105707ed0e86c6d0d4fa3a899ac3189deb19dcaaae",
+        "role": "PSR J0740+6620 upper contour boundary",
+        "source_url": null
+      },
+      {
+        "filename": "Miller_68_3_J0030_0451.csv",
+        "bytes": 1657,
+        "sha256": "811317eb2f11b218579158f4acb88926a978d3dd9569cefc1193ac28b802badd",
+        "role": "Miller et al. PSR J0030+0451 contour",
+        "source_url": null
+      },
+      {
+        "filename": "Riley_68_3_J0030_0451.csv",
+        "bytes": 1381,
+        "sha256": "8273d9794658b72572fe40e543fa50cff5c602848ef76cedcda65f02e3068dbe",
+        "role": "Riley et al. PSR J0030+0451 contour",
+        "source_url": null
+      },
+      {
+        "filename": "Riley_68_J0740_6620.csv",
+        "bytes": 1423,
+        "sha256": "8244a7e98f40061a40533d3176715097436d2a10d8ddec9ed18a5d672110a7a5",
+        "role": "Riley et al. PSR J0740+6620 contour",
+        "source_url": null
+      },
+      {
+        "filename": "Dittmann_68_J0740_6620.csv",
+        "bytes": 8151,
+        "sha256": "b99393516d880d09717d01a4bc0ca59e79f26457d6b1f0ca04d59d832f19cd2d",
+        "role": "Dittmann et al. 2024 PSR J0740+6620 68% contour (NICER+XMM samples of data/observations)",
+        "source_url": null
+      }
+    ],
+    "substituted_pulsars": [
+      {
+        "filename": "J0614_mrsamples.dat",
+        "bytes": 10047350,
+        "sha256": "d3e128070955ca3d30577254489efd58849686d377f4e0aa9674ac17b2df44a6",
+        "role": "PSR J0614-3329 mass-radius samples",
+        "source_url": null
+      },
+      {
+        "filename": "J1231_wmrsamples.txt",
+        "bytes": 79151100,
+        "sha256": "7f963ffa3a8667f22c71d55d99df6512daa7e41c8ca63a62fde96da472d5932e",
+        "role": "weighted PSR J1231-1411 mass-radius samples",
+        "source_url": null
+      }
+    ]
+  }
+}

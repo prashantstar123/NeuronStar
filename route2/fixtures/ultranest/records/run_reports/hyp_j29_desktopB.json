@@ -1,0 +1,65 @@
+{
+  "case": "hyp_j29_desktopB",
+  "model": "hyperonic",
+  "correction": "0740",
+  "source_paths": {
+    "results": "info/results.json of the UltraNest run hyp_j29_desktopB"
+  },
+  "source_sha256": {
+    "weighted_chain_sha256": "a88b82ef35af7ff11818c4ea546206018f1e6ae378b76173817f01cb8e5de00d",
+    "equal_chain_sha256": "8311500d0b7c1655e462b063086a293fa47a760fd086e0984c45c34a3a149615",
+    "results_sha256": "a91d44dfe6030e2f011faa51ed111d8012fa7d93bfb6585bc3dae2cc09b4d338",
+    "debug_log_sha256": "d04a6739ba927037eb48d0a652a131c30200bb1ed699c58a21398cd68034280f"
+  },
+  "prepared_sha256": "8aeabceaf0af0b871def8d1b5bdd06038fbd035324a0d3fd5e908c5599dc0c41",
+  "terms": "ultranest_hyperonic_Jsym_29_desktopB_terms.npz",
+  "terms_sha256": "97b12d541ffe27beaf9f9a018b71e9e73f69a99454a36184fa6b55ec175122ee",
+  "total_source_rows": 14892,
+  "positive_weight_rows": 12000,
+  "unique_positive_theta_rows": 12000,
+  "equal_unique_theta_rows": 5601,
+  "source_weight_sum": 1.000000000000024,
+  "source_posterior_ESS": 4409.522705450584,
+  "all_curves_valid": true,
+  "delta_logL": {
+    "0740_min": -0.5657450273962104,
+    "0740_weighted_median": 0.15860831003621811,
+    "0740_max": 0.5377150178707684,
+    "1231_min": -0.05583183438980832,
+    "1231_weighted_median": 0.0764625652381059,
+    "1231_max": 4.542090683667343,
+    "total_min": -0.5657450273962104,
+    "total_weighted_median": 0.15860831003621811,
+    "total_max": 0.5377150178707684
+  },
+  "weighted_primary": {
+    "shift": 0.1552969073696735,
+    "coefficient_variation_squared": 0.0016924055481675193,
+    "MC_error_approx": 0.0006195215653014268,
+    "adjusted_ratio_ESS": 4402.072613336337,
+    "reweighted_Kish_ESS": 4401.976206442312
+  },
+  "equal_weight_crosscheck": {
+    "shift": 0.15536758600732803,
+    "coefficient_variation_squared": 0.001677849758263017,
+    "MC_error_approx": 0.0006168516677255565,
+    "adjusted_ratio_ESS": 4402.13658165122,
+    "reweighted_Kish_ESS": 4291.994252951864,
+    "absolute_shift_difference": 7.067863765453097e-05,
+    "combined_MC_sigma_multiplier": 3.0,
+    "acceptance_tolerance": 0.0026227498067188893,
+    "pass": true
+  },
+  "minimum_ESS_gate": 100.0,
+  "evidence_convention": "raw",
+  "raw_logZ": -28.645930549882635,
+  "raw_logZ_error": 0.17624209535910157,
+  "raw_logZ_error_source": "results.logzerr",
+  "logger_displayed_center": null,
+  "logger_total_error": null,
+  "displayed_raw_logZ": -28.646,
+  "displayed_raw_logZ_error": 0.176,
+  "display_decimals": 3,
+  "corrected_logZ": -28.49063364251296,
+  "corrected_logZ_error": 0.17624318421867136
+}

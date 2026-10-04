@@ -1,0 +1,49 @@
+{
+ "description": "Fixtures of route2/checks/hyperonic_anet.py. Every certificate was verified row by row against its proposal and exact-likelihood files before extraction.",
+ "files": [
+  {
+   "file": "route2/fixtures/hyperonic_anet/networks/head9/anet_net.pt",
+   "sha256": "5f9eb01d90a9ed7818510ab30b7ce1a32aad7fe021ff05467d4bbcf50f980cd9"
+  },
+  {
+   "file": "route2/fixtures/hyperonic_anet/networks/head9/anet_std.npz",
+   "sha256": "d8d1d79b425e3923fa6636f9cec909cde71aab115eef0a79ad011b877ef174a8"
+  },
+  {
+   "file": "route2/fixtures/hyperonic_anet/networks/head9/run_report.json",
+   "sha256": "227a6f641e157450706c5d253badd291a844b6fc0369fe40e0f73640c3395ae4"
+  },
+  {
+   "file": "route2/fixtures/hyperonic_anet/networks/head7/anet_net.pt",
+   "sha256": "7233139ba1cfe1b89958384a15c8fe4a090f30df8f2b188400a1dfcb124e96b4"
+  },
+  {
+   "file": "route2/fixtures/hyperonic_anet/networks/head7/anet_std.npz",
+   "sha256": "aa0529c795a4a7361b6dd88b2d892019f41be76068825bf4f27f856f50a87aca"
+  },
+  {
+   "file": "route2/fixtures/hyperonic_anet/networks/head7/run_report.json",
+   "sha256": "68ebc7255292d322bbde2137c856cf5615884379ad9e0014a893df546a040958"
+  },
+  {
+   "file": "route2/fixtures/hyperonic_anet/networks/student/student_beta1_48c_df5_s075_seed20260990.joblib",
+   "sha256": "f5f4e11b6519d01b3ed740f43bdab4a3714bf1cacbecc900bd5015412751f78f"
+  },
+  {
+   "file": "route2/fixtures/hyperonic_anet/networks/student/student_beta1_48c_df5_s075_seed20260990.json",
+   "sha256": "152bea3b59c033e21e313ff3ed8abb22313e1ba073eaff0ea12af2bbb021e81d"
+  },
+  {
+   "file": "route2/fixtures/hyperonic_anet/replay_rows.npz",
+   "sha256": "b89f4b4d394ea85fbab1ef7c86406efd142629eb33f1d9939824b9ddd6e358b8"
+  },
+  {
+   "file": "route2/fixtures/hyperonic_anet/nuclear_shift_certificates.npz",
+   "sha256": "c677cb6c1107517de64674621875dc7b8487e6d7042bb9476d30c1bc4709f082"
+  },
+  {
+   "file": "route2/fixtures/hyperonic_anet/expected.json",
+   "sha256": "57a4a8ebe91ef604a4f0a3dc66267e3cc0ea4d264a93599d231f050c266327de"
+  }
+ ]
+}

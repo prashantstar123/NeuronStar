@@ -1,0 +1,124 @@
+{
+  "ancestor_sha256": [],
+  "ancestor_weights": [],
+  "beta": 1.0,
+  "checkpoint": "student_beta1_48c_df5_s075_seed20260990.joblib",
+  "checkpoint_sha256": "f5f4e11b6519d01b3ed740f43bdab4a3714bf1cacbecc900bd5015412751f78f",
+  "configuration": {
+    "components": 48,
+    "cross_validation_draws": 300000,
+    "cross_validation_folds": 5,
+    "degrees_of_freedom": 5.0,
+    "dimensions": 9,
+    "jitter_standard_deviations": 0.025,
+    "kernel": "multivariate_student_t",
+    "maximum_iterations": 300,
+    "regularization": 0.001,
+    "shape_scale_relative_to_gaussian_backbone": 0.75,
+    "training_draws": 500000
+  },
+  "cross_validation": [
+    {
+      "converged": true,
+      "fold": 0,
+      "iterations": 60,
+      "predicted_ess_fraction": 0.03420977331969677,
+      "source_mixture_predicted_ess_fraction": {
+        "0.1": 0.03845385434848138,
+        "0.25": 0.03349533518960302,
+        "0.5": 0.024610843716933752
+      },
+      "training_ess": 2633.666593212341,
+      "training_rows": 1376000,
+      "validation_rows": 344000,
+      "validation_target_ess": 648.7787336451026
+    },
+    {
+      "converged": true,
+      "fold": 1,
+      "iterations": 81,
+      "predicted_ess_fraction": 0.036079319927441456,
+      "source_mixture_predicted_ess_fraction": {
+        "0.1": 0.03458859534471021,
+        "0.25": 0.031116255089827335,
+        "0.5": 0.023985941623684556
+      },
+      "training_ess": 2596.3410525947506,
+      "training_rows": 1376000,
+      "validation_rows": 344000,
+      "validation_target_ess": 691.5058327942291
+    },
+    {
+      "converged": true,
+      "fold": 2,
+      "iterations": 78,
+      "predicted_ess_fraction": 0.04889656457502187,
+      "source_mixture_predicted_ess_fraction": {
+        "0.1": 0.049217306547330475,
+        "0.25": 0.04298374489437029,
+        "0.5": 0.030534766895771767
+      },
+      "training_ess": 2569.5412221500656,
+      "training_rows": 1376000,
+      "validation_rows": 344000,
+      "validation_target_ess": 727.9860805372516
+    },
+    {
+      "converged": true,
+      "fold": 3,
+      "iterations": 88,
+      "predicted_ess_fraction": 0.04835836987884345,
+      "source_mixture_predicted_ess_fraction": {
+        "0.1": 0.044482814357004886,
+        "0.25": 0.03798128107851108,
+        "0.5": 0.026682649569277912
+      },
+      "training_ess": 2661.9738493248674,
+      "training_rows": 1376000,
+      "validation_rows": 344000,
+      "validation_target_ess": 624.0789038432608
+    },
+    {
+      "converged": true,
+      "fold": 4,
+      "iterations": 82,
+      "predicted_ess_fraction": 0.03770800071451057,
+      "source_mixture_predicted_ess_fraction": {
+        "0.1": 0.036662196555709986,
+        "0.25": 0.031397262018847245,
+        "0.5": 0.02220388403709524
+      },
+      "training_ess": 2675.7971292468355,
+      "training_rows": 1376000,
+      "validation_rows": 344000,
+      "validation_target_ess": 620.2591340475132
+    }
+  ],
+  "degrees_of_freedom": 5.0,
+  "final_iterations": 77,
+  "fit_seconds": 856.1850082874298,
+  "input_ess": 3282.4425566061427,
+  "input_sha256": "7740c7cd625f89e49758e74f03635e67f1b74404916ac8ad8646faf1251c4e8d",
+  "learned_weight": 0.9,
+  "median_cv_ess_fraction": 0.03770800071451057,
+  "minimum_cv_ess_fraction": 0.03420977331969677,
+  "prior_weight": 0.1,
+  "schema": "ddb-hyperonic-clean-student-t-ensemble-v1",
+  "seed": 20260990,
+  "shape_scale": 0.75,
+  "source_mixture_cross_validation": {
+    "0.1": {
+      "median_predicted_ess_fraction": 0.03845385434848138,
+      "minimum_predicted_ess_fraction": 0.03458859534471021
+    },
+    "0.25": {
+      "median_predicted_ess_fraction": 0.03349533518960302,
+      "minimum_predicted_ess_fraction": 0.031116255089827335
+    },
+    "0.5": {
+      "median_predicted_ess_fraction": 0.024610843716933752,
+      "minimum_predicted_ess_fraction": 0.02220388403709524
+    }
+  },
+  "status": "PASS"
+}

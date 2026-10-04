@@ -1,0 +1,185 @@
+{
+ "description": "SHA-256 of every file of the hyperonic A-NET pipeline in hyperonic_pipeline/ (docs/route2/STEPS_ANET_HYPERONIC.md); the TSNPE code has its own manifest in hyperonic_pipeline/tsnpe/.",
+ "files": [
+  {
+   "file": "hyperonic_pipeline/assemble_likelihood_shards.py",
+   "sha256": "deb37250e6978f92fc65da43e4b2887c337906427859b12d7e5870ed0676fa17",
+   "role": "Stage-A tempered defensive AMIS bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/build_clean_hyperonic_augmented_correction.py",
+   "sha256": "1f6a5399afc8fd731783c49f8a1dfff486c62acaec90d44ac562d1d241cbace8",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/build_clean_hyperonic_parity_scenarios.py",
+   "sha256": "1bc88044b586c755969289a7c0b384e9db30cbee9efd9abf669840170461c6cf",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/build_clean_uniform_hyperonic_training_cache.py",
+   "sha256": "b7b67b54c943e9f38895da7012f8e3fccab4a1a697a910d56d71d6ab00d8fead",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/build_likelihood_data_cache.py",
+   "sha256": "3a9100f00126b87c131e9b47b4087606df520c946ba73941f6724d92692dc610",
+   "role": "production EOS, forward model, legacy target and UltraNest driver"
+  },
+  {
+   "file": "hyperonic_pipeline/build_portable_hyperonic_target_cache.py",
+   "sha256": "7781b227983d431a31eca4ec194d82fb529e706f544b03312d1068256fb5bcd8",
+   "role": "portable target and exact evaluation"
+  },
+  {
+   "file": "hyperonic_pipeline/certify_clean_anet_scenario.py",
+   "sha256": "269999520b9edcb075696d5da11bd45717ca2458a82391b4346b591787c7413c",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/certify_clean_anet_scenario_batches.py",
+   "sha256": "c7801f0d1d77764a19eb7c1fd631701777002fb1f2f727dd928cf867929d01fb",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/certify_fast_portable_target.py",
+   "sha256": "2ff7eb6c0cd77d2b44278539c799364cbd5758a127da0ec473745444a83eedb7",
+   "role": "portable target and exact evaluation"
+  },
+  {
+   "file": "hyperonic_pipeline/clean_flow.py",
+   "sha256": "f5c4794d489523568f7dfd418f16f664b1ef8e05f373465e5f4ba3855e92ef8a",
+   "role": "Stage-A tempered defensive AMIS bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/clean_gmm.py",
+   "sha256": "7ee7e7342d899f89d4bbc223cdb4d78c7687a6b0a15c32eb854479c17dc2f2e9",
+   "role": "Stage-A tempered defensive AMIS bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/clean_gmm_ensemble.py",
+   "sha256": "7e24dc24d809b313caaecca5d8d40f695990c176e37f96542847d8ef74eb51dd",
+   "role": "Stage-A tempered defensive AMIS bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/clean_student_t_ensemble.py",
+   "sha256": "d00ed833cc709f6858f1c335bf626dd7a5947d7b6228aee82765bd14efd248b3",
+   "role": "Stage-A tempered defensive AMIS bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/combine_clean_evaluations.py",
+   "sha256": "b34fa9681e00a42495f456f92a8cc12f5d3f0f335de0c34196cd06e6107ada46",
+   "role": "Stage-A tempered defensive AMIS bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/combine_mis_evaluations.py",
+   "sha256": "976d86fc4fd8de929690b9037e921b94b8ff1c8c465b44d0f2e60a9853211bd1",
+   "role": "Stage-A tempered defensive AMIS bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/compare_mass_radius_split_halves.py",
+   "sha256": "cd7c2143311361786741f1dabeeb2e8f11e6df15673f91e8d1db884a021b6ea8",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/ddb_hyperon_eos.py",
+   "sha256": "4aac0c1c64aa22cec5404cc1ce73811f3f5f1e8e106a394bcae7ff3b4663bd4c",
+   "role": "production EOS, forward model, legacy target and UltraNest driver"
+  },
+  {
+   "file": "hyperonic_pipeline/ddb_ultranest_hyp.py",
+   "sha256": "d0cb6f912a027e17022f7f17774c35fc478e663bf835c404dc27048d7a8b26c0",
+   "role": "production EOS, forward model, legacy target and UltraNest driver"
+  },
+  {
+   "file": "hyperonic_pipeline/ddb_ultranest_hyp_j1614.py",
+   "sha256": "c8821ff00bfd69ceea4d92d294f16ae152fac5bb202943aadcc91a83d232909e",
+   "role": "production EOS, forward model, legacy target and UltraNest driver"
+  },
+  {
+   "file": "hyperonic_pipeline/evaluate_clean_hyperonic_proposal_cache.py",
+   "sha256": "4dac6f74a7f6cd849a9a08c61af8cf08f7c0948b44896522b81032a358be1c03",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/evaluate_clean_hyperonic_support_cache.py",
+   "sha256": "c1dc3ccf6264cac75063894fb44d9e3ece5fc48ef60d8de6105fede106188ba6",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/fast_curve_full_shard.py",
+   "sha256": "f19ccbc095945faa35f04f5df2f6fef847c154bfff6be5d3c4138e8334fc7add",
+   "role": "production EOS, forward model, legacy target and UltraNest driver"
+  },
+  {
+   "file": "hyperonic_pipeline/fast_hyperonic_likelihood_shard.py",
+   "sha256": "7bf513c65ad857433e4cad047e3b276a9c8335195af5cf88e643a8337dc0de6e",
+   "role": "production EOS, forward model, legacy target and UltraNest driver"
+  },
+  {
+   "file": "hyperonic_pipeline/fast_portable_hyperonic_likelihood.py",
+   "sha256": "e14beeb225ebc5fbccd682b2b5113c33f6d00e46eec16cbefc1271bf94e7d162",
+   "role": "portable target and exact evaluation"
+  },
+  {
+   "file": "hyperonic_pipeline/generate_ddbhy_bank.py",
+   "sha256": "ec111d8faef27110df5303f0d920ce0c11bbb3b8b1557b6ed5a3dad7597edbfa",
+   "role": "production EOS, forward model, legacy target and UltraNest driver"
+  },
+  {
+   "file": "hyperonic_pipeline/merge_exact_evaluation.py",
+   "sha256": "54931dd46173c98254fbfd54cdf8f1b1d0e3a996c04cda86acb11fdd697d014a",
+   "role": "Stage-A tempered defensive AMIS bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/prior_manifest.json",
+   "sha256": "1fd54e1b6b93522727b26fa8372e3e80e00fb5461d078dbac9695b8953cd5d06",
+   "role": "Stage-A tempered defensive AMIS bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/resample_certified_posterior.py",
+   "sha256": "8edf575420c89bf25844ae42e661097605967207c31093ce90cfdcdae3be6e11",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/resample_certified_split_halves.py",
+   "sha256": "d13f890a9fd914abbb35614ab2690b4f0cd981569b9fc0d8d6acacc1f3aca0a5",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/sample_clean_hyperonic_dual_parity_mixture.py",
+   "sha256": "4abc85bc39d3532d12c6dcd384db4a49ae0d69cdbc515ac52463df3e009e2e87",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/sample_clean_hyperonic_parity_mixture.py",
+   "sha256": "13663a75e473064a5bebf86cb1978636e74674b339b11fbd0d291493f3b6bb01",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/screen_clean_hyperonic_support_enrichment.py",
+   "sha256": "28112a928fac7fec9b882570b8de268b0e92e8efc64444f5db3bcdce43c891e4",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/split_clean_proposal.py",
+   "sha256": "24b7881788daabb81580096262e4fef2f2b6fe666a14be29627a70f2698e6499",
+   "role": "Stage-A tempered defensive AMIS bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/split_locked_dual_query_proposal.py",
+   "sha256": "cdd230445c529cfb34d9a52a91ce2f75bdae75bedb97d0579381fab663312a5c",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/train_clean_hyperonic_parity_anet.py",
+   "sha256": "f72e6650a15c1950c5448577006b530ea7a9fd3e293871146b90153bca733574",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  },
+  {
+   "file": "hyperonic_pipeline/validate_parity_density_convergence.py",
+   "sha256": "ddc5ddf7af9b855245801297622639ab228e7a82954680a2fafd3bb03ec87e13",
+   "role": "A-NET dual parity: caches, correction, scenarios, heads, sampler, certification"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "redistribution_status": "published data releases, redistributed unchanged; sources, licences and citations in data/SOURCES.md",
+  "artifacts": [
+    {
+      "filename": "J0030_2spot_RM.txt",
+      "bytes": 20000305,
+      "sha256": "747a5cb77be8ea55da5eedf3ff41daa501d1fac426f3fd3d41e6d11088ac9dd2",
+      "role": "NICER PSR J0030+0451 mass-radius posterior",
+      "columns": {"radius_km": 0, "mass_msun": 1},
+      "weighted": false,
+      "source_url": null
+    },
+    {
+      "filename": "J0740_NICERXMM_full_mr.txt",
+      "bytes": 73357689,
+      "sha256": "f42272828d59572ea08caf56f34b933156e7266e1a69372cf1f2bef6d5ae99e1",
+      "role": "NICER/XMM PSR J0740+6620 mass-radius posterior",
+      "columns": {"radius_km": 0, "mass_msun": 1, "weight": 2},
+      "weighted": true,
+      "source_url": null
+    },
+    {
+      "filename": "J0437_post_equal_weights.dat",
+      "bytes": 116488749,
+      "sha256": "f943aedb57d93214c560358b53a94b2f0eaf8244261176442f0b788352a8a2dd",
+      "role": "NICER PSR J0437-4715 equal-weight mass-radius posterior",
+      "columns": {"mass_msun": 0, "radius_km": 1},
+      "weighted": false,
+      "source_url": null
+    },
+    {
+      "filename": "GW170817_GWTC-1.hdf5",
+      "bytes": 2520704,
+      "sha256": "eff59472991bb0f0fa8c1e58057093ce07b82eb4c112364e3578ba16fe54eca9",
+      "role": "GW170817 low-spin posterior",
+      "dataset": "IMRPhenomPv2NRT_lowSpin_posterior",
+      "source_url": null
+    }
+  ]
+}

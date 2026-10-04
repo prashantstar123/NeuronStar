@@ -1,0 +1,72 @@
+{
+  "schema": "green-en-support-extension-checkpoint-freeze-manifest-v1",
+  "created_at": "2026-09-23T15:53:00+09:00",
+  "authorization_basis": "exact checkpoint SHA-256 membership in this external manifest; checkpoint payload flags are ignored",
+  "members": [
+    {
+      "sector": "nucleonic",
+      "member": 9211,
+      "checkpoint_sha256": "bb34849b1d0874f81bb3e58d081eacb7f22bc582ee901586b61409bc1b4b39c7",
+      "training_report_sha256": "6cdac3d91959b4219dd3f7d94e84d7140acc5f057749159d48ee61622b56c01f",
+      "checkpoint_frozen": true,
+      "query_authorized": true,
+      "blind_to_first_heldout_query": true,
+      "evidence_space_weight": 0.3333333333333333
+    },
+    {
+      "sector": "nucleonic",
+      "member": 9212,
+      "checkpoint_sha256": "1f5372dd24be1dfaf05638f472a884973131a52b14809107b91004b4eb8daa02",
+      "training_report_sha256": "4a3468a436c0b5a76fa4162cfd16467ec8fedf3f73cfc24c77693ad591e374ca",
+      "checkpoint_frozen": true,
+      "query_authorized": true,
+      "blind_to_first_heldout_query": true,
+      "evidence_space_weight": 0.3333333333333333
+    },
+    {
+      "sector": "nucleonic",
+      "member": 9213,
+      "checkpoint_sha256": "7154e18977161d4c921a98de60a6c02e6283b4cedb9d70eae81125638d111260",
+      "training_report_sha256": "db50cf118c7cd99f2544656f315d7212d5ff74580e51641488204b20dbb89d85",
+      "checkpoint_frozen": true,
+      "query_authorized": true,
+      "blind_to_first_heldout_query": true,
+      "evidence_space_weight": 0.3333333333333333
+    },
+    {
+      "sector": "hyperonic",
+      "member": 9311,
+      "checkpoint_sha256": "0708eb54bb2c33bbe46a471ad9528395bd1ff667c5d13916e560cbdecd29e9d5",
+      "training_report_sha256": "ee1228ea1b9016a21c5acf268a08e50447f496a182ab7cb43c560e322ac2c0d0",
+      "checkpoint_frozen": true,
+      "query_authorized": true,
+      "blind_to_first_heldout_query": true,
+      "evidence_space_weight": 0.3333333333333333
+    },
+    {
+      "sector": "hyperonic",
+      "member": 9312,
+      "checkpoint_sha256": "f5b7d4e94492ec55a42bf35ba4c313d5f33813511d443d03d638acbf615cbc07",
+      "training_report_sha256": "9ae40a3f3becc57fa048c37d0163ee4fdc5c8c1760c23c92a5760a20515c06dc",
+      "checkpoint_frozen": true,
+      "query_authorized": true,
+      "blind_to_first_heldout_query": true,
+      "evidence_space_weight": 0.3333333333333333
+    },
+    {
+      "sector": "hyperonic",
+      "member": 9313,
+      "checkpoint_sha256": "3732bc7645ccee5e678b9385de287d2754bfcc9766f13bc5a1dfd09ee25be2d2",
+      "training_report_sha256": "90908b3389d0d1958b0fca6ccc903a53a3fbd54957764865a019e870ab39d4c2",
+      "checkpoint_frozen": true,
+      "query_authorized": true,
+      "blind_to_first_heldout_query": true,
+      "evidence_space_weight": 0.3333333333333333
+    }
+  ],
+  "heldout_files_present_on_training_hosts_at_freeze": false,
+  "heldout_query_performed_before_freeze": false,
+  "checkpoint_mutation": false,
+  "ultranest_used": false,
+  "anet_or_tsnpe_used": false
+}

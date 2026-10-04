@@ -1,0 +1,94 @@
+{
+ "description": "Observational data used by this package. Files larger than 45 MB are stored gzip-compressed and unpacked by './reproduce.sh check'; sha256 is that of the original (unpacked) file.",
+ "files": [
+  {
+   "path": "data/observations/GW170817_GWTC-1.hdf5",
+   "bytes": 2520704,
+   "sha256": "eff59472991bb0f0fa8c1e58057093ce07b82eb4c112364e3578ba16fe54eca9"
+  },
+  {
+   "path": "data/observations/J0030_2spot_RM.txt",
+   "bytes": 20000305,
+   "sha256": "747a5cb77be8ea55da5eedf3ff41daa501d1fac426f3fd3d41e6d11088ac9dd2"
+  },
+  {
+   "path": "data/observations/J0740_NICERXMM_full_mr.txt",
+   "bytes": 73357689,
+   "sha256": "f42272828d59572ea08caf56f34b933156e7266e1a69372cf1f2bef6d5ae99e1",
+   "stored_as": "data/observations/J0740_NICERXMM_full_mr.txt.gz",
+   "stored_bytes": 20319075,
+   "stored_sha256": "7f8804cf5f5c7a68699c422a56398c54d9adef8e99dfe1403fc3b25235495eb6"
+  },
+  {
+   "path": "data/observations/J0437_post_equal_weights.dat",
+   "bytes": 116488749,
+   "sha256": "f943aedb57d93214c560358b53a94b2f0eaf8244261176442f0b788352a8a2dd",
+   "stored_as": "data/observations/J0437_post_equal_weights.dat.gz",
+   "stored_bytes": 34424197,
+   "stored_sha256": "6b33e574b21e680d8c974db214de0ab7adb26bcca399cc67f17d5ea6310c5625"
+  },
+  {
+   "path": "data/observations/J0614_mrsamples.dat",
+   "bytes": 10047350,
+   "sha256": "d3e128070955ca3d30577254489efd58849686d377f4e0aa9674ac17b2df44a6"
+  },
+  {
+   "path": "data/observations/J1231_wmrsamples.txt",
+   "bytes": 79151100,
+   "sha256": "7f963ffa3a8667f22c71d55d99df6512daa7e41c8ca63a62fde96da472d5932e",
+   "stored_as": "data/observations/J1231_wmrsamples.txt.gz",
+   "stored_bytes": 31501020,
+   "stored_sha256": "378ee5fb73730e1a50b732180f80beabebed6c60372d62429684f0cd3e6cd622"
+  },
+  {
+   "path": "data/observations/J1614_STU_mrsamples_post_equal_weights.dat",
+   "bytes": 24886750,
+   "sha256": "bebc04bb8be8e827dc957c13d1dad48b715cdb0720a1cccb0149ed556b9545f4"
+  },
+  {
+   "path": "data/plotting_overlays/GW170817_50.csv",
+   "bytes": 5282,
+   "sha256": "47808dcb51fc0101d26ce5943045a42db5ddc4ede974bf885b4f7f28b4262e2c"
+  },
+  {
+   "path": "data/plotting_overlays/GW170817_90.csv",
+   "bytes": 4425,
+   "sha256": "ac3f73ebc352546124c9bc99ae063e35e8a144b83951947a76fb9e141ead8385"
+  },
+  {
+   "path": "data/plotting_overlays/J0437_4715_posterior_RM.dat",
+   "bytes": 5899036,
+   "sha256": "284f891221a2d36b52febed0bef78e7c3f0801997d0b527fa7ae22a4a4c7c9d7"
+  },
+  {
+   "path": "data/plotting_overlays/Miler_6620_lower1.png.dat",
+   "bytes": 459,
+   "sha256": "d79da3f58d94a9a857104bfc628be3496676996fbcc8a6ac41c82520be754cb6"
+  },
+  {
+   "path": "data/plotting_overlays/Miler_6620_upper1.png.dat",
+   "bytes": 462,
+   "sha256": "29e89a862788aae4f7fe73105707ed0e86c6d0d4fa3a899ac3189deb19dcaaae"
+  },
+  {
+   "path": "data/plotting_overlays/Miller_68_3_J0030_0451.csv",
+   "bytes": 1657,
+   "sha256": "811317eb2f11b218579158f4acb88926a978d3dd9569cefc1193ac28b802badd"
+  },
+  {
+   "path": "data/plotting_overlays/Riley_68_3_J0030_0451.csv",
+   "bytes": 1381,
+   "sha256": "8273d9794658b72572fe40e543fa50cff5c602848ef76cedcda65f02e3068dbe"
+  },
+  {
+   "path": "data/plotting_overlays/Riley_68_J0740_6620.csv",
+   "bytes": 1423,
+   "sha256": "8244a7e98f40061a40533d3176715097436d2a10d8ddec9ed18a5d672110a7a5"
+  },
+  {
+   "path": "data/plotting_overlays/Dittmann_68_J0740_6620.csv",
+   "bytes": 8151,
+   "sha256": "b99393516d880d09717d01a4bc0ca59e79f26457d6b1f0ca04d59d832f19cd2d"
+  }
+ ]
+}

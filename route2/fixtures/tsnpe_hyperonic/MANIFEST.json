@@ -1,0 +1,29 @@
+{
+ "description": "Fixtures of route2/checks/tsnpe_hyperonic.py. The SHA-256 of the published files, the hash chain down to the flow checkpoints and the all-row relations were verified before extraction.",
+ "files": [
+  {
+   "file": "route2/fixtures/tsnpe_hyperonic/crossfit_gmm_bridge.npz",
+   "sha256": "66948847795cfeefeb81a6e0822a345c5cca8bfcf2428e8544810d35d6a8369f"
+  },
+  {
+   "file": "route2/fixtures/tsnpe_hyperonic/crossfit_gmm_bridge.json",
+   "sha256": "220d2288f10ec68a8bdc30a31e471dba8215119aa139e2d746b834965eef82c4"
+  },
+  {
+   "file": "route2/fixtures/tsnpe_hyperonic/optimized_hybrid_model.npz",
+   "sha256": "a04f65dc183dffbde7dbc08ac725f7bd59a324a14dfed47e2617e58623d2cf36"
+  },
+  {
+   "file": "route2/fixtures/tsnpe_hyperonic/optimized_hybrid_model.json",
+   "sha256": "cd2f19300dd02c87cfe697d9b57b2441fb555471ebbffbfffe08168a1e9ef2d1"
+  },
+  {
+   "file": "route2/fixtures/tsnpe_hyperonic/replay_rows.npz",
+   "sha256": "95406854611c38b3ddc13ff1bebaacf4ca7cf5fa72791cb5962428c130416ef7"
+  },
+  {
+   "file": "route2/fixtures/tsnpe_hyperonic/expected.json",
+   "sha256": "de716718e081bfe468911fa4e6be0e66e3c31072dfb0cc854a1b49d99a843a6e"
+  }
+ ]
+}

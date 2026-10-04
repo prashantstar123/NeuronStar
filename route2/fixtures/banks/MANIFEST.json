@@ -1,0 +1,20 @@
+{
+ "description": "Fixtures of route2/checks/banks.py, written by assemble_route2_banks.py after every bank hash and all-row relation listed in expected.json was verified.",
+ "files": [
+  {
+   "file": "route2/fixtures/banks/rows.npz",
+   "bytes": 288296,
+   "sha256": "a2bba4fa7d6ba058492a8b47329e6d9dd66618cae47f306f9cdda792285abb81"
+  },
+  {
+   "file": "route2/fixtures/banks/expected.json",
+   "bytes": 18354,
+   "sha256": "6eb5971b2d51eb98c8ed1547e601234797d2685844ec13b20b8e239020565f04"
+  },
+  {
+   "file": "route2/fixtures/banks/student/student_beta1_48c_df5_s075_seed20260990.joblib",
+   "bytes": 65134,
+   "sha256": "f5f4e11b6519d01b3ed740f43bdab4a3714bf1cacbecc900bd5015412751f78f"
+  }
+ ]
+}

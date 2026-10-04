@@ -1,0 +1,758 @@
+{
+  "counts": {
+    "accepted_constituents_in_current_set": 23,
+    "provisional_rows_pending_desktop_runs": 4,
+    "rows": 16
+  },
+  "created_at": "2026-09-22 KST",
+  "manuscript_changed": false,
+  "pending_desktop_runs": {
+    "reason": "Four completed hyperonic desktop UltraNest runs were absent from the run list.  They must be classified and, if admissible, aggregated with this same fixed rule (run_values.json).",
+    "rows": [
+      {
+        "configuration": "Jsym_29",
+        "sector": "hyperonic"
+      },
+      {
+        "configuration": "Jsym_36",
+        "sector": "hyperonic"
+      },
+      {
+        "configuration": "K0_200",
+        "sector": "hyperonic"
+      },
+      {
+        "configuration": "K0_260",
+        "sector": "hyperonic"
+      }
+    ]
+  },
+  "policy": {
+    "multiple_independent_seeds": "Inverse-variance weighted mean; formal uncertainty multiplied by max(1, sqrt(Q/(n-1))).",
+    "per_run": "Use UltraNest info/results.json logz and logzerr.  Apply the verified NICER-weight correction to logz and add its Monte Carlo uncertainty in quadrature to logzerr.",
+    "selection": "Include every technically accepted independent evidence-producing seed; never select a seed by agreement with EN or another method.  Exclude only incomplete runs and timing-only replays of an already counted trajectory.",
+    "ultranest_authority": {
+      "metadata_sha256": "cfdccf055d15469855400bdc65f7793de1cab5bdc0720781dbb32225889158c4",
+      "package": "UltraNest 4.5.0",
+      "source_sha256": "b09d3319195675a84bace46ed789977bab1bdc864715b98d7b1995c654de0c22",
+      "source_statement": "Users are advised to use logz +/- logzerr as the best evidence estimate and error."
+    }
+  },
+  "primary_results_integrity": {
+    "all_match": true,
+    "files_checked": 23,
+    "status": "PASS"
+  },
+  "rows": [
+    {
+      "aggregate": {
+        "Q": 0.0,
+        "birge_ratio": 1.0,
+        "dof": 0,
+        "formal_sigma": 0.2420964462242041,
+        "logz": -25.466634801026515,
+        "n": 1,
+        "normalized_inverse_variance_weights": [
+          1.0
+        ],
+        "sigma": 0.2420964462242041
+      },
+      "configuration": "A1",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "constituent_report": "nuc_a1.json",
+          "constituent_report_sha256": "9288bdf051febe262c87ca4e761d33f5d30210ff5b541a4f62029117b1827d06",
+          "corrected_logz": -25.466634801026515,
+          "corrected_sigma": 0.24209644622420412,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_a1",
+          "nicer_weight_correction": 0.19167577500897082,
+          "nicer_weight_correction_mc_sigma": 0.0003253371204359416,
+          "raw_results_logz": -25.658310576035486,
+          "raw_results_sigma": 0.2420962276247753,
+          "seed_label": "certified"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": true,
+      "sector": "nucleonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.0,
+        "birge_ratio": 1.0,
+        "dof": 0,
+        "formal_sigma": 0.21464781036350336,
+        "logz": -25.630729683520727,
+        "n": 1,
+        "normalized_inverse_variance_weights": [
+          1.0
+        ],
+        "sigma": 0.21464781036350336
+      },
+      "configuration": "K0_200",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "corrected_logz": -25.630729683520727,
+          "corrected_sigma": 0.2146478103635034,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_K0_200",
+          "nicer_weight_correction": 0.19604887472927857,
+          "nicer_weight_correction_mc_sigma": 0.0003022678760417293,
+          "raw_results_logz": -25.826778558250005,
+          "raw_results_sigma": 0.21464759753600232,
+          "results_json_sha256": "a3d7640a7dccf3270bf4ef17466156d033eb107c382033274694dd2a73237ce6",
+          "seed_label": "certified"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "direct_input": true
+      },
+      "manuscript_ready": true,
+      "sector": "nucleonic"
+    },
+    {
+      "aggregate": {
+        "Q": 2.936316586507769,
+        "birge_ratio": 1.7135683781243658,
+        "dof": 1,
+        "formal_sigma": 0.09340226518447954,
+        "logz": -25.86457286378642,
+        "n": 2,
+        "normalized_inverse_variance_weights": [
+          0.8302325099234712,
+          0.1697674900765289
+        ],
+        "sigma": 0.16005116806531053
+      },
+      "configuration": "K0_260",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "constituent_report": "nuc_k0260_s0.json",
+          "constituent_report_sha256": "e709fdb42f3df1298a2ad6f30cf9d1ef698df079df2594889526029858c5f8ce",
+          "corrected_logz": -25.936947475086804,
+          "corrected_sigma": 0.10250794829800847,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_k0260_s0",
+          "nicer_weight_correction": 0.18541952372167714,
+          "nicer_weight_correction_mc_sigma": 0.0002999681705814797,
+          "raw_results_logz": -26.12236699880848,
+          "raw_results_sigma": 0.10250750939986697,
+          "seed_label": "original"
+        },
+        {
+          "constituent_report": "nuc_k0260_s1.json",
+          "constituent_report_sha256": "e084f484f0ee107a73c6d1e4b74a9489a57b422b20f913eb6acb3d63cf31ea23",
+          "corrected_logz": -25.510631392615657,
+          "corrected_sigma": 0.2266888424862247,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_k0260_s1",
+          "nicer_weight_correction": 0.18552804096577447,
+          "nicer_weight_correction_mc_sigma": 0.0003165851749308477,
+          "raw_results_logz": -25.696159433581432,
+          "raw_results_sigma": 0.22668862142059845,
+          "seed_label": "r1"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": true,
+      "sector": "nucleonic"
+    },
+    {
+      "aggregate": {
+        "Q": 1.2082645493617017,
+        "birge_ratio": 1.0992108757475527,
+        "dof": 1,
+        "formal_sigma": 0.09622174390368167,
+        "logz": -25.5960860031904,
+        "n": 2,
+        "normalized_inverse_variance_weights": [
+          0.7378358482626731,
+          0.2621641517373269
+        ],
+        "sigma": 0.10576798738232267
+      },
+      "configuration": "Jsym_29",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "constituent_report": "nuc_j29_s0.json",
+          "constituent_report_sha256": "bd9b49f60fc926bef79afab048108a22efbf4ada1820fcf18cdac5f15b84ae63",
+          "corrected_logz": -25.659132508359257,
+          "corrected_sigma": 0.11201942723532363,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_j29_s0",
+          "nicer_weight_correction": 0.19123443834798337,
+          "nicer_weight_correction_mc_sigma": 0.0003249863681474854,
+          "raw_results_logz": -25.85036694670724,
+          "raw_results_sigma": 0.1120189558154801,
+          "seed_label": "original"
+        },
+        {
+          "constituent_report": "nuc_j29_s1.json",
+          "constituent_report_sha256": "3a6f42c2212472ed95f197f2fde501de9c87397f0e06106106b5225cf346d7dc",
+          "corrected_logz": -25.418647664222274,
+          "corrected_sigma": 0.1879258705088954,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_j29_s1",
+          "nicer_weight_correction": 0.191576528220903,
+          "nicer_weight_correction_mc_sigma": 0.0003115887168831936,
+          "raw_results_logz": -25.610224192443177,
+          "raw_results_sigma": 0.18792561219535145,
+          "seed_label": "r1"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": true,
+      "sector": "nucleonic"
+    },
+    {
+      "aggregate": {
+        "Q": 2.1531573463578857,
+        "birge_ratio": 1.0375830921805458,
+        "dof": 2,
+        "formal_sigma": 0.09783507893786529,
+        "logz": -25.76586969616167,
+        "n": 3,
+        "normalized_inverse_variance_weights": [
+          0.6155741261477502,
+          0.24278777568787,
+          0.14163809816437978
+        ],
+        "sigma": 0.10151202372807805
+      },
+      "configuration": "Jsym_36",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "constituent_report": "nuc_j36_s0.json",
+          "constituent_report_sha256": "4d0508e691da8f4e3214560d89a6d8d74ea80b8ee46b50dca2359a6049e11fa5",
+          "corrected_logz": -25.876302706419924,
+          "corrected_sigma": 0.12469654517084189,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_j36_s0",
+          "nicer_weight_correction": 0.1903156406754718,
+          "nicer_weight_correction_mc_sigma": 0.00030621497917139345,
+          "raw_results_logz": -26.066618347095396,
+          "raw_results_sigma": 0.12469616918706983,
+          "seed_label": "original"
+        },
+        {
+          "constituent_report": "nuc_j36_s1.json",
+          "constituent_report_sha256": "ef6d4e423e0b385463102a742bebcb8081b440dac97adc2bb6571c8737da06e1",
+          "corrected_logz": -25.548532126691786,
+          "corrected_sigma": 0.1985551662699393,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_j36_s1",
+          "nicer_weight_correction": 0.19031189006651772,
+          "nicer_weight_correction_mc_sigma": 0.00029724237841017285,
+          "raw_results_logz": -25.738844016758303,
+          "raw_results_sigma": 0.1985549437799314,
+          "seed_label": "r1"
+        },
+        {
+          "constituent_report": "nuc_j36_s2.json",
+          "constituent_report_sha256": "ca96a405e4ab757cd0994e624bc110ffb6a4f9b653b8d011cbd2f31faf13ee47",
+          "corrected_logz": -25.658463575070346,
+          "corrected_sigma": 0.2599588196775713,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_j36_s2",
+          "nicer_weight_correction": 0.1898917342979125,
+          "nicer_weight_correction_mc_sigma": 0.0003037790345100554,
+          "raw_results_logz": -25.84835530936826,
+          "raw_results_sigma": 0.25995864218458714,
+          "seed_label": "r2"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": true,
+      "sector": "nucleonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.0,
+        "birge_ratio": 1.0,
+        "dof": 0,
+        "formal_sigma": 0.16026034801258707,
+        "logz": -26.97234460555942,
+        "n": 1,
+        "normalized_inverse_variance_weights": [
+          1.0
+        ],
+        "sigma": 0.16026034801258707
+      },
+      "configuration": "J0614",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "constituent_report": "nuc_j0614.json",
+          "constituent_report_sha256": "f02fa76f02061ab4e22abc8e58feecbb9ca1dd6240b402b761f96158eb496d76",
+          "corrected_logz": -26.97234460555942,
+          "corrected_sigma": 0.16026034801258707,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_j0614",
+          "nicer_weight_correction": 0.19730156637730545,
+          "nicer_weight_correction_mc_sigma": 0.00031641084511474494,
+          "raw_results_logz": -27.169646171936726,
+          "raw_results_sigma": 0.16026003565859023,
+          "seed_label": "mirror"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": true,
+      "sector": "nucleonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.0,
+        "birge_ratio": 1.0,
+        "dof": 0,
+        "formal_sigma": 0.21325744909023345,
+        "logz": -26.448109984577727,
+        "n": 1,
+        "normalized_inverse_variance_weights": [
+          1.0
+        ],
+        "sigma": 0.21325744909023345
+      },
+      "configuration": "J1231",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "constituent_report": "nuc_j1231.json",
+          "constituent_report_sha256": "649ae339b3bbd0c5fed5cd1a2ebee95b9f7b69175c174ea2b292522c9f28db66",
+          "corrected_logz": -26.448109984577727,
+          "corrected_sigma": 0.21325744909023345,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "nuc_j1231",
+          "nicer_weight_correction": 0.227898808505973,
+          "nicer_weight_correction_mc_sigma": 0.0017905454646652754,
+          "raw_results_logz": -26.6760087930837,
+          "raw_results_sigma": 0.21324993209708762,
+          "seed_label": "mirror"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": true,
+      "sector": "nucleonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.0,
+        "birge_ratio": 1.0,
+        "dof": 0,
+        "formal_sigma": 0.2858673576171157,
+        "logz": -25.565178048964246,
+        "n": 1,
+        "normalized_inverse_variance_weights": [
+          1.0
+        ],
+        "sigma": 0.2858673576171157
+      },
+      "configuration": "J1614",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "corrected_logz": -25.565178048964246,
+          "corrected_sigma": 0.2858673576171157,
+          "evidence_source": "direct UltraNest info/results.json; target likelihood already final",
+          "id": "nuc_J1614_20260917",
+          "nicer_weight_correction": 0.0,
+          "nicer_weight_correction_mc_sigma": 0.0,
+          "raw_results_logz": -25.565178048964246,
+          "raw_results_sigma": 0.2858673576171157,
+          "seed_label": "20260917"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "direct_input": true
+      },
+      "manuscript_ready": true,
+      "sector": "nucleonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.3286893401668423,
+        "birge_ratio": 1.0,
+        "dof": 1,
+        "formal_sigma": 0.1262077443925542,
+        "logz": -28.758991578963744,
+        "n": 2,
+        "normalized_inverse_variance_weights": [
+          0.6185449206387422,
+          0.3814550793612577
+        ],
+        "sigma": 0.1262077443925542
+      },
+      "configuration": "A1",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "constituent_report": "hyp_a1_s1.json",
+          "constituent_report_sha256": "8f83727abbe506dad1f4993318b60faa6aac6401015348f0df0974ed30c892a6",
+          "corrected_logz": -28.702169791226254,
+          "corrected_sigma": 0.16047241280568117,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "hyp_a1_s1",
+          "nicer_weight_correction": 0.1578251886789701,
+          "nicer_weight_correction_mc_sigma": 0.0006231112743629305,
+          "raw_results_logz": -28.859994979905224,
+          "raw_results_sigma": 0.16047120303660936,
+          "seed_label": "771"
+        },
+        {
+          "constituent_report": "hyp_a1_s2.json",
+          "constituent_report_sha256": "2ce8b91216f1ac441fcc4a601d41cccd3389cbaf03a7a57ce42367c9336b0bf9",
+          "corrected_logz": -28.851130418078156,
+          "corrected_sigma": 0.20434513561714615,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "hyp_a1_s2",
+          "nicer_weight_correction": 0.15926117638845128,
+          "nicer_weight_correction_mc_sigma": 0.0005849814047542129,
+          "raw_results_logz": -29.010391594466608,
+          "raw_results_sigma": 0.20434429829859688,
+          "seed_label": "772"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": true,
+      "sector": "hyperonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.0,
+        "birge_ratio": 1.0,
+        "dof": 0,
+        "formal_sigma": 0.35752530471964294,
+        "logz": -29.39449817913095,
+        "n": 1,
+        "normalized_inverse_variance_weights": [
+          1.0
+        ],
+        "sigma": 0.35752530471964294
+      },
+      "configuration": "K0_200",
+      "constituent_set_status": "PROVISIONAL_PENDING_DESKTOP_RUNS",
+      "constituents": [
+        {
+          "constituent_report": "hyp_k0200.json",
+          "constituent_report_sha256": "ba2604b22bf561c840cd26ba29768ba6c27e3daf15d9433c6ace3bc2ae446212",
+          "corrected_logz": -29.39449817913095,
+          "corrected_sigma": 0.35752530471964294,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "hyp_k0200",
+          "nicer_weight_correction": 0.16347922766506073,
+          "nicer_weight_correction_mc_sigma": 0.0006612172383215629,
+          "raw_results_logz": -29.55797740679601,
+          "raw_results_sigma": 0.35752469328234837,
+          "seed_label": "0200"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": false,
+      "sector": "hyperonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.0,
+        "birge_ratio": 1.0,
+        "dof": 0,
+        "formal_sigma": 0.22536981499108666,
+        "logz": -28.680631186518134,
+        "n": 1,
+        "normalized_inverse_variance_weights": [
+          1.0
+        ],
+        "sigma": 0.22536981499108666
+      },
+      "configuration": "K0_260",
+      "constituent_set_status": "PROVISIONAL_PENDING_DESKTOP_RUNS",
+      "constituents": [
+        {
+          "constituent_report": "hyp_k0260.json",
+          "constituent_report_sha256": "bbdaacb4239db1d05a259039f37695466eeac62a62b6a1c826d8d56d64ad6340",
+          "corrected_logz": -28.680631186518134,
+          "corrected_sigma": 0.22536981499108666,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "hyp_k0260",
+          "nicer_weight_correction": 0.1506028258150316,
+          "nicer_weight_correction_mc_sigma": 0.0005976142133462205,
+          "raw_results_logz": -28.831234012333166,
+          "raw_results_sigma": 0.22536902264146383,
+          "seed_label": "0260"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": false,
+      "sector": "hyperonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.7488813455632264,
+        "birge_ratio": 1.0,
+        "dof": 1,
+        "formal_sigma": 0.11997815641047783,
+        "logz": -28.552670877000757,
+        "n": 2,
+        "normalized_inverse_variance_weights": [
+          0.44655900105764174,
+          0.5534409989423582
+        ],
+        "sigma": 0.11997815641047783
+      },
+      "configuration": "Jsym_29",
+      "constituent_set_status": "PROVISIONAL_PENDING_DESKTOP_RUNS",
+      "constituents": [
+        {
+          "constituent_report": "hyp_j29_s2.json",
+          "constituent_report_sha256": "1b95c8658a63fc441b438165e3988724ca25e150f4ec6f09689ec23e440e4de3",
+          "corrected_logz": -28.66825679617815,
+          "corrected_sigma": 0.17954063648045296,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "hyp_j29_s2",
+          "nicer_weight_correction": 0.15547439215959002,
+          "nicer_weight_correction_mc_sigma": 0.0006242743593601536,
+          "raw_results_logz": -28.82373118833774,
+          "raw_results_sigma": 0.1795395511560904,
+          "seed_label": "129"
+        },
+        {
+          "constituent_report": "hyp_j29_s1.json",
+          "constituent_report_sha256": "41e31f90eebb276d1aa8c74bfc637ccfa94d747c8284f4308aeb7dbf5c1f6ca2",
+          "corrected_logz": -28.459407217996773,
+          "corrected_sigma": 0.16127480296952873,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "hyp_j29_s1",
+          "nicer_weight_correction": 0.15661629395192023,
+          "nicer_weight_correction_mc_sigma": 0.0005882976238084395,
+          "raw_results_logz": -28.616023511948693,
+          "raw_results_sigma": 0.16127372997102205,
+          "seed_label": "29"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": false,
+      "sector": "hyperonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.0,
+        "birge_ratio": 1.0,
+        "dof": 0,
+        "formal_sigma": 0.2259799443045538,
+        "logz": -29.015797761153106,
+        "n": 1,
+        "normalized_inverse_variance_weights": [
+          1.0
+        ],
+        "sigma": 0.2259799443045538
+      },
+      "configuration": "Jsym_36",
+      "constituent_set_status": "PROVISIONAL_PENDING_DESKTOP_RUNS",
+      "constituents": [
+        {
+          "constituent_report": "hyp_j36.json",
+          "constituent_report_sha256": "2e38f00931f8c989f86ab670453d41924edb6a6fea3ad05d89bcbb68df89a02b",
+          "corrected_logz": -29.015797761153106,
+          "corrected_sigma": 0.2259799443045538,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "hyp_j36",
+          "nicer_weight_correction": 0.16102486528258453,
+          "nicer_weight_correction_mc_sigma": 0.0005998716524282401,
+          "raw_results_logz": -29.17682262643569,
+          "raw_results_sigma": 0.225979148113028,
+          "seed_label": "36"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": false,
+      "sector": "hyperonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.0,
+        "birge_ratio": 1.0,
+        "dof": 0,
+        "formal_sigma": 0.25876792555904804,
+        "logz": -31.533307759903145,
+        "n": 1,
+        "normalized_inverse_variance_weights": [
+          1.0
+        ],
+        "sigma": 0.25876792555904804
+      },
+      "configuration": "J0614",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "constituent_report": "hyp_j0614.json",
+          "constituent_report_sha256": "f53b4f89734da74058e22af4132a45fcf420843239c4c22099936a514958702b",
+          "corrected_logz": -31.533307759903145,
+          "corrected_sigma": 0.25876792555904804,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "hyp_j0614",
+          "nicer_weight_correction": 0.17557123743926795,
+          "nicer_weight_correction_mc_sigma": 0.0007146240311968652,
+          "raw_results_logz": -31.708878997342413,
+          "raw_results_sigma": 0.2587669387897671,
+          "seed_label": "614"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": true,
+      "sector": "hyperonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.0,
+        "birge_ratio": 1.0,
+        "dof": 0,
+        "formal_sigma": 0.19504061968999428,
+        "logz": -29.23963482331731,
+        "n": 1,
+        "normalized_inverse_variance_weights": [
+          1.0
+        ],
+        "sigma": 0.19504061968999428
+      },
+      "configuration": "J1231",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "constituent_report": "hyp_j1231.json",
+          "constituent_report_sha256": "5b861bd1469cc7d157b63adfcc2fccaa13996d76ddebce983bbaa39a75922ed1",
+          "corrected_logz": -29.23963482331731,
+          "corrected_sigma": 0.19504061968999428,
+          "evidence_source": "UltraNest info/results.json plus verified NICER-weight correction",
+          "id": "hyp_j1231",
+          "nicer_weight_correction": 0.17426938500706513,
+          "nicer_weight_correction_mc_sigma": 0.0012575747191190525,
+          "raw_results_logz": -29.413904208324375,
+          "raw_results_sigma": 0.19503656537911762,
+          "seed_label": "1231"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "Q": true,
+        "birge_sigma": true,
+        "formal_sigma": true,
+        "logz": true
+      },
+      "manuscript_ready": true,
+      "sector": "hyperonic"
+    },
+    {
+      "aggregate": {
+        "Q": 0.016426562064943823,
+        "birge_ratio": 1.0,
+        "dof": 1,
+        "formal_sigma": 0.10941429661648008,
+        "logz": -28.788799220151596,
+        "n": 2,
+        "normalized_inverse_variance_weights": [
+          0.4654093968516202,
+          0.5345906031483799
+        ],
+        "sigma": 0.10941429661648008
+      },
+      "configuration": "J1614",
+      "constituent_set_status": "COMPLETE_ACCEPTED_SET",
+      "constituents": [
+        {
+          "corrected_logz": -28.803828580547393,
+          "corrected_sigma": 0.16038232277219577,
+          "evidence_source": "direct UltraNest info/results.json; target likelihood already final",
+          "id": "hyp_J1614_replica_1",
+          "nicer_weight_correction": 0.0,
+          "nicer_weight_correction_mc_sigma": 0.0,
+          "raw_results_logz": -28.803828580547393,
+          "raw_results_sigma": 0.16038232277219577,
+          "seed_label": "replica_1"
+        },
+        {
+          "corrected_logz": -28.77571480468361,
+          "corrected_sigma": 0.14964541413492727,
+          "evidence_source": "direct UltraNest info/results.json; target likelihood already final",
+          "id": "hyp_J1614_replica_2",
+          "nicer_weight_correction": 0.0,
+          "nicer_weight_correction_mc_sigma": 0.0,
+          "raw_results_logz": -28.77571480468361,
+          "raw_results_sigma": 0.14964541413492727,
+          "seed_label": "replica_2"
+        }
+      ],
+      "independent_reconstruction_checks": {
+        "stored_center": true,
+        "stored_scatter_aware_sigma": true
+      },
+      "manuscript_ready": true,
+      "sector": "hyperonic"
+    }
+  ],
+  "schema": "ultranest-evidence-aggregation-v1",
+  "scope": "UltraNest evidence centers and one-sigma uncertainties only; excludes wall times, resources, live points, and evaluation counts",
+  "status": "PASS_WITH_PENDING_DESKTOP_RUNS"
+}

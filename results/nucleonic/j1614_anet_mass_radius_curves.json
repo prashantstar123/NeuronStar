@@ -1,0 +1,32 @@
+{
+  "chunk_size": 2048,
+  "credible_interval": "weighted midpoint-CDF [0.05,0.50,0.95]",
+  "input_sha256": "5f62ebac6d4ea01a3007a0986c0b7ddaed2a349cdf344eae663ee3a5a251768f",
+  "method": "anet",
+  "output_sha256": "9b20c2eef51bbdd8db01afe83d4f01e29dd79870da0960e2b242ab8f36988e71",
+  "posterior_ess": 3295.7937543901085,
+  "posterior_rows": 31459,
+  "posterior_sha256": "9a02652a67b135b390bc6f0fc4c0a6e49caeaab372dc4d393c4310bffa234b0f",
+  "scalar_intervals_q05_q50_q95": {
+    "maximum_mass_msun": [
+      1.9391227217307563,
+      2.02018671486144,
+      2.1559798634188194
+    ],
+    "radius_1p4_km": [
+      11.505355817203254,
+      12.175371571329665,
+      12.86367081529922
+    ],
+    "radius_at_maximum_mass_km": [
+      10.256082231745436,
+      10.698490997915709,
+      11.267342956409653
+    ]
+  },
+  "status": "PASS",
+  "target": "A1 with J1614 replacing J0740",
+  "valid_curve_rows": 31459,
+  "wall_seconds": 273.4815926551819,
+  "workers": 20
+}

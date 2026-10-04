@@ -1,0 +1,30 @@
+# Route 2: the exact package versions the Route 2 checks were verified with (includes all Route 1 packages).
+# Install with:  pip install -r requirements-route2.txt   (inside Python 3.11)
+# PyTorch is the CPU build. For an NVIDIA GPU, see MANUAL_ROUTE2.md, step 2.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.4.6
+scipy==1.17.1
+numba==0.65.1
+jax==0.10.2
+jaxlib==0.10.2
+h5py==3.16.0
+joblib==1.5.3
+scikit-learn==1.9.1
+torch==2.5.1+cpu
+sbi==0.25.0
+zuko==1.6.0
+ultranest==4.5.0
+CompactObject-TOV==2.1
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.63.0
+kiwisolver==1.5.0
+matplotlib==3.11.1
+packaging==26.2
+pandas==3.0.5
+pillow==12.3.0
+pyparsing==3.3.2
+pypdfium2==5.13.0
+python-dateutil==2.9.0.post0
+seaborn==0.13.2
+six==1.17.0

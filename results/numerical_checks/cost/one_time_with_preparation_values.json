@@ -1,0 +1,65 @@
+{
+ "description": "One-time A-NET rows of Table VII including the preparation of the A-NET training data. Times in hours unless the key says otherwise; preparation items are [seconds, likelihood evaluations].",
+ "nucleonic": {
+  "preparation_items_s_and_evaluations": {
+   "scenario construction": [
+    729.0,
+    0
+   ]
+  },
+  "preparation_total_min": 12.15,
+  "one_time_h": 1.3736111111111111,
+  "one_time_h_printed": "1.4",
+  "one_time_evaluations": 0,
+  "all_eight_h": 2.0705515791304907,
+  "all_eight_h_printed": "2.1",
+  "all_eight_evaluations": 136000,
+  "ultranest_all_eight_h": [
+   33.2406244847747,
+   34.76730839959924
+  ],
+  "speedup": [
+   16.05399489672882,
+   16.791326886046207
+  ],
+  "speedup_printed": [
+   "16",
+   "17"
+  ]
+ },
+ "hyperonic": {
+  "preparation_items_s_and_evaluations": {
+   "proposal-row caches, longest of three parallel parts": [
+    2879.9564990997314,
+    300000
+   ],
+   "scenario construction": [
+    211.13905096054077,
+    0
+   ],
+   "counting correction": [
+    5.49362587928772,
+    0
+   ]
+  },
+  "preparation_total_min": 51.609819598992665,
+  "one_time_h": 6.65003256228235,
+  "one_time_h_printed": "6.7",
+  "one_time_evaluations": 2940000,
+  "all_eight_h": 7.314233082718319,
+  "all_eight_h_printed": "7.3",
+  "all_eight_evaluations": 3190000,
+  "ultranest_all_eight_h": [
+   24.780483190936344,
+   25.083637174035285
+  ],
+  "speedup": [
+   3.38798106523107,
+   3.4294281970999214
+  ],
+  "speedup_printed": [
+   "3.4",
+   "3.4"
+  ]
+ }
+}

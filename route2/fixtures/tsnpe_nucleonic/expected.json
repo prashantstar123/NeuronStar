@@ -1,0 +1,88 @@
+{
+ "description": "Values replayed by route2/checks/tsnpe_nucleonic.py (nucleonic TSNPE+MIS, A1): the final stage of inference/tsnpe/run_mis.py with its defaults (seed 0) and the frozen estimator (release file tsnpe_nucleonic_mis_a1_20261003.npz).",
+ "row_selection": {
+  "seed": 20261003,
+  "largest": 6,
+  "random": 8,
+  "rule": "6 largest weights + 8 random rows with a positive weight; all rows without a finite weight"
+ },
+ "mis": {
+  "rows": 105000,
+  "rows_without_weight": 3,
+  "positive_rows": 104846,
+  "component_counts": {
+   "flow": 60000,
+   "broad_truncated_gaussian": 15000,
+   "mild_truncated_gaussian": 30000,
+   "total": 105000
+  },
+  "stored": {
+   "ESS": 30762.69954869431,
+   "logZ": -25.54882648807424,
+   "logZ_standard_error": 0.004794091095419824
+  },
+  "run_report": {
+   "ess": 30762.69954869431,
+   "log_evidence": -25.54882648807424,
+   "log_evidence_standard_error": 0.004794068266360253
+  }
+ },
+ "proposal": {
+  "seed": 0,
+  "broad_scale": 2.5,
+  "mild_scale": 1.5,
+  "normalization_draws": 2000000,
+  "truncation_normalizations": {
+   "broad": 0.3389215,
+   "mild": 0.729833
+  }
+ },
+ "route1": {
+  "file": "results/nucleonic/a1_parameter_posteriors.npz",
+  "positive_rows": 104846,
+  "sha256": "b9ec0c973b66d7d328321ae27bd1efb1f64a75e1212b3d28e90714f9d20e905e"
+ },
+ "estimator": {
+  "posterior_final_rows": 20000,
+  "ks_draws": 20000,
+  "ks_torch_seed": 0,
+  "ks_family_alpha": 0.001,
+  "architecture": "sbi NSF (nflows): 10 coupling transforms, 256 hidden features, 10 bins"
+ },
+ "training_record": {
+  "rounds": 6,
+  "simulations": [
+   30000,
+   20000,
+   20000,
+   20000,
+   20000,
+   20000
+  ],
+  "accepted": [
+   908,
+   994,
+   1233,
+   1442,
+   1604,
+   1695
+  ],
+  "nsim_total": 132000,
+  "pilot_implied": 2000,
+  "wall_minutes": 26.2046129822731,
+  "acceptance_log_reference": -9.036274491550724
+ },
+ "code_identity": {
+  "inference/tsnpe/__init__.py": "0f0ecbb8328c34c2db4bd334adf939b52f7de86c77442d3169371261bd8ee4cb",
+  "inference/tsnpe/checkpoints/flow_nucmm_tight.pt": "5edc669c649337466d1af6248751eec41473005c4e6b4544eb0a29801ac3a68b",
+  "inference/tsnpe/checkpoints/flow_nucmm_tight_std.npz": "0a9d955d3a5d1617b8caca5ed8c22e8ab152ecb99257574552213dcb87196a48",
+  "inference/tsnpe/mixture.py": "2750fab89140948bcf858576fdb042fc8409940f369463bac8822e966e4afead",
+  "inference/tsnpe/run_mis.py": "9ceff458829be36ab86c88b9f539f3e85ff7138bf61efc24c4740e8e78fc90aa",
+  "inference/tsnpe/train.py": "d9c06a6611c261066608fa7d35ee81da3efc071342e22cfafd16c0ba726ee67f",
+  "inference/tsnpe/train_seed.py": "b29dc8ec8973a6f9eb9acfcbc60bc042187a88ec266b16015c34984a1ef7dbdb"
+ },
+ "release_files": {
+  "tsnpe_nucleonic_mis_a1_20261003.npz": "4f4c67bfd0ace88f6d69fac383b44284c5f97a462b2ebf4a0f5a674ae1c2a594",
+  "tsnpe_nucleonic_density_estimator.pt": "78dddcd5ef34c8e9a9e5c530284d19931597cb993191433297899caac38c2b90"
+ }
+}

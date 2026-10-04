@@ -1,0 +1,31 @@
+{
+  "base_certificate_sha256": "b498e2283b661e9c2bf5d08a7689d490a9a6de852749b2529897beeb87f7efe8",
+  "delta_log_likelihood_ranges": {
+    "J0614_minus_J0437": [
+      -10.529363478625907,
+      -0.8257179815786984
+    ],
+    "J1231_minus_J0030": [
+      -7.433912011301807,
+      1.247386501381083
+    ]
+  },
+  "elapsed_seconds": 32.4098596572876,
+  "output": "workflows/data/source_target_certification.npz",
+  "output_sha256": "3661345265f95d26de93a64c120f13ca0a3aed9f6c65fe9626d522d93558c332",
+  "reference_code_sha256": {
+    "nicer_like.py": "214af2ef772260a25d4011f4e42a9d013e1972da2dc9fc15581b40e3d0ec760b",
+    "ddb_certified_forward.py": "eeb3701576b26b496b0745e0e7b15e23f105b990db184b8fa2648996ba7fc98f",
+    "single_weight.py": "93c53bd3995878181cd09bcf55503b37e8c91d61c53edbdf815d0d71f2ccca92",
+    "tidal_tov.py": "df622bb142eef09e2ab20f04d32816cde1ab111615ec446819b6932e19dac45b"
+  },
+  "rows": 1870,
+  "source_artifact_sha256": {
+    "J0030": "747a5cb77be8ea55da5eedf3ff41daa501d1fac426f3fd3d41e6d11088ac9dd2",
+    "J0437": "f943aedb57d93214c560358b53a94b2f0eaf8244261176442f0b788352a8a2dd",
+    "J0614": "d3e128070955ca3d30577254489efd58849686d377f4e0aa9674ac17b2df44a6",
+    "J1231": "7f963ffa3a8667f22c71d55d99df6512daa7e41c8ca63a62fde96da472d5932e"
+  },
+  "status": "PASS",
+  "workers": 20
+}

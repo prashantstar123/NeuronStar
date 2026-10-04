@@ -1,0 +1,55 @@
+{
+  "bridge_diagnostics": {
+    "old_exact": {
+      "finite_rows": 70279,
+      "normalized_log_second_moment": 0.11573611072081746,
+      "predicted_combined_ess": 173688.49702820132,
+      "predicted_ess_fraction": 0.8907102411702632
+    },
+    "validation": {
+      "finite_rows": 60470,
+      "normalized_log_second_moment": 4.943037799290359,
+      "predicted_combined_ess": 1390.9149378488842,
+      "predicted_ess_fraction": 0.0071328971171737655
+    }
+  },
+  "component_order": [
+    "old_flow_ensemble",
+    "old_defensive_Student_t",
+    "new_flow_ensemble",
+    "new_defensive_Student_t",
+    "uniform_full_prior"
+  ],
+  "forbidden_artifacts_used": [],
+  "lineage_class": "independent_tsnpe",
+  "minimum_predicted_ess": 1200.0,
+  "new_proposal_sha256": "63d32d82bc86983157221ad1fe0390c5bcc05e818a9d358c6a79069caeb65700",
+  "old_exact_stage_sha256": "71ea09797e3d9feb71bc8739350cd47648aec5d792e6d49fd7350a72ea7b8c0e",
+  "old_proposal_sha256": "57f39d743f80bdf08df9b967a609386d5fb10c4bf8947e54a1ed18dbb18a9a46",
+  "optimized_component_counts": [
+    4800,
+    12000,
+    4800,
+    12000,
+    86400
+  ],
+  "optimized_weights": [
+    0.03999999999999905,
+    0.09999999999999767,
+    0.03999999999999905,
+    0.09999999999999767,
+    0.7200000000000065
+  ],
+  "optimizer_message": "Optimization terminated successfully",
+  "optimizer_success": true,
+  "outer_stage_fractions": [
+    0.38461538461538464,
+    0.6153846153846154
+  ],
+  "output_sha256": "a04f65dc183dffbde7dbc08ac725f7bd59a324a14dfed47e2617e58623d2cf36",
+  "role": "tsnpe_optimized_hybrid_model",
+  "schema_version": 1,
+  "status": "PASS",
+  "validation_stage_sha256": "ee1be02704144bee54c0a3c3bcf66d638088a3c50dca633126ccec1c86f5ae11",
+  "worst_predicted_combined_ess": 1390.9149378488842
+}

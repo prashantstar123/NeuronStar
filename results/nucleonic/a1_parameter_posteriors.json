@@ -1,0 +1,25 @@
+{
+  "methods": {
+    "A-NET+IS": {
+      "ess": 525.0042191726961,
+      "rows": 7904
+    },
+    "TSNPE+MIS": {
+      "ess": 30762.69954869431,
+      "rows": 104846
+    },
+    "UltraNest": {
+      "ess": 4458.785820183439,
+      "rows": 11773
+    }
+  },
+  "output_sha256": "b9ec0c973b66d7d328321ae27bd1efb1f64a75e1212b3d28e90714f9d20e905e",
+  "source_hashes": {
+    "anet": "b0cabd5c4d7a176d430b8af5c4e8cc579f6ccef5fd98eca254e32d40cbf52b8a",
+    "anet_terms": "bc1a84ff8f07365e328dabf3c0f5e5a25008f9620b91aa1c585defbb2728794a",
+    "tsnpe": "4f4c67bfd0ace88f6d69fac383b44284c5f97a462b2ebf4a0f5a674ae1c2a594",
+    "ultranest": "5159030c2aab7ef7b4e37ce02ec00503a9b5fd43c1b78f7c208147433a0a14e1",
+    "ultranest_terms": "be86c4d057efbbf92e2e1a6dd9246e4fafc0dd52516d7b2ddaa6d7fc5226215d"
+  },
+  "status": "PASS"
+}

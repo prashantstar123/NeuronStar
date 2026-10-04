@@ -1,0 +1,165 @@
+{
+ "row_selection": {
+  "seed": 20260925,
+  "per_configuration": "6 largest weights + 8 random finite rows"
+ },
+ "configurations": {
+  "A1": {
+   "kind": "source",
+   "runs": [
+    "A1"
+   ],
+   "stored_ess": 523.8393778704603,
+   "corrected_ess": 525.0042191726961,
+   "rows": 8000,
+   "finite_rows": 7904,
+   "resample_seed": 1,
+   "log_q_convention": "standardized (network units; the constant -sum(log scale) is omitted)",
+   "cloud_seed": 0,
+   "flow_seed": 0
+  },
+  "J0614": {
+   "kind": "source",
+   "runs": [
+    "J0614"
+   ],
+   "stored_ess": 445.8615821956874,
+   "corrected_ess": 445.8366596706624,
+   "rows": 8000,
+   "finite_rows": 7894,
+   "resample_seed": 1,
+   "log_q_convention": "standardized (network units; the constant -sum(log scale) is omitted)",
+   "cloud_seed": 0,
+   "flow_seed": 0
+  },
+  "J1231": {
+   "kind": "source",
+   "runs": [
+    "J1231"
+   ],
+   "stored_ess": 1485.44618175418,
+   "corrected_ess": 1548.7784460540336,
+   "rows": 8000,
+   "finite_rows": 7871,
+   "resample_seed": 1,
+   "log_q_convention": "standardized (network units; the constant -sum(log scale) is omitted)",
+   "cloud_seed": 0,
+   "flow_seed": 0
+  },
+  "K0_200": {
+   "kind": "nuclear_shift",
+   "runs": [
+    "K0_200_s0"
+   ],
+   "pooled_ess": 395.4426143828451,
+   "rows": 8000,
+   "finite_rows": 7906,
+   "log_q_convention": "standardized (network units; the constant -sum(log scale) is omitted)",
+   "cloud_seed": 0
+  },
+  "K0_260": {
+   "kind": "nuclear_shift",
+   "runs": [
+    "K0_260_s0",
+    "K0_260_s1",
+    "K0_260_s2",
+    "K0_260_s3"
+   ],
+   "pooled_ess": 992.5989225855096,
+   "rows": 32000,
+   "finite_rows": 31651,
+   "log_q_convention": "standardized (network units; the constant -sum(log scale) is omitted)",
+   "cloud_seed": 0
+  },
+  "Jsym_29": {
+   "kind": "nuclear_shift",
+   "runs": [
+    "Jsym_29_s0"
+   ],
+   "pooled_ess": 1278.5468281339713,
+   "rows": 8000,
+   "finite_rows": 7867,
+   "log_q_convention": "standardized (network units; the constant -sum(log scale) is omitted)",
+   "cloud_seed": 0
+  },
+  "Jsym_36": {
+   "kind": "nuclear_shift",
+   "runs": [
+    "Jsym_36_s0",
+    "Jsym_36_s1",
+    "Jsym_36_s2",
+    "Jsym_36_s3"
+   ],
+   "pooled_ess": 755.633604623737,
+   "rows": 32000,
+   "finite_rows": 31860,
+   "log_q_convention": "standardized (network units; the constant -sum(log scale) is omitted)",
+   "cloud_seed": 0
+  },
+  "J1614": {
+   "kind": "pooled_seeds",
+   "runs": [
+    "J1614"
+   ],
+   "pooled_ess": 3295.7937543901085,
+   "log_evidence": -26.382993454631105,
+   "log_evidence_standard_error": 0.01649748786511289,
+   "rows": 32000,
+   "finite_rows": 31459,
+   "log_q_convention": "physical (portable FMPEProposal)",
+   "cloud_seed": "equal to the flow seed of each row"
+  }
+ },
+ "runs": {
+  "K0_200_s0": {
+   "stored_ess": 395.4426143828451,
+   "resample_seed": 271828,
+   "flow_seed": 0
+  },
+  "K0_260_s0": {
+   "stored_ess": 409.7242939803743,
+   "resample_seed": 271828,
+   "flow_seed": 0
+  },
+  "K0_260_s1": {
+   "stored_ess": 112.19060504719887,
+   "resample_seed": 271828,
+   "flow_seed": 1
+  },
+  "K0_260_s2": {
+   "stored_ess": 555.1270570595453,
+   "resample_seed": 271828,
+   "flow_seed": 2
+  },
+  "K0_260_s3": {
+   "stored_ess": 471.70498242056135,
+   "resample_seed": 271828,
+   "flow_seed": 3
+  },
+  "Jsym_29_s0": {
+   "stored_ess": 1278.5468281339713,
+   "resample_seed": 271828,
+   "flow_seed": 0
+  },
+  "Jsym_36_s0": {
+   "stored_ess": 132.36857108291503,
+   "resample_seed": 271828,
+   "flow_seed": 0
+  },
+  "Jsym_36_s1": {
+   "stored_ess": 428.2609887275125,
+   "resample_seed": 271828,
+   "flow_seed": 1
+  },
+  "Jsym_36_s2": {
+   "stored_ess": 229.77028223608227,
+   "resample_seed": 271828,
+   "flow_seed": 2
+  },
+  "Jsym_36_s3": {
+   "stored_ess": 165.31815288687545,
+   "resample_seed": 271828,
+   "flow_seed": 3
+  }
+ }
+}

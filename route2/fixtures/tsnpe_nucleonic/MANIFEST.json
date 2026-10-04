@@ -1,0 +1,25 @@
+{
+ "description": "Fixtures of route2/checks/tsnpe_nucleonic.py. expected.json holds the values of the final stage (release file tsnpe_nucleonic_mis_a1_20261003.npz). The training/ files are byte-identical copies of the training record of the published TSNPE rounds.",
+ "files": [
+  {
+   "file": "route2/fixtures/tsnpe_nucleonic/expected.json",
+   "bytes": 2858,
+   "sha256": "541f34669f73bb953ee358d16b99e7e14d8ffbd44d7dd3ba1828a634442a1884"
+  },
+  {
+   "file": "route2/fixtures/tsnpe_nucleonic/training/astro_meta.json",
+   "bytes": 84,
+   "sha256": "987200b06e48539fce2b1d4da7aa0ad56aa20ec1f42c99beb8edf001433c6363"
+  },
+  {
+   "file": "route2/fixtures/tsnpe_nucleonic/training/history.json",
+   "bytes": 2454,
+   "sha256": "9e57278f8911a09f28b909fb81c12f5223bbddee17a115b1676852ba57ff34a4"
+  },
+  {
+   "file": "route2/fixtures/tsnpe_nucleonic/training/posterior_FINAL.npy",
+   "bytes": 560128,
+   "sha256": "38e6dc210a8e85b67cef75db01ebe06fb627ec115b431d025c2c0b29b95a0c65"
+  }
+ ]
+}

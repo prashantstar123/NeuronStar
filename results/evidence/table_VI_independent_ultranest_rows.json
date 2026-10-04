@@ -1,0 +1,60 @@
+{
+  "schema": "table-vi-independent-ultranest-aggregation-v1",
+  "description": "UltraNest log evidences of the four hyperonic nuclear-data rows of Table VI (K0 = 200, K0 = 260, Jsym = 29, Jsym = 36), combined from independent runs only; these are the values printed in Table VI and stored in results/evidence/green_en_vs_ultranest_16_rows.json. The all_runs_* values combine every run of the row, including the runs that share their initial random state with another run; route2/checks/ultranest.py recomputes both.",
+  "rule": "inverse-variance mean of the independent UltraNest runs of a row, with the error inflated by the run-to-run scatter when a row has more than one run; runs that share their initial random state with another run are not combined",
+  "rows": {
+    "Jsym_29": {
+      "en_logz": -28.69227083341149,
+      "en_sigma": 0.07285986963857025,
+      "all_runs_logz": -28.533025444788557,
+      "all_runs_sigma": 0.09917835711812854,
+      "all_runs_separation": 1.2939978592139196,
+      "runs_combined": [
+        "hyp_j29_s1",
+        "hyp_j29_s2"
+      ],
+      "separation_full_precision": 0.9945247430541208,
+      "ultranest_logz": -28.552670877000757,
+      "ultranest_sigma": 0.11997815641047783
+    },
+    "Jsym_36": {
+      "en_logz": -28.922975184143954,
+      "en_sigma": 0.11118542203698445,
+      "all_runs_logz": -28.923032486143985,
+      "all_runs_sigma": 0.15898880971470447,
+      "all_runs_separation": 0.0002953568528926626,
+      "runs_combined": [
+        "hyp_j36"
+      ],
+      "separation_full_precision": 0.36856087715760427,
+      "ultranest_logz": -29.01579776115311,
+      "ultranest_sigma": 0.2259799443045538
+    },
+    "K0_200": {
+      "en_logz": -29.121160952769603,
+      "en_sigma": 0.09360448034396673,
+      "all_runs_logz": -29.344046302906044,
+      "all_runs_sigma": 0.25666848973996287,
+      "all_runs_separation": 0.8158197559836727,
+      "runs_combined": [
+        "hyp_k0200"
+      ],
+      "separation_full_precision": 0.7395975497581936,
+      "ultranest_logz": -29.39449817913095,
+      "ultranest_sigma": 0.35752530471964294
+    },
+    "K0_260": {
+      "en_logz": -28.608160881885446,
+      "en_sigma": 0.07539977845356712,
+      "all_runs_logz": -28.706809073895755,
+      "all_runs_sigma": 0.13423210534907268,
+      "all_runs_separation": 0.6407431139890095,
+      "runs_combined": [
+        "hyp_k0260"
+      ],
+      "separation_full_precision": 0.3049478018526211,
+      "ultranest_logz": -28.680631186518134,
+      "ultranest_sigma": 0.22536981499108666
+    }
+  }
+}

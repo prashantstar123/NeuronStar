@@ -1,0 +1,44 @@
+# Route 2 environment: the exact package versions the Route 2 checks were verified with.
+# It also contains every Route 1 package, so one environment runs both routes.
+# Create with:  conda env create -f environment-route2.yml   then:  conda activate ddb-route2
+# PyTorch is the CPU build (Linux x86-64; on Windows use WSL). For an NVIDIA GPU, see MANUAL_ROUTE2.md, step 2.
+# pip compiles UltraNest, so a C compiler is needed (Ubuntu/Debian: sudo apt install build-essential).
+name: ddb-route2
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      # numerical core
+      - numpy==2.4.6
+      - scipy==1.17.1
+      - numba==0.65.1
+      - jax==0.10.2
+      - jaxlib==0.10.2
+      - h5py==3.16.0
+      - joblib==1.5.3
+      - scikit-learn==1.9.1
+      # neural density estimators and samplers
+      - torch==2.5.1+cpu
+      - sbi==0.25.0
+      - zuko==1.6.0
+      - ultranest==4.5.0
+      # pQCD constraint used by the certified likelihood modules
+      - CompactObject-TOV==2.1
+      # plotting and Route 1 checks (same pins as environment-route1.yml)
+      - contourpy==1.3.3
+      - cycler==0.12.1
+      - fonttools==4.63.0
+      - kiwisolver==1.5.0
+      - matplotlib==3.11.1
+      - packaging==26.2
+      - pandas==3.0.5
+      - pillow==12.3.0
+      - pyparsing==3.3.2
+      - pypdfium2==5.13.0
+      - python-dateutil==2.9.0.post0
+      - seaborn==0.13.2
+      - six==1.17.0

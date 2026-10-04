@@ -1,0 +1,42 @@
+{
+  "schema": "ddb-hyperonic-clean-prior-v1",
+  "model": "DDB Lambda Xi-minus",
+  "parameter_names": [
+    "a_sigma",
+    "a_omega",
+    "a_rho",
+    "Gamma_sigma",
+    "Gamma_omega",
+    "Gamma_rho",
+    "rho0",
+    "x_sigma_Lambda",
+    "x_sigma_Xi"
+  ],
+  "lower": [0.0, 0.0, 0.0, 6.5, 7.5, 5.0, 0.14, 0.609, 0.309],
+  "upper": [0.3, 0.298446, 1.3, 13.4895, 14.5, 12.5471, 0.17, 0.622, 0.322],
+  "original_uniform_prior_banks": [
+    {
+      "filename": "hyp_bank_part1.npz",
+      "sha256": "c188c4d0fc133271a384628b78c08928fc37a8a37577d9446079efb31c4299ef",
+      "valid_rows": 103707
+    },
+    {
+      "filename": "hyp_bank_part2.npz",
+      "sha256": "e9beaa28c8c90b9cbe275d5695e87fd90566a939744d5ddb16ed2c480be545d9",
+      "valid_rows": 103947
+    },
+    {
+      "filename": "hyp_bank_part3.npz",
+      "sha256": "2589bfec123f8d5b96003c7581183b7722ed2af880ae07d2c61941a7d3cedc06",
+      "valid_rows": 104094
+    },
+    {
+      "filename": "hyp_bank_part4.npz",
+      "sha256": "2880d62d8d0f64698f6ba4008bfcca8816781bd802eebb04a669c318e32e5851",
+      "valid_rows": 103933
+    }
+  ],
+  "proposal_dimensions": 7,
+  "uniform_coupling_dimensions": [7, 8],
+  "notes": "The clean construction begins only from the four uniform-prior banks. The stored stage-one score is used to form an initial proposal; every accepted posterior is reweighted with a fresh evaluation of the complete frozen likelihood."
+}

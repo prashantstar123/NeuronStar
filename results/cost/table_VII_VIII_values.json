@@ -1,0 +1,767 @@
+{
+ "rule": "Timing values of Tables VII and VIII (both sectors, all eight configurations); route1/tables.py builds\nboth tables from this file and en_and_tsnpe_timing_constants.json.\n\nTiming rule (the same for every A-NET+IS row):\n  * wall time from process start to the final posterior, for every production stage;\n  * sequential stages and batches add; concurrent shards or seeds count their longest wall time;\n  * the fixed per-run start-up is included (measured on the same machine where the recorded timer\n    starts after it, see startup_used_s; the wall time of cluster jobs already contains it);\n  * queue waits, idle gaps, checks, figure bands and curve replays are excluded.\nThe one-time A-NET rows include the A-NET training-data preparation (values in\nresults/numerical_checks/cost/one_time_with_preparation_values.json; the parts are listed in trace).\nTSNPE+MIS rows hold the recorded times; Table VII expresses the nucleonic time at the UltraNest\nreference rate (factor in en_and_tsnpe_timing_constants.json); the hyperonic time is the sum of the\nrecorded stage times, with the EOS-solving time evaluated for the production EOS solver.\nUltraNest: t_eq = N_eval/(60 q_ref) minutes, q_ref = 35.044 (nucleonic) and 42.877 (hyperonic) likelihood\nevaluations per second; N_eval and ESS from each run's info/results.json.\nSpeed-up = mean UltraNest-equivalent minutes of the listed seeds / method minutes (exact seconds).",
+ "startup_used_s": {
+  "a1_j0614_j1231_pipeline": 14.58,
+  "j1614_script": 17.503,
+  "nuclear_shift_script": 14.567,
+  "hyperonic_proposal_proxy": 3.07
+ },
+ "rows": {
+  "nucleonic": {
+   "A-NET+IS A1": {
+    "seconds": 101.58,
+    "minutes": 1.693,
+    "evaluations": 8000,
+    "ess": 525.0042191726961,
+    "valid_rows": 7904,
+    "ess_percent_of_valid": 6.642259857954152,
+    "speedup_vs_ultranest": 115.56141421200775
+   },
+   "A-NET+IS J0614": {
+    "seconds": 104.58,
+    "minutes": 1.7429999999999999,
+    "evaluations": 8000,
+    "ess": 445.8366596706623,
+    "valid_rows": 7894,
+    "ess_percent_of_valid": 5.647791483033472,
+    "speedup_vs_ultranest": 238.15155611602904
+   },
+   "A-NET+IS J1231": {
+    "seconds": 106.58,
+    "minutes": 1.7763333333333333,
+    "evaluations": 8000,
+    "ess": 1548.7784460540333,
+    "valid_rows": 7871,
+    "ess_percent_of_valid": 19.67702256452844,
+    "speedup_vs_ultranest": 109.0921401032472
+   },
+   "A-NET+IS J1614": {
+    "seconds": 785.778271156311,
+    "minutes": 13.09630451927185,
+    "evaluations": 32000,
+    "ess": 3295.7937543901085,
+    "valid_rows": 31459,
+    "ess_percent_of_valid": 10.476473360215229,
+    "speedup_vs_ultranest": 30.324132924529184
+   },
+   "A-NET+IS K0_200": {
+    "seconds": 314.46555313301087,
+    "minutes": 5.2410925522168474,
+    "evaluations": 8000,
+    "ess": 395.4426143828451,
+    "valid_rows": 7906,
+    "ess_percent_of_valid": 5.00180387532058,
+    "speedup_vs_ultranest": 32.33663965017609
+   },
+   "A-NET+IS K0_260": {
+    "seconds": 398.76327889823915,
+    "minutes": 6.646054648303986,
+    "evaluations": 32000,
+    "ess": 992.5989225855095,
+    "valid_rows": 31651,
+    "ess_percent_of_valid": 3.136074444995449,
+    "speedup_vs_ultranest": 37.384268438964824
+   },
+   "A-NET+IS Jsym_29": {
+    "seconds": 153.14027556610108,
+    "minutes": 2.5523379261016848,
+    "evaluations": 8000,
+    "ess": 1278.5468281339715,
+    "valid_rows": 7867,
+    "ess_percent_of_valid": 16.252025271818628,
+    "speedup_vs_ultranest": 67.89927575457659
+   },
+   "A-NET+IS Jsym_36": {
+    "seconds": 544.0983061161041,
+    "minutes": 9.068305101935069,
+    "evaluations": 32000,
+    "ess": 755.6336046237374,
+    "valid_rows": 31860,
+    "ess_percent_of_valid": 2.371731339057556,
+    "speedup_vs_ultranest": 27.206725397916124
+   },
+   "A-NET one-time setup": {
+    "seconds": 4945.0,
+    "minutes": 82.417,
+    "evaluations": 0
+   },
+   "TSNPE+MIS A1": {
+    "seconds": 2895.7,
+    "minutes": 48.26166666666666,
+    "evaluations": 237000,
+    "ess": 30762.7,
+    "valid_rows": 104846,
+    "ess_percent_of_valid": 29.340842759857313,
+    "speedup_vs_ultranest": 4.053848276981644,
+    "note": "ESS of the final MIS stage run on 2026-10-03 with the package defaults; time and likelihood evaluations are the recorded values of the TSNPE+MIS pipeline, whose final stage has the same 105,000 rows"
+   },
+   "all eight analyses including one-time setup": {
+    "anet_minutes": 112.08309474782942,
+    "ultranest_minutes": 2039.6197161663436,
+    "ratio": 18.197389363268293
+   }
+  },
+  "hyperonic": {
+   "A-NET+IS A1": {
+    "seconds": 254.61002332687377,
+    "minutes": 4.2435003887812295,
+    "evaluations": 25000,
+    "ess": 5584.645874980633,
+    "valid_rows": 23619,
+    "ess_percent_of_valid": 23.64471770600209,
+    "speedup_vs_ultranest": 34.84670677436013
+   },
+   "A-NET+IS K0_200": {
+    "seconds": 254.85702187538146,
+    "minutes": 4.2476170312563575,
+    "evaluations": 25000,
+    "ess": 3737.389078502028,
+    "valid_rows": 23540,
+    "ess_percent_of_valid": 15.876759042064691,
+    "speedup_vs_ultranest": 30.955557983593152
+   },
+   "A-NET+IS K0_260": {
+    "seconds": 256.0034349632263,
+    "minutes": 4.266723916053772,
+    "evaluations": 25000,
+    "ess": 4287.545639646848,
+    "valid_rows": 23616,
+    "ess_percent_of_valid": 18.155257620455824,
+    "speedup_vs_ultranest": 36.30849694795842
+   },
+   "A-NET+IS Jsym_29": {
+    "seconds": 512.7971681499481,
+    "minutes": 8.546619469165801,
+    "evaluations": 50000,
+    "ess": 6420.330499479772,
+    "valid_rows": 47659,
+    "ess_percent_of_valid": 13.4713915513959,
+    "speedup_vs_ultranest": 15.506291624347174
+   },
+   "A-NET+IS Jsym_36": {
+    "seconds": 255.39484769821166,
+    "minutes": 4.256580794970194,
+    "evaluations": 25000,
+    "ess": 3773.893308634576,
+    "valid_rows": 23042,
+    "ess_percent_of_valid": 16.37832353369749,
+    "speedup_vs_ultranest": 38.70932727772577
+   },
+   "A-NET+IS J0614": {
+    "seconds": 254.17451650619506,
+    "minutes": 4.236241941769918,
+    "evaluations": 25000,
+    "ess": 2238.771596985116,
+    "valid_rows": 23620,
+    "ess_percent_of_valid": 9.478287878853157,
+    "speedup_vs_ultranest": 43.340481375382446
+   },
+   "A-NET+IS J1231": {
+    "seconds": 431.0830992603302,
+    "minutes": 7.184718321005503,
+    "evaluations": 50000,
+    "ess": 6707.770778048129,
+    "valid_rows": 48061,
+    "ess_percent_of_valid": 13.956785705765858,
+    "speedup_vs_ultranest": 34.399235990042264
+   },
+   "A-NET+IS J1614": {
+    "seconds": 172.2017617893219,
+    "minutes": 2.870029363155365,
+    "evaluations": 25000,
+    "ess": 5235.600841445108,
+    "valid_rows": 23538,
+    "ess_percent_of_valid": 22.243184813684714,
+    "speedup_vs_ultranest": 116.2359434043325
+   },
+   "A-NET one-time setup": {
+    "seconds": 23940.089,
+    "minutes": 399.001,
+    "evaluations": 2940000
+   },
+   "TSNPE+MIS A1": {
+    "seconds": 5560.5,
+    "minutes": 92.675,
+    "evaluations": 780000,
+    "ess": 1513.8,
+    "valid_rows": 128707,
+    "ess_percent_of_valid": 1.1761598048280202,
+    "note": "production-solver parallel-equivalent; six small steps untimed",
+    "speedup_vs_ultranest": 1.5955976665200184
+   },
+   "all eight analyses including one-time setup": {
+    "anet_minutes": 387.2436978928248,
+    "ultranest_minutes": 1495.923610949149,
+    "ratio": 3.8630031142899766
+   }
+  }
+ },
+ "ultranest": {
+  "nucleonic": {
+   "A1": {
+    "runs": [
+     "nuc_A1_certified"
+    ],
+    "equivalent_minutes": [
+     195.64547426092912
+    ],
+    "mean_minutes": 195.64547426092912,
+    "evaluations": [
+     411372
+    ],
+    "ess": [
+     4466.976342781234
+    ]
+   },
+   "K0_200": {
+    "runs": [
+     "nuc_K0_200"
+    ],
+    "equivalent_minutes": [
+     169.4793212342579
+    ],
+    "mean_minutes": 169.4793212342579,
+    "evaluations": [
+     356354
+    ],
+    "ess": [
+     4596.487425100457
+    ]
+   },
+   "K0_260": {
+    "runs": [
+     "nuc_K0_260",
+     "nuc_K0_260_r1"
+    ],
+    "equivalent_minutes": [
+     270.3068523380132,
+     226.60892972643916
+    ],
+    "mean_minutes": 248.45789103222617,
+    "evaluations": [
+     568358,
+     476477
+    ],
+    "ess": [
+     4718.151960253601,
+     4708.262898816868
+    ]
+   },
+   "Jsym_29": {
+    "runs": [
+     "nuc_Jsym_29",
+     "nuc_Jsym_29_r1"
+    ],
+    "equivalent_minutes": [
+     168.17191720884222,
+     178.4318761176426
+    ],
+    "mean_minutes": 173.30189666324242,
+    "evaluations": [
+     353605,
+     375178
+    ],
+    "ess": [
+     4772.665711191759,
+     4763.06386268932
+    ]
+   },
+   "Jsym_36": {
+    "runs": [
+     "nuc_Jsym_36",
+     "nuc_Jsym_36_r1",
+     "nuc_Jsym_36_r2"
+    ],
+    "equivalent_minutes": [
+     228.51558041319487,
+     245.48234600311991,
+     266.15873378229276
+    ],
+    "mean_minutes": 246.7188867328692,
+    "evaluations": [
+     480486,
+     516161,
+     559636
+    ],
+    "ess": [
+     4516.44782917012,
+     4632.503876269195,
+     4678.766186784212
+    ]
+   },
+   "J0614": {
+    "runs": [
+     "nuc_J0614_mirror"
+    ],
+    "equivalent_minutes": [
+     415.0981623102386
+    ],
+    "mean_minutes": 415.0981623102386,
+    "evaluations": [
+     872802
+    ],
+    "ess": [
+     4460.419445002505
+    ]
+   },
+   "J1231": {
+    "runs": [
+     "nuc_J1231_mirror"
+    ],
+    "equivalent_minutes": [
+     193.78400487006812
+    ],
+    "mean_minutes": 193.78400487006812,
+    "evaluations": [
+     407458
+    ],
+    "ess": [
+     4477.839057041022
+    ]
+   },
+   "J1614": {
+    "runs": [
+     "nuc_J1614_desktopA"
+    ],
+    "equivalent_minutes": [
+     397.1340790625119
+    ],
+    "mean_minutes": 397.1340790625119,
+    "evaluations": [
+     835030
+    ],
+    "ess": [
+     8718.802414358624
+    ]
+   }
+  },
+  "hyperonic": {
+   "A1": {
+    "runs": [
+     "hyp_A1_s1",
+     "hyp_A1_s2"
+    ],
+    "equivalent_minutes": [
+     145.09799348524072,
+     150.64603400424468
+    ],
+    "mean_minutes": 147.8720137447427,
+    "evaluations": [
+     373282,
+     387555
+    ],
+    "ess": [
+     4314.217045758724,
+     4451.961102719026
+    ]
+   },
+   "K0_200": {
+    "runs": [
+     "hyp_K0_200"
+    ],
+    "equivalent_minutes": [
+     131.48735530315398
+    ],
+    "mean_minutes": 131.48735530315398,
+    "evaluations": [
+     338267
+    ],
+    "ess": [
+     4511.926138182991
+    ]
+   },
+   "K0_260": {
+    "runs": [
+     "hyp_K0_260"
+    ],
+    "equivalent_minutes": [
+     154.91833228381958
+    ],
+    "mean_minutes": 154.91833228381958,
+    "evaluations": [
+     398546
+    ],
+    "ess": [
+     4179.608154816485
+    ]
+   },
+   "Jsym_29": {
+    "runs": [
+     "hyp_Jsym_29_s1",
+     "hyp_Jsym_29_s2"
+    ],
+    "equivalent_minutes": [
+     131.92581881506013,
+     133.1269289673562
+    ],
+    "mean_minutes": 132.52637389120815,
+    "evaluations": [
+     339395,
+     342485
+    ],
+    "ess": [
+     4437.399555639029,
+     4372.080382116656
+    ]
+   },
+   "Jsym_36": {
+    "runs": [
+     "hyp_Jsym_36"
+    ],
+    "equivalent_minutes": [
+     164.7693790765834
+    ],
+    "mean_minutes": 164.7693790765834,
+    "evaluations": [
+     423889
+    ],
+    "ess": [
+     4657.30022946173
+    ]
+   },
+   "J0614": {
+    "runs": [
+     "hyp_J0614"
+    ],
+    "equivalent_minutes": [
+     183.6007649788931
+    ],
+    "mean_minutes": 183.6007649788931,
+    "evaluations": [
+     472335
+    ],
+    "ess": [
+     4497.779867260323
+    ]
+   },
+   "J1231": {
+    "runs": [
+     "hyp_J1231"
+    ],
+    "equivalent_minutes": [
+     247.14882104624854
+    ],
+    "mean_minutes": 247.14882104624854,
+    "evaluations": [
+     635820
+    ],
+    "ess": [
+     4432.207931811964
+    ]
+   },
+   "J1614": {
+    "runs": [
+     "hyp_J1614_replica_neutron04",
+     "hyp_J1614_replica_neutron05"
+    ],
+    "equivalent_minutes": [
+     327.88052646718126,
+     339.3206147818177
+    ],
+    "mean_minutes": 333.6005706244995,
+    "evaluations": [
+     843512,
+     872943
+    ],
+    "ess": [
+     8181.189138419493,
+     8604.475472239044
+    ]
+   }
+  }
+ },
+ "trace": {
+  "nucleonic A-NET+IS A1": [
+   [
+    "measured start-up before the recorded timer (A1/J0614/J1231 pipeline)",
+    14.58
+   ],
+   [
+    "recorded: grid, draws and exact likelihood complete",
+    87
+   ],
+   [
+    "excluded: post-posterior M-R band figure",
+    13
+   ]
+  ],
+  "nucleonic A-NET+IS J0614": [
+   [
+    "measured start-up before the recorded timer (A1/J0614/J1231 pipeline)",
+    14.58
+   ],
+   [
+    "recorded: grid, draws and exact likelihood complete",
+    90
+   ],
+   [
+    "excluded: post-posterior M-R band figure",
+    13
+   ]
+  ],
+  "nucleonic A-NET+IS J1231": [
+   [
+    "measured start-up before the recorded timer (A1/J0614/J1231 pipeline)",
+    14.58
+   ],
+   [
+    "recorded: grid, draws and exact likelihood complete",
+    92
+   ],
+   [
+    "excluded: post-posterior M-R band figure",
+    14
+   ]
+  ],
+  "nucleonic A-NET+IS J1614": [
+   [
+    "invocation 1 start-up (measured)",
+    17.503
+   ],
+   [
+    "seed 0",
+    183.8491175174713
+   ],
+   [
+    "invocation 2 start-up (measured)",
+    17.503
+   ],
+   [
+    "seeds 1-3 in sequence",
+    566.9231536388397
+   ]
+  ],
+  "nucleonic A-NET+IS K0_200": [
+   [
+    "batch seeds [0]: measured start-up + longest recorded seed wall",
+    314.46555313301087
+   ],
+   [
+    "  seed walls and start times (local)",
+    {
+     "0": [
+      299.9,
+      "21:35:39"
+     ]
+    }
+   ]
+  ],
+  "nucleonic A-NET+IS K0_260": [
+   [
+    "batch seeds [0]: measured start-up + longest recorded seed wall",
+    156.99453195762635
+   ],
+   [
+    "  seed walls and start times (local)",
+    {
+     "0": [
+      142.43,
+      "21:43:04"
+     ]
+    }
+   ],
+   [
+    "batch seeds [1, 2, 3]: measured start-up + longest recorded seed wall",
+    241.7687469406128
+   ],
+   [
+    "  seed walls and start times (local)",
+    {
+     "1": [
+      159.72,
+      "22:17:13"
+     ],
+     "2": [
+      158.75,
+      "22:17:13"
+     ],
+     "3": [
+      227.2,
+      "22:18:03"
+     ]
+    }
+   ]
+  ],
+  "nucleonic A-NET+IS Jsym_29": [
+   [
+    "batch seeds [0]: measured start-up + longest recorded seed wall",
+    153.14027556610108
+   ],
+   [
+    "  seed walls and start times (local)",
+    {
+     "0": [
+      138.57,
+      "21:45:26"
+     ]
+    }
+   ]
+  ],
+  "nucleonic A-NET+IS Jsym_36": [
+   [
+    "batch seeds [0]: measured start-up + longest recorded seed wall",
+    155.32004555892945
+   ],
+   [
+    "  seed walls and start times (local)",
+    {
+     "0": [
+      140.75,
+      "21:47:45"
+     ]
+    }
+   ],
+   [
+    "batch seeds [1, 2, 3]: measured start-up + longest recorded seed wall",
+    388.7782605571747
+   ],
+   [
+    "  seed walls and start times (local)",
+    {
+     "1": [
+      374.21,
+      "22:02:56"
+     ],
+     "2": [
+      371.6,
+      "22:02:56"
+     ],
+     "3": [
+      372.75,
+      "22:02:56"
+     ]
+    }
+   ]
+  ],
+  "hyperonic A-NET+IS A1": [
+   [
+    "A1_dual_25k_seed20260944: recorded proposal + measured proposal start-up + longest shard (cluster job wall time)",
+    [
+     73.54,
+     3.07,
+     178
+    ]
+   ]
+  ],
+  "hyperonic A-NET+IS K0_200": [
+   [
+    "K0_200_dual_25k_seed2026092101: recorded proposal + measured proposal start-up + longest shard (cluster job wall time)",
+    [
+     76.79,
+     3.07,
+     175
+    ]
+   ]
+  ],
+  "hyperonic A-NET+IS K0_260": [
+   [
+    "K0_260_dual_25k_seed2026092102: recorded proposal + measured proposal start-up + longest shard (cluster job wall time)",
+    [
+     75.93,
+     3.07,
+     177
+    ]
+   ]
+  ],
+  "hyperonic A-NET+IS Jsym_29": [
+   [
+    "Jsym_29_dual_25k_seed2026092103: recorded proposal + measured proposal start-up + longest shard (cluster job wall time)",
+    [
+     75.95,
+     3.07,
+     177
+    ]
+   ],
+   [
+    "Jsym_29_dual_b2_25k_seed2026092203: recorded proposal + measured proposal start-up + longest shard (cluster job wall time)",
+    [
+     76.71,
+     3.07,
+     177
+    ]
+   ]
+  ],
+  "hyperonic A-NET+IS Jsym_36": [
+   [
+    "Jsym_36_dual_25k_seed2026092104: recorded proposal + measured proposal start-up + longest shard (cluster job wall time)",
+    [
+     76.32,
+     3.07,
+     176
+    ]
+   ]
+  ],
+  "hyperonic A-NET+IS J0614": [
+   [
+    "J0614_dual_25k_seed2026092105: recorded proposal + measured proposal start-up + longest shard (cluster job wall time)",
+    [
+     75.1,
+     3.07,
+     176
+    ]
+   ]
+  ],
+  "hyperonic A-NET+IS J1231": [
+   [
+    "J1231_dual_25k_seed2026092106: recorded proposal + measured proposal start-up + longest shard (cluster job wall time)",
+    [
+     75.82,
+     3.07,
+     94
+    ]
+   ],
+   [
+    "J1231_dual_b2_25k_seed2026092206: recorded proposal + measured proposal start-up + longest shard (cluster job wall time)",
+    [
+     77.12,
+     3.07,
+     178
+    ]
+   ]
+  ],
+  "hyperonic A-NET+IS J1614": [
+   [
+    "J1614_dual_25k_seed2026092107: recorded proposal + measured proposal start-up + longest shard (cluster job wall time)",
+    [
+     76.13,
+     3.07,
+     93
+    ]
+   ]
+  ],
+  "nucleonic A-NET one-time setup": [
+   [
+    "one-time setup without the A-NET training-data preparation",
+    4216.0,
+    0
+   ],
+   [
+    "A-NET training-data preparation: scenario construction",
+    729.0,
+    0
+   ]
+  ],
+  "hyperonic A-NET one-time setup": [
+   [
+    "one-time setup without the A-NET training-data preparation",
+    20843.5,
+    2640000
+   ],
+   [
+    "A-NET training-data preparation: proposal-row caches, longest of three parallel parts",
+    2879.956,
+    300000
+   ],
+   [
+    "A-NET training-data preparation: scenario construction",
+    211.139,
+    0
+   ],
+   [
+    "A-NET training-data preparation: counting correction",
+    5.494,
+    0
+   ]
+  ]
+ }
+}

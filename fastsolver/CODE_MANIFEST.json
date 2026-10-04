@@ -1,0 +1,40 @@
+{
+ "description": "SHA-256 of every file of fastsolver/: the compiled hyperonic EOS solver and batched likelihood used by the support-extension exact-row stages of the Evidence Network (docs/route2/STEPS_EVIDENCE_NETWORK.md).",
+ "files": [
+  {
+   "file": "fastsolver/README.md",
+   "sha256": "f3b6d25735c7cf8a8eaff9c956b21df20e1a0ba66a021d05e1c8446f0709a126",
+   "role": "documentation of the folder (usage)"
+  },
+  {
+   "file": "fastsolver/fast_exact_rows.py",
+   "sha256": "2aa36ec4f18d02e7705eda62e4953b4072c11853fa31db1867ac550f207d4365",
+   "role": "production: S_ext exact rows (compiled hyperonic EOS with certified fallback; nucleonic TOV chunks)"
+  },
+  {
+   "file": "fastsolver/fast_likelihood.py",
+   "sha256": "c1baa71dd2519d0ea66e61e0c199b22cfe7a3f1b2ce03aeea176f74c73753f01",
+   "role": "production: batched joint likelihood, arithmetic-identical to JointLikelihood.evaluate"
+  },
+  {
+   "file": "fastsolver/gen_backends.py",
+   "sha256": "06f106e679501dc329c4db6ce7ded1641c6c311d50a4588d6b11485758a62085",
+   "role": "production: generates hyp_solver_cpu.py and hyp_solver_cuda.py from the template"
+  },
+  {
+   "file": "fastsolver/hyp_solver_cpu.py",
+   "sha256": "0d672a93bbb49dd247a4b20988a7ddad14d036e5680a1ecbb5caf55747d736dd",
+   "role": "production: generated numba CPU solver (used by fast_exact_rows.py)"
+  },
+  {
+   "file": "fastsolver/hyp_solver_cuda.py",
+   "sha256": "b783c25685c34f1505430fc8a4daf8aa2eb759d6624ba72e09ebd05b41f3aa6b",
+   "role": "generated numba CUDA solver (optional; not used in production)"
+  },
+  {
+   "file": "fastsolver/hyp_solver_template.py",
+   "sha256": "0eaf23e0a7f66fc740a276a0468b15e3e149e1c40ca2bbd6f5c5b79639d0f277",
+   "role": "production: template of the compiled hyperonic beta-equilibrium solver"
+  }
+ ]
+}

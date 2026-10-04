@@ -1,0 +1,179 @@
+{
+ "release": "route2-data-v1",
+ "files": [
+  {
+   "name": "ultranest_nucleonic_A1_posterior.npz",
+   "bytes": 743607,
+   "sha256": "5159030c2aab7ef7b4e37ce02ec00503a9b5fd43c1b78f7c208147433a0a14e1",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_A1_terms.npz",
+   "bytes": 429503,
+   "sha256": "be86c4d057efbbf92e2e1a6dd9246e4fafc0dd52516d7b2ddaa6d7fc5226215d",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_J0614_posterior.npz",
+   "bytes": 775876,
+   "sha256": "7a818fd8e16e5dec3a474295cc62073eb754ca6b7b1c61a9bf505125e2da6ae2",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_J0614_terms.npz",
+   "bytes": 446205,
+   "sha256": "05330cad8113a71427fe8e5160d09b24b412ff39ec5750d6e5bfadaee073cdfe",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_J1231_posterior.npz",
+   "bytes": 754058,
+   "sha256": "de4dca2f64a505f1c10fa1747172bc3faa6f867870c0af1b01495026fe5032db",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_J1231_terms.npz",
+   "bytes": 436550,
+   "sha256": "7ce5e27e6ef2f70ea876cfe77075e1b4fc94711e806c8b3e2bfc6ecf857725f0",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_Jsym_29_s0_posterior.npz",
+   "bytes": 779101,
+   "sha256": "eecd1098905b7aaf7f951d4235551e02e28440147c1ee1e0db66bfff5c9bdef6",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_Jsym_29_s0_terms.npz",
+   "bytes": 448164,
+   "sha256": "38cd16f4db64c4a73f368251edb5711364f607622944529740d5dc0c67e55907",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_Jsym_29_s1_posterior.npz",
+   "bytes": 771321,
+   "sha256": "9c3b99c654d55d76bd0688e923ea385a4d838cfc0c51598df81b29d2a38a6ff6",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_Jsym_29_s1_terms.npz",
+   "bytes": 444206,
+   "sha256": "b142c39a49b43c9d8aa7d9806525fb71e20f27b6e815b46f87bfb60a14933deb",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_Jsym_36_s0_posterior.npz",
+   "bytes": 784176,
+   "sha256": "332a3667de62b8f6f0a6d61edc98151ce1f081525ff92b5be61a9e43b67d187b",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_Jsym_36_s0_terms.npz",
+   "bytes": 452874,
+   "sha256": "5939b6dd4bd8776f8a441bb3c97be116b19d0c5152de31a4c2488bc00c6b5690",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_Jsym_36_s1_posterior.npz",
+   "bytes": 784747,
+   "sha256": "182f58c306dda380e7c03feab51ff41ea0b1a3e0942a13c75465718e0449c14d",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_Jsym_36_s1_terms.npz",
+   "bytes": 453348,
+   "sha256": "8f4c52d54107e30f7a355fd76fd5fec84ae7445564cdc2fd01cef452dbcff1d3",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_Jsym_36_s2_posterior.npz",
+   "bytes": 784753,
+   "sha256": "ba3c704642aedd25390935da9ed0b4399f75f7ede5ab313ff68cffb86243300d",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_Jsym_36_s2_terms.npz",
+   "bytes": 454505,
+   "sha256": "d164d586d26c3994593702097e34519c72a8eabfd1a764152770a77e8d82cc6d",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_nucleonic_J1614_posterior.npz",
+   "bytes": 1477937,
+   "sha256": "fc261adbfc0d4b30a7ef68ffa5435c3f4995eec61b012aa597f58ad58b108876",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_K0_200_desktopB_input.npz",
+   "bytes": 965984,
+   "sha256": "5a7d71b8711d44b9fc507e4bc6a2ab7df301a6a56298498ef0936648a427a1d7",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_K0_200_desktopB_terms.npz",
+   "bytes": 434356,
+   "sha256": "c799862187b140e1e5c5e4e6ad071afe92a1da846cc1b6526e1c62a8055ec668",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_K0_260_desktopB_input.npz",
+   "bytes": 916628,
+   "sha256": "a0054d8bb477ba955221e9ef1be52566e0a20efc6b1480e18202f97f1fb7d091",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_K0_260_desktopB_terms.npz",
+   "bytes": 414320,
+   "sha256": "f3a12920770f79584f862ccd99f0b7ee43b9eab2babc5bb79b6eec7110fb16fa",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_Jsym_29_desktopB_input.npz",
+   "bytes": 940181,
+   "sha256": "8aeabceaf0af0b871def8d1b5bdd06038fbd035324a0d3fd5e908c5599dc0c41",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_Jsym_29_desktopB_terms.npz",
+   "bytes": 423110,
+   "sha256": "97b12d541ffe27beaf9f9a018b71e9e73f69a99454a36184fa6b55ec175122ee",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_Jsym_36_desktopB_input.npz",
+   "bytes": 995468,
+   "sha256": "49a50df66bc14494dd9fe764d1c2293f08a022c3ecfab08c3d3fb8acd6148200",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_Jsym_36_desktopB_terms.npz",
+   "bytes": 448650,
+   "sha256": "1f747855798ca4d59af5622993fc8eb808d7fae31b9f9e27b33c32c32f4992c9",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_K0_200_equal_weight.npz",
+   "bytes": 984057,
+   "sha256": "7bda6cc57c96c0044e10eb2879d5c730bf4a86edfabc3c4e949c51f594232855",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_K0_260_equal_weight.npz",
+   "bytes": 926432,
+   "sha256": "565f2822a16ac5bc49bdcb62d5ec90bd1250ff923e8414506a54f60757f8efd1",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_Jsym_29_equal_weight.npz",
+   "bytes": 952960,
+   "sha256": "f263d7064733262f4c5af2221f2a35b597be70ca6d7fd92d71a8474493686742",
+   "used_by": "route2/checks/ultranest.py"
+  },
+  {
+   "name": "ultranest_hyperonic_Jsym_36_equal_weight.npz",
+   "bytes": 1021526,
+   "sha256": "01499429ef19bf5b89b5ab3a83cb4cd6a06733aca2a9273c1c246e7e31654295",
+   "used_by": "route2/checks/ultranest.py"
+  }
+ ]
+}

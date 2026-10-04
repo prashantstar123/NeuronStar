@@ -1,0 +1,80 @@
+{
+  "bank": "full_green_en_nucleonic_bank.npz",
+  "bank_sha256": "0421508c9a15025080f57c036bf489df3a028ae951f4bac018b3ce6a19817929",
+  "endpoint_nodes": 2051921,
+  "endpoint_rule": "square-root continuation of the last stable branch to Mmax",
+  "finite_negative_sentinel_rows": 218817,
+  "forbidden_artifacts_used": [],
+  "heldout_results": {
+    "J0614": {
+      "effective_sample_size": 357.0524559646333,
+      "log_evidence": -27.158116388454054,
+      "naive_monte_carlo_error": 0.05292172450594018,
+      "path": "data/observations/J0614_mrsamples.dat",
+      "replaces": "J0437",
+      "retained_rows": 629191,
+      "sha256": "d3e128070955ca3d30577254489efd58849686d377f4e0aa9674ac17b2df44a6",
+      "slot": 2
+    },
+    "J1231": {
+      "effective_sample_size": 486.1590045400635,
+      "log_evidence": -26.389448249386454,
+      "naive_monte_carlo_error": 0.045353502620386316,
+      "path": "data/observations/J1231_wmrsamples.txt",
+      "replaces": "J0030",
+      "retained_rows": 629191,
+      "sha256": "7f963ffa3a8667f22c71d55d99df6512daa7e41c8ca63a62fde96da472d5932e",
+      "slot": 0
+    },
+    "J1614": {
+      "effective_sample_size": 486.2480932728689,
+      "log_evidence": -25.582730294758107,
+      "naive_monte_carlo_error": 0.04534934767230462,
+      "path": "data/observations/J1614_STU_mrsamples_post_equal_weights.dat",
+      "replaces": "J0740",
+      "retained_rows": 629191,
+      "sha256": "bebc04bb8be8e827dc957c13d1dad48b715cdb0720a1cccb0149ed556b9545f4",
+      "slot": 1
+    }
+  },
+  "invalid_stellar_curve_rows": 103814,
+  "minimum_effective_sample_size": 357.0524559646333,
+  "minimum_effective_sample_size_gate": 20.0,
+  "model": "ddb",
+  "nuclear_results": {
+    "A1": {
+      "effective_sample_size": 462.68779661096266,
+      "log_evidence": -25.59771976352621,
+      "naive_monte_carlo_error": 0.0464896179768534,
+      "retained_rows": 629200
+    },
+    "Jsym_29": {
+      "effective_sample_size": 562.386799460633,
+      "log_evidence": -25.533080727938394,
+      "naive_monte_carlo_error": 0.042167945401663326,
+      "retained_rows": 629200
+    },
+    "Jsym_36": {
+      "effective_sample_size": 417.20399594653634,
+      "log_evidence": -25.73486939065843,
+      "naive_monte_carlo_error": 0.048958236993490674,
+      "retained_rows": 629200
+    },
+    "K0_200": {
+      "effective_sample_size": 403.09749637626686,
+      "log_evidence": -25.578399897061352,
+      "naive_monte_carlo_error": 0.04980752362329009,
+      "retained_rows": 629200
+    },
+    "K0_260": {
+      "effective_sample_size": 514.1906550378006,
+      "log_evidence": -25.84183819171681,
+      "naive_monte_carlo_error": 0.04409993103164116,
+      "retained_rows": 629200
+    }
+  },
+  "replacement_arithmetic": "base minus exact embedded baseline-source term plus evaluated replacement-source term; invalid curves and finite sentinels excluded",
+  "role": "exact importance-sampling evidence of every Table VI row on the Evidence Network bank, computed after the three networks were frozen",
+  "valid_stellar_curve_rows": 744203,
+  "wall_seconds": 15.56913128800079
+}

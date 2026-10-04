@@ -1,0 +1,128 @@
+{
+  "definition": {
+    "R_at_Mmax": "terminal radius of the stable TOV branch",
+    "credible_interval": "weighted 5th, 50th, and 95th percentiles",
+    "figure": "two-panel substituted-source figure (Figure 5)",
+    "posterior_samples": "the exact corrected 4,000-curve posterior representations used to draw each Figure 5 band"
+  },
+  "pairwise_band_agreement": {
+    "J0614_A-NET+IS_vs_UltraNest": {
+      "max_abs_90pct_edge_separation_km": 0.4332538091465885,
+      "mean_abs_90pct_edge_separation_km": 0.045621063658964206,
+      "n_common_mass_points": 177
+    },
+    "J1231_A-NET+IS_vs_UltraNest": {
+      "max_abs_90pct_edge_separation_km": 0.31364434548712516,
+      "mean_abs_90pct_edge_separation_km": 0.04466288636029514,
+      "n_common_mass_points": 177
+    }
+  },
+  "rows": {
+    "J0614": {
+      "A-NET+IS": {
+        "Mmax_msun": {
+          "median": 2.095338923023931,
+          "minus": 0.11979484716432509,
+          "plus": 0.11170936653425789,
+          "q05": 1.975544075859606,
+          "q95": 2.207048289558189
+        },
+        "R_1p4_km": {
+          "median": 12.282217407519614,
+          "minus": 0.5660855868080095,
+          "plus": 0.3888528552806356,
+          "q05": 11.716131820711604,
+          "q95": 12.67107026280025
+        },
+        "R_at_Mmax_km": {
+          "median": 10.878926115825402,
+          "minus": 0.44258052195644026,
+          "plus": 0.4573358908138143,
+          "q05": 10.436345593868962,
+          "q95": 11.336262006639217
+        },
+        "corrected_reweight_ess": 3998.389489188141,
+        "n_draws": 4000
+      },
+      "UltraNest": {
+        "Mmax_msun": {
+          "median": 2.0988478873539593,
+          "minus": 0.11726210554203598,
+          "plus": 0.11439252377280962,
+          "q05": 1.9815857818119234,
+          "q95": 2.213240411126769
+        },
+        "R_1p4_km": {
+          "median": 12.275363128085305,
+          "minus": 0.5764540187167153,
+          "plus": 0.41959549712646016,
+          "q05": 11.69890910936859,
+          "q95": 12.694958625211765
+        },
+        "R_at_Mmax_km": {
+          "median": 10.906728724353684,
+          "minus": 0.4261532758047828,
+          "plus": 0.4074813420544672,
+          "q05": 10.480575448548901,
+          "q95": 11.314210066408151
+        },
+        "corrected_reweight_ess": 3998.2827259183346,
+        "n_draws": 4000
+      }
+    },
+    "J1231": {
+      "A-NET+IS": {
+        "Mmax_msun": {
+          "median": 2.0930251699663587,
+          "minus": 0.1210220631233978,
+          "plus": 0.12846787267535076,
+          "q05": 1.9720031068429609,
+          "q95": 2.2214930426417094
+        },
+        "R_1p4_km": {
+          "median": 12.77537935867667,
+          "minus": 0.592853817390683,
+          "plus": 0.5381333468893601,
+          "q05": 12.182525541285987,
+          "q95": 13.31351270556603
+        },
+        "R_at_Mmax_km": {
+          "median": 11.138376978510248,
+          "minus": 0.4642891436802401,
+          "plus": 0.44919803847545126,
+          "q05": 10.674087834830008,
+          "q95": 11.5875750169857
+        },
+        "corrected_reweight_ess": 3954.94094462385,
+        "n_draws": 4000
+      },
+      "UltraNest": {
+        "Mmax_msun": {
+          "median": 2.0937059940225344,
+          "minus": 0.1191522593701928,
+          "plus": 0.1198280382302519,
+          "q05": 1.9745537346523416,
+          "q95": 2.2135340322527863
+        },
+        "R_1p4_km": {
+          "median": 12.761274792933817,
+          "minus": 0.5511578081073534,
+          "plus": 0.5779827764508259,
+          "q05": 12.210116984826463,
+          "q95": 13.339257569384642
+        },
+        "R_at_Mmax_km": {
+          "median": 11.145208262270069,
+          "minus": 0.4610593414908646,
+          "plus": 0.47394018574469854,
+          "q05": 10.684148920779204,
+          "q95": 11.619148448014768
+        },
+        "corrected_reweight_ess": 3948.0248743869747,
+        "n_draws": 4000
+      }
+    }
+  },
+  "source_hashes": {},
+  "status": "PASS"
+}

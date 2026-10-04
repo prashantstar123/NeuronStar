@@ -1,0 +1,94 @@
+{
+  "band_agreement": {
+    "fraction_of_mass_points_with_overlapping_90pct_intervals": 1.0,
+    "maximum_absolute_90pct_edge_difference_km": 0.11193194313132615,
+    "maximum_absolute_median_curve_difference_km": 0.07176796749768855,
+    "mean_absolute_90pct_edge_difference_km": 0.02659619789708406,
+    "mean_absolute_median_curve_difference_km": 0.015407059625554984,
+    "mean_interval_intersection_over_union": 0.9693464602365234,
+    "minimum_interval_intersection_over_union": 0.922979742443337,
+    "rms_90pct_edge_difference_km": 0.03534592279581182
+  },
+  "comparison_range": {
+    "definition": "both pointwise bands finite, posterior support >=0.05, and conditional ESS >=100",
+    "mass_max_msun": 2.1500000000000004,
+    "mass_min_msun": 0.5,
+    "mass_points": 166
+  },
+  "credible_level_percent": 90,
+  "displayed_pointwise_band": {
+    "definition": "open 5th and 95th weighted pointwise R(M) quantile edges in the common certified range, matching the manuscript's existing nucleonic mass-radius figure convention; the same conditional edges continue with opacity proportional to the square root of posterior support in the sparse high-mass tail",
+    "forced_closure": false,
+    "mass_max_msun": 2.1500000000000004,
+    "mass_min_msun": 0.5
+  },
+  "posterior_ess": {
+    "A-NET+IS": 3295.7937543901085,
+    "UltraNest": 28846.999999999993
+  },
+  "posterior_rows": {
+    "A-NET+IS_positive_weight": 31459,
+    "UltraNest": 28847
+  },
+  "scalar_intervals": {
+    "maximum_mass_msun": {
+      "A-NET+IS": {
+        "median": 2.02018671486144,
+        "minus": 0.0810639931306838,
+        "plus": 0.13579314855737934,
+        "q05": 1.9391227217307563,
+        "q95": 2.1559798634188194
+      },
+      "UltraNest": {
+        "median": 2.0239313517004005,
+        "minus": 0.08513057500372234,
+        "plus": 0.13966158568349618,
+        "q05": 1.9388007766966782,
+        "q95": 2.1635929373838967
+      },
+      "median_difference_A-NET_minus_UltraNest": -0.0037446368389604245,
+      "q05_difference_A-NET_minus_UltraNest": 0.00032194503407811936,
+      "q95_difference_A-NET_minus_UltraNest": -0.007613073965077266
+    },
+    "radius_1p4_km": {
+      "A-NET+IS": {
+        "median": 12.175371571329665,
+        "minus": 0.6700157541264105,
+        "plus": 0.6882992439695546,
+        "q05": 11.505355817203254,
+        "q95": 12.86367081529922
+      },
+      "UltraNest": {
+        "median": 12.18556510800623,
+        "minus": 0.7057507921158344,
+        "plus": 0.6848976447699666,
+        "q05": 11.479814315890396,
+        "q95": 12.870462752776197
+      },
+      "median_difference_A-NET_minus_UltraNest": -0.010193536676565529,
+      "q05_difference_A-NET_minus_UltraNest": 0.025541501312858372,
+      "q95_difference_A-NET_minus_UltraNest": -0.006791937476977594
+    },
+    "radius_at_maximum_mass_km": {
+      "A-NET+IS": {
+        "median": 10.698490997915709,
+        "minus": 0.44240876617027247,
+        "plus": 0.5688519584939442,
+        "q05": 10.256082231745436,
+        "q95": 11.267342956409653
+      },
+      "UltraNest": {
+        "median": 10.717990028802948,
+        "minus": 0.4777506726046994,
+        "plus": 0.5645674723153853,
+        "q05": 10.240239356198249,
+        "q95": 11.282557501118333
+      },
+      "median_difference_A-NET_minus_UltraNest": -0.019499030887239144,
+      "q05_difference_A-NET_minus_UltraNest": 0.015842875547187774,
+      "q95_difference_A-NET_minus_UltraNest": -0.015214544708680222
+    }
+  },
+  "status": "PASS",
+  "target": "A1 with J1614 replacing J0740"
+}

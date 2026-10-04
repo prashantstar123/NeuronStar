@@ -1,0 +1,83 @@
+{
+ "release": "route2-data-v1",
+ "files": [
+  {
+   "name": "tsnpe_hyperonic_posterior_9d_mis.npz",
+   "bytes": 20578223,
+   "sha256": "ae0bfba7a47517c462c3ab44f76b548d98cc7889b6ccd6603eb3286d088bfcaa",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_candidates_150k.npz",
+   "bytes": 13611289,
+   "sha256": "82f4692062607dd761a992d12a7df9e422d4d494c8214eed1531e4549871fc68",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_old_flow_proposal.npz",
+   "bytes": 6276225,
+   "sha256": "57f39d743f80bdf08df9b967a609386d5fb10c4bf8947e54a1ed18dbb18a9a46",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_old_flow_proposal.json",
+   "bytes": 42779,
+   "sha256": "49b530f965d3612432065b5da2c72dad78fa60aa3d89423c19d129476293b2d5",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_old_flow_00.pt",
+   "bytes": 5089212,
+   "sha256": "2a894a1f0abd2bf0c1cbca955097332a3676dd1498c1df18acde86cd035d0879",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_old_flow_01.pt",
+   "bytes": 5089212,
+   "sha256": "99adbed26a5e0f9db2e56c06fa7f07b03e6ba001adca3478481cee3d93adc8af",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_old_flow_02.pt",
+   "bytes": 5089212,
+   "sha256": "0f00a3a5c9fa0563f9f6554c83fe8188827566481f76facb3c7a75d212042431",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_new_flow_proposal.npz",
+   "bytes": 8365371,
+   "sha256": "63d32d82bc86983157221ad1fe0390c5bcc05e818a9d358c6a79069caeb65700",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_new_flow_proposal.json",
+   "bytes": 57222,
+   "sha256": "13537ee8d547fae335cb643170d80877a01bf1798d4cd96f776dece141440ebf",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_new_flow_00.pt",
+   "bytes": 5089627,
+   "sha256": "35c7e7633dd8669720400ae8167f7bf774247836980230afc96ca2c446f23041",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_new_flow_01.pt",
+   "bytes": 5089627,
+   "sha256": "a503c4f8564665cbe5dbae89d5af3a573ef1ddf89abd7a5b3e6e34bee49f70dc",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_new_flow_02.pt",
+   "bytes": 5089627,
+   "sha256": "54952565d0b814fec4078ea741d8ee62812fc028ce8a78e8e0811bd4cfa56c76",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  },
+  {
+   "name": "tsnpe_hyperonic_new_flow_03.pt",
+   "bytes": 5089627,
+   "sha256": "33e2a9ff79717025180b035393b2f8b88bca095d178cdb394a8630060ae324ce",
+   "used_by": "route2/checks/tsnpe_hyperonic.py"
+  }
+ ]
+}

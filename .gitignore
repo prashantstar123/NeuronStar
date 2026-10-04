@@ -1,0 +1,18 @@
+# Route 1 output
+build/
+# unpacked copies of the compressed observation files (created by ./reproduce.sh check)
+data/observations/J0740_NICERXMM_full_mr.txt
+data/observations/J0437_post_equal_weights.dat
+data/observations/J1231_wmrsamples.txt
+*.partial
+# Python
+__pycache__/
+*.pyc
+.venv*/
+
+# Route 2 downloads (fetched from the GitHub release by route2/fetch.py)
+route2/downloads/
+# Route 2 full reruns write here (see docs/route2/)
+runs/
+# training logs that sbi writes during the TSNPE smoke run
+sbi-logs/

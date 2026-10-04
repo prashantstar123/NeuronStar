@@ -1,0 +1,45 @@
+{
+ "description": "Stored per-row uncertainty of the eight nucleonic Evidence Network rows. The quoted nucleonic uncertainty of Table VI is the larger of this value and the three-term value (network scatter, exact-bank Monte Carlo error, calibration) that route2/checks/evidence.py rebuilds; held-out sources then add the network-minus-bank residual in quadrature.",
+ "rows": [
+  {
+   "sector": "nucleonic",
+   "configuration": "A1",
+   "sigma": 0.04985346227567831
+  },
+  {
+   "sector": "nucleonic",
+   "configuration": "K0_200",
+   "sigma": 0.052932086484571705
+  },
+  {
+   "sector": "nucleonic",
+   "configuration": "K0_260",
+   "sigma": 0.047662036399164366
+  },
+  {
+   "sector": "nucleonic",
+   "configuration": "Jsym_29",
+   "sigma": 0.1269446351009305
+  },
+  {
+   "sector": "nucleonic",
+   "configuration": "Jsym_36",
+   "sigma": 0.11367338066802447
+  },
+  {
+   "sector": "nucleonic",
+   "configuration": "J0614",
+   "sigma": 0.16580634695370525
+  },
+  {
+   "sector": "nucleonic",
+   "configuration": "J1231",
+   "sigma": 0.20991631212557746
+  },
+  {
+   "sector": "nucleonic",
+   "configuration": "J1614",
+   "sigma": 0.1788660796935629
+  }
+ ]
+}

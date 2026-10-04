@@ -1,0 +1,80 @@
+{
+ "description": "SHA-256 of every file of green_en/: the Evidence Network code (bank assembly, labels, training, timing) described in docs/route2/STEPS_EVIDENCE_NETWORK.md.",
+ "files": [
+  {
+   "file": "green_en/scripts/assemble_green_en_support_extension.py",
+   "sha256": "e816f0cc4204770c4086739176305ee262db0a21e7533897216b17d14cbfe3cb",
+   "role": "bank assembly with the S_ext proposal correction and the coverage gates (both sectors)"
+  },
+  {
+   "file": "green_en/scripts/assemble_nucleonic_exact_shards.py",
+   "sha256": "f80cadfccd0193f7d6f02339bd2c74536b15ea72c6d4e6ba395bc2baf687a64a",
+   "role": "ordered assembly of the nucleonic exact shards"
+  },
+  {
+   "file": "green_en/scripts/benchmark_green_en_query_timing.py",
+   "sha256": "3d6ed3c35c4a07402ac03fdcbc249bed9edea95cfd0b1e0f8e04736793469eb9",
+   "role": "query timing (Table VIII); also replays all 48 member log-evidences"
+  },
+  {
+   "file": "green_en/scripts/certify_nucleonic_exact_parallel_output.py",
+   "sha256": "e51f779328f4aa544577ffa18511ea099480d8f24e954b1aafc96768ab4c3dc9",
+   "role": "certification: parallel nucleonic exact rows bitwise equal to the serial reference"
+  },
+  {
+   "file": "green_en/scripts/certify_nucleonic_support_extension_adapter.py",
+   "sha256": "0cc4a3ecb5d8aa3e7c67c084ecb69ee3912a6f824c19e49207ba634304c4f23c",
+   "role": "certification: 200-row nucleonic adapter against the scalar reference path"
+  },
+  {
+   "file": "green_en/scripts/evaluate_hyperonic_support_extension.py",
+   "sha256": "67e535e90c1b78d138b7ef2b20a055c3b6de50aee79a3341176ef2d4f384656c",
+   "role": "hyperonic S_ext exact EOS/TOV/likelihood rows (uses fastsolver/)"
+  },
+  {
+   "file": "green_en/scripts/evaluate_nucleonic_support_extension.py",
+   "sha256": "864b5cf7488cbc2d6641368f1b3c54f590a302ee0cf7619226ab90750efe01c9",
+   "role": "nucleonic S_ext exact EOS/TOV/likelihood rows, one shard (uses fastsolver/)"
+  },
+  {
+   "file": "green_en/scripts/evaluate_support_extension_v2_exact_bank.py",
+   "sha256": "7493487057a2d93ea8f6704c2f0a78b89a3aa053158e027554dc3e6eb63063b6",
+   "role": "post-freeze exact-bank check (bank Monte Carlo term and bank log Z used in Table VI)"
+  },
+  {
+   "file": "green_en/scripts/prepare_expanded_hyperonic_green_bank.py",
+   "sha256": "6528dee3436ff0e174d6160347b719864f533d8f2e59b06c2e0fca08b826e1cc",
+   "role": "hyperonic parent-bank builder (parent 02357702: uniform rows plus two A1-box support streams)"
+  },
+  {
+   "file": "green_en/scripts/run_clean_timed_stage.py",
+   "sha256": "9965f58f876065263a780222424e5712bb679e025f80c460c85aa5c418e77d1a",
+   "role": "timing wrapper around the production commands (writes the wall-time record)"
+  },
+  {
+   "file": "green_en/scripts/run_nucleonic_exact_parallel_stage.py",
+   "sha256": "d59263c9d79e3e7b2a89a3d1b224cb4a68c09651d0147a7bda58d5094863480c",
+   "role": "nucleonic exact stage driver: eight chunk-aligned shards, then ordered assembly"
+  },
+  {
+   "file": "green_en/scripts/screen_green_en_support_extension.py",
+   "sha256": "7000fb098f02acaa3dfed8fad6be164fd6a16a08d7745af2caba26ffd7098f6e",
+   "role": "S_ext screen of 160M full-prior proposals (both sectors)"
+  },
+  {
+   "file": "green_en/scripts/verify_support_extension_parallel.py",
+   "sha256": "2051b2e77608b7281640a8c8b903e1a4d7943c551f7109ddba0f2a492b98b775",
+   "role": "certification: serial and parallel screens are bitwise identical"
+  },
+  {
+   "file": "green_en/solution/s2_green_en.py",
+   "sha256": "05b4b794540d6934a18953c689d86c6ad1ab67d9ead99ee8cc293b14349f2ec3",
+   "role": "trainer, both sectors (seeds 9211-9213 and 9311-9313)"
+  },
+  {
+   "file": "green_en/train_onfly.py",
+   "sha256": "add330fdad39b862ab30ba445b3aaffd2688124cb99e720e7717bcf68e3d2f03",
+   "role": "trainer helpers imported by s2_green_en.py (exact on-the-fly labels, nuclear design draws)"
+  }
+ ]
+}

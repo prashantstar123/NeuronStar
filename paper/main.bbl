@@ -1,0 +1,220 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{56}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Malik}\ \emph {et~al.}(2022)\citenamefont {Malik}, \citenamefont {Ferreira}, \citenamefont {Agrawal},\ and\ \citenamefont {Provid{\^e}ncia}}]{Malik:2022zol}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Malik}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ferreira}}, \bibinfo {author} {\bibfnamefont {B.~K.}\ \bibnamefont {Agrawal}},\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Provid{\^e}ncia}},\ }\bibfield  {title} {\bibinfo {title} {{Relativistic Description of Dense Matter Equation of State and Compatibility with Neutron Star Observables: A Bayesian Approach}},\ }\href {https://doi.org/10.3847/1538-4357/ac5d3c} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {930}},\ \bibinfo {pages} {17} (\bibinfo {year} {2022})},\ \Eprint {https://arxiv.org/abs/2201.12552} {arXiv:2201.12552 [nucl-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Thakur}\ and\ \citenamefont {Malik}(2026)}]{Thakur:2026dpr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Thakur}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Malik}},\ }\bibfield  {title} {\bibinfo {title} {{Amortized Simulation-Based Inference of Relativistic Mean-Field Couplings for Neutron-Star Equations of State}},\ }\href@noop {} {\  (\bibinfo {year} {2026})},\ \Eprint {https://arxiv.org/abs/2606.25446} {arXiv:2606.25446 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Miller}\ \emph {et~al.}(2019)\citenamefont {Miller} \emph {et~al.}}]{Miller:2019cac}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont {Miller}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{PSR J0030+0451 Mass and Radius from $NICER$ Data and Implications for the Properties of Neutron Star Matter}},\ }\href {https://doi.org/10.3847/2041-8213/ab50c5} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J. Lett.}\ }\textbf {\bibinfo {volume} {887}},\ \bibinfo {pages} {L24} (\bibinfo {year} {2019})},\ \Eprint {https://arxiv.org/abs/1912.05705} {arXiv:1912.05705 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Riley}\ \emph {et~al.}(2019)\citenamefont {Riley} \emph {et~al.}}]{Riley:2019yda}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~E.}\ \bibnamefont {Riley}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{A $NICER$ View of PSR J0030+0451: Millisecond Pulsar Parameter Estimation}},\ }\href {https://doi.org/10.3847/2041-8213/ab481c} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J. Lett.}\ }\textbf {\bibinfo {volume} {887}},\ \bibinfo {pages} {L21} (\bibinfo {year} {2019})},\ \Eprint {https://arxiv.org/abs/1912.05702} {arXiv:1912.05702 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dittmann}\ \emph {et~al.}(2024)\citenamefont {Dittmann} \emph {et~al.}}]{Dittmann:2024mbo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Dittmann}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{A More Precise Measurement of the Radius of PSR J0740+6620 Using Updated NICER Data}},\ }\href {https://doi.org/10.3847/1538-4357/ad5f1e} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {974}},\ \bibinfo {pages} {295} (\bibinfo {year} {2024})},\ \Eprint {https://arxiv.org/abs/2406.14467} {arXiv:2406.14467 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Choudhury}\ \emph {et~al.}(2024)\citenamefont {Choudhury} \emph {et~al.}}]{Choudhury:2024xbk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Choudhury}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{A NICER View of the Nearest and Brightest Millisecond Pulsar: PSR J0437{\textendash}4715}},\ }\href {https://doi.org/10.3847/2041-8213/ad5a6f} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J. Lett.}\ }\textbf {\bibinfo {volume} {971}},\ \bibinfo {pages} {L20} (\bibinfo {year} {2024})},\ \Eprint {https://arxiv.org/abs/2407.06789} {arXiv:2407.06789 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mauviard}\ \emph {et~al.}(2025)\citenamefont {Mauviard} \emph {et~al.}}]{Mauviard:2025dmd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Mauviard}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{A NICER View of the 1.4 M$_{\odot }$ Edge-on Pulsar PSR J0614-3329}},\ }\href {https://doi.org/10.3847/1538-4357/ae145d} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {995}},\ \bibinfo {pages} {60} (\bibinfo {year} {2025})},\ \Eprint {https://arxiv.org/abs/2506.14883} {arXiv:2506.14883 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Salmi}\ \emph {et~al.}(2024)\citenamefont {Salmi} \emph {et~al.}}]{Salmi:2024bss}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Salmi}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{A NICER View of PSR J1231{\ensuremath{-}}1411: A Complex Case}},\ }\href {https://doi.org/10.3847/1538-4357/ad81d2} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {976}},\ \bibinfo {pages} {58} (\bibinfo {year} {2024})},\ \Eprint {https://arxiv.org/abs/2409.14923} {arXiv:2409.14923 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mauviard}\ \emph {et~al.}(2026)\citenamefont {Mauviard} \emph {et~al.}}]{Mauviard:2026gzc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Mauviard}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{A NICER view of PSR J1614$-$2230: a massive and compact millisecond pulsar}},\ }\href@noop {} {\  (\bibinfo {year} {2026})},\ \Eprint {https://arxiv.org/abs/2609.00172} {arXiv:2609.00172 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph {et~al.}(2017)\citenamefont {Abbott} \emph {et~al.}}]{LIGOScientific:2017vwq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific, Virgo}),\ }\bibfield  {title} {\bibinfo {title} {{GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral}},\ }\href {https://doi.org/10.1103/PhysRevLett.119.161101} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages} {161101} (\bibinfo {year} {2017})},\ \Eprint {https://arxiv.org/abs/1710.05832} {arXiv:1710.05832 [gr-qc]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Komoltsev}\ and\ \citenamefont {Kurkela}(2022)}]{Komoltsev:2021jzg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Komoltsev}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kurkela}},\ }\bibfield  {title} {\bibinfo {title} {{How Perturbative QCD Constrains the Equation of State at Neutron-Star Densities}},\ }\href {https://doi.org/10.1103/PhysRevLett.128.202701} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {128}},\ \bibinfo {pages} {202701} (\bibinfo {year} {2022})},\ \Eprint {https://arxiv.org/abs/2111.05350} {arXiv:2111.05350 [nucl-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gorda}\ \emph {et~al.}(2023)\citenamefont {Gorda}, \citenamefont {Komoltsev},\ and\ \citenamefont {Kurkela}}]{Gorda:2022jvk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Gorda}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Komoltsev}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kurkela}},\ }\bibfield  {title} {\bibinfo {title} {{Ab-initio QCD Calculations Impact the Inference of the Neutron-star-matter Equation of State}},\ }\href {https://doi.org/10.3847/1538-4357/acce3a} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {950}},\ \bibinfo {pages} {107} (\bibinfo {year} {2023})},\ \Eprint {https://arxiv.org/abs/2204.11877} {arXiv:2204.11877 [nucl-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Punturo}\ \emph {et~al.}(2010)\citenamefont {Punturo} \emph {et~al.}}]{Punturo:2010zz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Punturo}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{The Einstein Telescope: A third-generation gravitational wave observatory}},\ }\href {https://doi.org/10.1088/0264-9381/27/19/194002} {\bibfield  {journal} {\bibinfo  {journal} {Class. Quant. Grav.}\ }\textbf {\bibinfo {volume} {27}},\ \bibinfo {pages} {194002} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Evans}\ \emph {et~al.}(2021)\citenamefont {Evans} \emph {et~al.}}]{Evans:2021gyd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Evans}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{A Horizon Study for Cosmic Explorer: Science, Observatories, and Community}},\ }\href@noop {} {\  (\bibinfo {year} {2021})},\ \Eprint {https://arxiv.org/abs/2109.09882} {arXiv:2109.09882 [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Malik}\ and\ \citenamefont {Provid{\^e}ncia}(2022)}]{Malik:2022jqc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Malik}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Provid{\^e}ncia}},\ }\bibfield  {title} {\bibinfo {title} {{Bayesian inference of signatures of hyperons inside neutron stars}},\ }\href {https://doi.org/10.1103/PhysRevD.106.063024} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo {pages} {063024} (\bibinfo {year} {2022})},\ \Eprint {https://arxiv.org/abs/2205.15843} {arXiv:2205.15843 [nucl-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Buchner}(2021)}]{Buchner:2021cql}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Buchner}},\ }\bibfield  {title} {\bibinfo {title} {{UltraNest - a robust, general purpose Bayesian inference engine}},\ }\href {https://doi.org/10.21105/joss.03001} {\bibfield  {journal} {\bibinfo  {journal} {J. Open Source Softw.}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {3001} (\bibinfo {year} {2021})},\ \Eprint {https://arxiv.org/abs/2101.09604} {arXiv:2101.09604 [stat.CO]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cranmer}\ \emph {et~al.}(2020)\citenamefont {Cranmer}, \citenamefont {Brehmer},\ and\ \citenamefont {Louppe}}]{Cranmer:2019eaq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Cranmer}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Brehmer}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Louppe}},\ }\bibfield  {title} {\bibinfo {title} {{The frontier of simulation-based inference}},\ }\href {https://doi.org/10.1073/pnas.1912789117} {\bibfield  {journal} {\bibinfo  {journal} {Proc. Nat. Acad. Sci.}\ }\textbf {\bibinfo {volume} {117}},\ \bibinfo {pages} {30055} (\bibinfo {year} {2020})},\ \Eprint {https://arxiv.org/abs/1911.01429} {arXiv:1911.01429 [stat.ML]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dax}\ \emph {et~al.}(2023{\natexlab{a}})\citenamefont {Dax}, \citenamefont {Wildberger}, \citenamefont {Buchholz}, \citenamefont {Green}, \citenamefont {Macke},\ and\ \citenamefont {Sch{\"o}lkopf}}]{Dax:2023ozk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Dax}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wildberger}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Buchholz}}, \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont {Green}}, \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Macke}},\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Sch{\"o}lkopf}},\ }\bibfield  {title} {\bibinfo {title} {{Flow Matching for Scalable Simulation-Based Inference}},\ }\href@noop {} {\  (\bibinfo {year} {2023}{\natexlab{a}})},\ \Eprint {https://arxiv.org/abs/2305.17161} {arXiv:2305.17161 [cs.LG]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Deistler}\ \emph {et~al.}(2022)\citenamefont {Deistler}, \citenamefont {Goncalves},\ and\ \citenamefont {Macke}}]{Deistler:2022tsnpe}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Deistler}}, \bibinfo {author} {\bibfnamefont {P.~J.}\ \bibnamefont {Goncalves}},\ and\ \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Macke}},\ }\bibfield  {title} {\bibinfo {title} {{Truncated proposals for scalable and hassle-free simulation-based inference}},\ }\href@noop {} {\  (\bibinfo {year} {2022})},\ \Eprint {https://arxiv.org/abs/2210.04815} {arXiv:2210.04815 [stat.ML]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carvalho}\ \emph {et~al.}(2025)\citenamefont {Carvalho}, \citenamefont {Ferreira}, \citenamefont {Bejger},\ and\ \citenamefont {Provid{\^e}ncia}}]{Carvalho:2025qie}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Carvalho}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ferreira}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Bejger}},\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Provid{\^e}ncia}},\ }\bibfield  {title} {\bibinfo {title} {{Neural posterior estimation of neutron star equations of state}},\ }\href {https://doi.org/10.1103/6396-4dcy} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {112}},\ \bibinfo {pages} {083044} (\bibinfo {year} {2025})},\ \Eprint {https://arxiv.org/abs/2507.23506} {arXiv:2507.23506 [nucl-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brandes}\ \emph {et~al.}(2024)\citenamefont {Brandes}, \citenamefont {Modi}, \citenamefont {Ghosh}, \citenamefont {Farrell}, \citenamefont {Lindblom}, \citenamefont {Heinrich}, \citenamefont {Steiner}, \citenamefont {Weber},\ and\ \citenamefont {Whiteson}}]{Brandes:2024vhw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Brandes}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Modi}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Ghosh}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Farrell}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Lindblom}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Heinrich}}, \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Steiner}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Weber}},\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Whiteson}},\ }\bibfield  {title} {\bibinfo {title} {{Neural simulation-based inference of the neutron star equation of state directly from telescope spectra}},\ }\href {https://doi.org/10.1088/1475-7516/2024/09/009} {\bibfield  {journal} {\bibinfo  {journal} {JCAP}\ }\textbf {\bibinfo {volume} {09}},\ \bibinfo {pages} {009}},\ \Eprint {https://arxiv.org/abs/2403.00287} {arXiv:2403.00287 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dax}\ \emph {et~al.}(2023{\natexlab{b}})\citenamefont {Dax}, \citenamefont {Green}, \citenamefont {Gair}, \citenamefont {P{\"u}rrer}, \citenamefont {Wildberger}, \citenamefont {Macke}, \citenamefont {Buonanno},\ and\ \citenamefont {Sch{\"o}lkopf}}]{Dax:2022pxd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Dax}}, \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont {Green}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Gair}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {P{\"u}rrer}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wildberger}}, \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Macke}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Buonanno}},\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Sch{\"o}lkopf}},\ }\bibfield  {title} {\bibinfo {title} {{Neural Importance Sampling for Rapid and Reliable Gravitational-Wave Inference}},\ }\href {https://doi.org/10.1103/PhysRevLett.130.171403} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {130}},\ \bibinfo {pages} {171403} (\bibinfo {year} {2023}{\natexlab{b}})},\ \Eprint {https://arxiv.org/abs/2210.05686} {arXiv:2210.05686 [gr-qc]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jeffrey}\ and\ \citenamefont {Wandelt}(2024)}]{Jeffrey:2023stk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Jeffrey}}\ and\ \bibinfo {author} {\bibfnamefont {B.~D.}\ \bibnamefont {Wandelt}},\ }\bibfield  {title} {\bibinfo {title} {{Evidence Networks: simple losses for fast, amortized, neural Bayesian model comparison}},\ }\href {https://doi.org/10.1088/2632-2153/ad1a4d} {\bibfield  {journal} {\bibinfo  {journal} {Mach. Learn. Sci. Tech.}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {015008} (\bibinfo {year} {2024})},\ \Eprint {https://arxiv.org/abs/2305.11241} {arXiv:2305.11241 [cs.LG]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Baym}\ \emph {et~al.}(1971)\citenamefont {Baym}, \citenamefont {Pethick},\ and\ \citenamefont {Sutherland}}]{Baym:1971pw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Baym}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Pethick}},\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Sutherland}},\ }\bibfield  {title} {\bibinfo {title} {{The Ground state of matter at high densities: Equation of state and stellar models}},\ }\href {https://doi.org/10.1086/151216} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {170}},\ \bibinfo {pages} {299} (\bibinfo {year} {1971})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fortin}\ \emph {et~al.}(2017)\citenamefont {Fortin}, \citenamefont {Avancini}, \citenamefont {Provid{\^e}ncia},\ and\ \citenamefont {Vida{\~n}a}}]{Fortin:2017cvt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Fortin}}, \bibinfo {author} {\bibfnamefont {S.~S.}\ \bibnamefont {Avancini}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Provid{\^e}ncia}},\ and\ \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Vida{\~n}a}},\ }\bibfield  {title} {\bibinfo {title} {{Hypernuclei and massive neutron stars}},\ }\href {https://doi.org/10.1103/PhysRevC.95.065803} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {95}},\ \bibinfo {pages} {065803} (\bibinfo {year} {2017})},\ \Eprint {https://arxiv.org/abs/1701.06373} {arXiv:1701.06373 [nucl-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fortin}\ \emph {et~al.}(2020)\citenamefont {Fortin}, \citenamefont {Raduta}, \citenamefont {Avancini},\ and\ \citenamefont {Provid{\^e}ncia}}]{Fortin:2020qin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Fortin}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont {Raduta}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Avancini}},\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Provid{\^e}ncia}},\ }\bibfield  {title} {\bibinfo {title} {{Relativistic hypernuclear compact stars with calibrated equations of state}},\ }\href {https://doi.org/10.1103/PhysRevD.101.034017} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {101}},\ \bibinfo {pages} {034017} (\bibinfo {year} {2020})},\ \Eprint {https://arxiv.org/abs/2001.08036} {arXiv:2001.08036 [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Antoniadis}\ \emph {et~al.}(2013)\citenamefont {Antoniadis} \emph {et~al.}}]{Antoniadis:2013pzd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Antoniadis}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{A Massive Pulsar in a Compact Relativistic Binary}},\ }\href {https://doi.org/10.1126/science.1233232} {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume} {340}},\ \bibinfo {pages} {6131} (\bibinfo {year} {2013})},\ \Eprint {https://arxiv.org/abs/1304.6875} {arXiv:1304.6875 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fonseca}\ \emph {et~al.}(2021)\citenamefont {Fonseca} \emph {et~al.}}]{Fonseca:2021wxt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Fonseca}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{Refined Mass and Geometric Measurements of the High-mass PSR J0740+6620}},\ }\href {https://doi.org/10.3847/2041-8213/ac03b8} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J. Lett.}\ }\textbf {\bibinfo {volume} {915}},\ \bibinfo {pages} {L12} (\bibinfo {year} {2021})},\ \Eprint {https://arxiv.org/abs/2104.00880} {arXiv:2104.00880 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cartaxo}\ \emph {et~al.}(2026)\citenamefont {Cartaxo}, \citenamefont {Huang}, \citenamefont {Malik}, \citenamefont {Sourav}, \citenamefont {Yuan}, \citenamefont {Zhou}, \citenamefont {Liu},\ and\ \citenamefont {Provid{\^e}ncia}}]{Cartaxo:2025jpi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Cartaxo}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Huang}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Malik}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sourav}}, \bibinfo {author} {\bibfnamefont {W.-L.}\ \bibnamefont {Yuan}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Zhou}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Liu}},\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Provid{\^e}ncia}},\ }\bibfield  {title} {\bibinfo {title} {{Covariant Energy Density Functionals for Modeling the Equation of State of Neutron Star Matter: Cross-comparison Analysis Using CompactObject}},\ }\href {https://doi.org/10.3847/1538-4365/ae2310} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J. Suppl.}\ }\textbf {\bibinfo {volume} {282}},\ \bibinfo {pages} {33} (\bibinfo {year} {2026})},\ \Eprint {https://arxiv.org/abs/2506.03112} {arXiv:2506.03112 [nucl-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huang}\ \emph {et~al.}(2024)\citenamefont {Huang} \emph {et~al.}}]{Huang:2024rfg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Huang}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{CompactObject: An open-source Python package for full-scope neutron star equation of state inference}},\ }\href@noop {} {\  (\bibinfo {year} {2024})},\ \Eprint {https://arxiv.org/abs/2411.14615} {arXiv:2411.14615 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph {et~al.}(2019)\citenamefont {Abbott} \emph {et~al.}}]{LIGOScientific:2018mvr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific, Virgo}),\ }\bibfield  {title} {\bibinfo {title} {{GWTC-1: A Gravitational-Wave Transient Catalog of Compact Binary Mergers Observed by LIGO and Virgo during the First and Second Observing Runs}},\ }\href {https://doi.org/10.1103/PhysRevX.9.031040} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {031040} (\bibinfo {year} {2019})},\ \Eprint {https://arxiv.org/abs/1811.12907} {arXiv:1811.12907 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{LIGO Scientific Collaboration and Virgo Collaboration}}(2019)}]{LIGOScientific:2019gwtc1data}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{LIGO Scientific Collaboration and Virgo Collaboration}}},\ }\href {https://doi.org/10.7935/KSX7-QQ51} {\bibinfo {title} {{Parameter Estimation Sample Release for GWTC-1}}},\ \bibinfo {howpublished} {{LIGO Document P1800370-v5}} (\bibinfo {year} {2019})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Skilling}(2006)}]{Skilling:2006gxv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Skilling}},\ }\bibfield  {title} {\bibinfo {title} {{Nested sampling for general Bayesian computation}},\ }\href {https://doi.org/10.1214/06-BA127} {\bibfield  {journal} {\bibinfo  {journal} {Bayesian Analysis}\ }\textbf {\bibinfo {volume} {1}},\ \bibinfo {pages} {833} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hoogkamer}\ \emph {et~al.}(2025)\citenamefont {Hoogkamer}, \citenamefont {Kini}, \citenamefont {Salmi}, \citenamefont {Watts},\ and\ \citenamefont {Buchner}}]{Hoogkamer:2025ype}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Hoogkamer}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Kini}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Salmi}}, \bibinfo {author} {\bibfnamefont {A.~L.}\ \bibnamefont {Watts}},\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Buchner}},\ }\bibfield  {title} {\bibinfo {title} {{Cross-comparison of sampling algorithms for pulse profile modeling of PSR J0740+6620}},\ }\href {https://doi.org/10.1103/cp8c-2nbk} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {112}},\ \bibinfo {pages} {023008} (\bibinfo {year} {2025})},\ \Eprint {https://arxiv.org/abs/2502.13682} {arXiv:2502.13682 [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Buchner}(2024)}]{Buchner:2024rjd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Buchner}},\ }\bibfield  {title} {\bibinfo {title} {{Relative Jump Distance: a diagnostic for Nested Sampling}},\ }\href@noop {} {\  (\bibinfo {year} {2024})},\ \Eprint {https://arxiv.org/abs/2402.11936} {arXiv:2402.11936 [stat.ME]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zaheer}\ \emph {et~al.}(2017)\citenamefont {Zaheer}, \citenamefont {Kottur}, \citenamefont {Ravanbakhsh}, \citenamefont {Poczos}, \citenamefont {Salakhutdinov},\ and\ \citenamefont {Smola}}]{Zaheer:2017wmg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Zaheer}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Kottur}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ravanbakhsh}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Poczos}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Salakhutdinov}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Smola}},\ }\bibfield  {title} {\bibinfo {title} {{Deep Sets}},\ }\href@noop {} {\  (\bibinfo {year} {2017})},\ \Eprint {https://arxiv.org/abs/1703.06114} {arXiv:1703.06114 [cs.LG]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lipman}\ \emph {et~al.}(2023)\citenamefont {Lipman}, \citenamefont {Chen}, \citenamefont {Ben-Hamu}, \citenamefont {Nickel},\ and\ \citenamefont {Le}}]{Lipman:2023hef}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Lipman}}, \bibinfo {author} {\bibfnamefont {R.~T.~Q.}\ \bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Ben-Hamu}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nickel}},\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Le}},\ }\bibfield  {title} {\bibinfo {title} {{Flow Matching for Generative Modeling}},\ }\href@noop {} {\  (\bibinfo {year} {2023})},\ \Eprint {https://arxiv.org/abs/2210.02747} {arXiv:2210.02747 [cs.LG]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kingma}\ and\ \citenamefont {Ba}(2014)}]{Kingma:2014vow}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont {Kingma}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Ba}},\ }\bibfield  {title} {\bibinfo {title} {{Adam: A Method for Stochastic Optimization}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {{International Conference on Learning Representations}}}}\ (\bibinfo {year} {2014})\ \Eprint {https://arxiv.org/abs/1412.6980} {arXiv:1412.6980 [cs.LG]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Loshchilov}\ and\ \citenamefont {Hutter}(2016)}]{Loshchilov:2016tgk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Loshchilov}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Hutter}},\ }\bibfield  {title} {\bibinfo {title} {{SGDR: Stochastic Gradient Descent with Warm Restarts}}\ }(\bibinfo {year} {2016})\ \Eprint {https://arxiv.org/abs/1608.03983} {arXiv:1608.03983 [cs.LG]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hairer}\ \emph {et~al.}(1993)\citenamefont {Hairer}, \citenamefont {N{\o}rsett},\ and\ \citenamefont {Wanner}}]{Hairer:1993ode}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Hairer}}, \bibinfo {author} {\bibfnamefont {S.~P.}\ \bibnamefont {N{\o}rsett}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Wanner}},\ }\href {https://doi.org/10.1007/978-3-540-78862-1} {\emph {\bibinfo {title} {Solving Ordinary Differential Equations I: Nonstiff Problems}}},\ \bibinfo {edition} {2nd}\ ed.,\ \bibinfo {series} {Springer Series in Computational Mathematics}, Vol.~\bibinfo {volume} {8}\ (\bibinfo  {publisher} {Springer-Verlag},\ \bibinfo {address} {Berlin, Heidelberg},\ \bibinfo {year} {1993})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chen}\ \emph {et~al.}(2018)\citenamefont {Chen}, \citenamefont {Rubanova}, \citenamefont {Bettencourt},\ and\ \citenamefont {Duvenaud}}]{Chen:2018wjc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~T.~Q.}\ \bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Rubanova}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Bettencourt}},\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Duvenaud}},\ }\bibfield  {title} {\bibinfo {title} {{Neural Ordinary Differential Equations}},\ }\href@noop {} {\  (\bibinfo {year} {2018})},\ \Eprint {https://arxiv.org/abs/1806.07366} {arXiv:1806.07366 [cs.LG]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Durkan}\ \emph {et~al.}(2019)\citenamefont {Durkan}, \citenamefont {Bekasov}, \citenamefont {Murray},\ and\ \citenamefont {Papamakarios}}]{Durkan:2019nsq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Durkan}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bekasov}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Murray}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Papamakarios}},\ }\bibfield  {title} {\bibinfo {title} {{Neural Spline Flows}}\ }(\bibinfo {year} {2019})\ \Eprint {https://arxiv.org/abs/1906.04032} {arXiv:1906.04032 [stat.ML]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Veach}\ and\ \citenamefont {Guibas}(1995)}]{Veach:1995mis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Veach}}\ and\ \bibinfo {author} {\bibfnamefont {L.~J.}\ \bibnamefont {Guibas}},\ }\bibfield  {title} {\bibinfo {title} {Optimally combining sampling techniques for monte carlo rendering},\ }in\ \href {https://doi.org/10.1145/218380.218498} {\emph {\bibinfo {booktitle} {Proceedings of the 22nd Annual Conference on Computer Graphics and Interactive Techniques}}}\ (\bibinfo  {publisher} {Association for Computing Machinery},\ \bibinfo {year} {1995})\ pp.\ \bibinfo {pages} {419--428}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph {et~al.}(2018)\citenamefont {Abbott} \emph {et~al.}}]{LIGOScientific:2018cki}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific, Virgo}),\ }\bibfield  {title} {\bibinfo {title} {{GW170817: Measurements of Neutron Star Radii and Equation of State}},\ }\href {https://doi.org/10.1103/PhysRevLett.121.161101} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {121}},\ \bibinfo {pages} {161101} (\bibinfo {year} {2018})},\ \Eprint {https://arxiv.org/abs/1805.11581} {arXiv:1805.11581 [gr-qc]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Harris}\ \emph {et~al.}(2020)\citenamefont {Harris} \emph {et~al.}}]{Harris:2020numpy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont {Harris}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{Array programming with NumPy}},\ }\href {https://doi.org/10.1038/s41586-020-2649-2} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {585}},\ \bibinfo {pages} {357} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Virtanen}\ \emph {et~al.}(2020)\citenamefont {Virtanen} \emph {et~al.}}]{Virtanen:2020scipy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Virtanen}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python}},\ }\href {https://doi.org/10.1038/s41592-019-0686-2} {\bibfield  {journal} {\bibinfo  {journal} {Nature Methods}\ }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages} {261} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lam}\ \emph {et~al.}(2015)\citenamefont {Lam}, \citenamefont {Pitrou},\ and\ \citenamefont {Seibert}}]{Lam:2015numba}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont {Lam}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Pitrou}},\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Seibert}},\ }\bibfield  {title} {\bibinfo {title} {{Numba: A LLVM-based Python JIT compiler}},\ }in\ \href {https://doi.org/10.1145/2833157.2833162} {\emph {\bibinfo {booktitle} {{Proceedings of the Second Workshop on the LLVM Compiler Infrastructure in HPC}}}}\ (\bibinfo {year} {2015})\ pp.\ \bibinfo {pages} {1--6}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bradbury}\ \emph {et~al.}(2018)\citenamefont {Bradbury}, \citenamefont {Frostig}, \citenamefont {Hawkins}, \citenamefont {Johnson}, \citenamefont {Katariya}, \citenamefont {Leary}, \citenamefont {Maclaurin}, \citenamefont {Necula}, \citenamefont {Paszke}, \citenamefont {VanderPlas}, \citenamefont {Wanderman-Milne},\ and\ \citenamefont {Zhang}}]{Bradbury:2018jax}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Bradbury}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Frostig}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Hawkins}}, \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Johnson}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Katariya}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Leary}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Maclaurin}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Necula}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Paszke}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {VanderPlas}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Wanderman-Milne}},\ and\ \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Zhang}},\ }\href {http://github.com/jax-ml/jax} {\bibinfo {title} {{JAX: composable transformations of Python+NumPy programs}}} (\bibinfo {year} {2018})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Paszke}\ \emph {et~al.}(2019)\citenamefont {Paszke} \emph {et~al.}}]{Paszke:2019pytorch}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Paszke}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{PyTorch: An Imperative Style, High-Performance Deep Learning Library}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {{Advances in Neural Information Processing Systems 32}}}}\ (\bibinfo {year} {2019})\ \Eprint {https://arxiv.org/abs/1912.01703} {arXiv:1912.01703 [cs.LG]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rozet}\ \emph {et~al.}(2022)\citenamefont {Rozet} \emph {et~al.}}]{Rozet:2022zuko}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rozet}} \emph {et~al.},\ }\href {https://doi.org/10.5281/zenodo.7625672} {\bibinfo {title} {{Zuko: Normalizing flows in PyTorch}}} (\bibinfo {year} {2022})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boelts}\ \emph {et~al.}(2025)\citenamefont {Boelts} \emph {et~al.}}]{Boelts:2025sbi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Boelts}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{sbi reloaded: a toolkit for simulation-based inference workflows}},\ }\href {https://doi.org/10.21105/joss.07754} {\bibfield  {journal} {\bibinfo  {journal} {J. Open Source Softw.}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages} {7754} (\bibinfo {year} {2025})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pedregosa}\ \emph {et~al.}(2011)\citenamefont {Pedregosa} \emph {et~al.}}]{Pedregosa:2011sklearn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Pedregosa}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{Scikit-learn: Machine Learning in Python}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J. Mach. Learn. Res.}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo {pages} {2825} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hunter}(2007)}]{Hunter:2007matplotlib}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Hunter}},\ }\bibfield  {title} {\bibinfo {title} {{Matplotlib: A 2D Graphics Environment}},\ }\href {https://doi.org/10.1109/MCSE.2007.55} {\bibfield  {journal} {\bibinfo  {journal} {Comput. Sci. Eng.}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {90} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Waskom}(2021)}]{Waskom:2021seaborn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont {Waskom}},\ }\bibfield  {title} {\bibinfo {title} {{seaborn: statistical data visualization}},\ }\href {https://doi.org/10.21105/joss.03021} {\bibfield  {journal} {\bibinfo  {journal} {J. Open Source Softw.}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {3021} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kolmogorov}(1933)}]{Kolmogorov:1933}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont {Kolmogorov}},\ }\bibfield  {title} {\bibinfo {title} {{Sulla determinazione empirica di una legge di distribuzione}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {G. Ist. Ital. Attuari}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages} {83} (\bibinfo {year} {1933})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Smirnov}(1948)}]{Smirnov:1948}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Smirnov}},\ }\bibfield  {title} {\bibinfo {title} {{Table for Estimating the Goodness of Fit of Empirical Distributions}},\ }\href {https://doi.org/10.1214/aoms/1177730256} {\bibfield  {journal} {\bibinfo  {journal} {Ann. Math. Stat.}\ }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages} {279} (\bibinfo {year} {1948})}\BibitemShut {NoStop}%
+\end{thebibliography}%

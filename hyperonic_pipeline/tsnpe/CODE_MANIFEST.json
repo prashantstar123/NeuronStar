@@ -1,0 +1,150 @@
+{
+ "description": "SHA-256 of every file of the hyperonic TSNPE+MIS (A1) code described in docs/route2/STEPS_HYPERONIC_TSNPE.md.",
+ "files": [
+  {
+   "file": "hyperonic_pipeline/tsnpe/build_crossvalidated_hybrid_proposal_9d.py",
+   "sha256": "99885721366fa184eff52ffc6ec9a1d66b4edebf732cb6ebfc09d04ef98f53f2",
+   "role": "Step 7: final 150,000-row proposal"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/build_dual_stage_flow_proposal_9d.py",
+   "sha256": "4327b9d3b2c5336fd29cc6badac5b43c0f29ade788528505ca3cc9ed5ef1d188",
+   "role": "load_proposal and proposal_density of the frozen flow proposals (imported by Steps 5.4 and 7)"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/build_tsnpe_astrophysical_bridge.py",
+   "sha256": "24fe8f9d8f3aaf1de49264dd6cbe97e7a0c9a8ead7d0ebb5b3fd3c1b0e8472a1",
+   "role": "Step 1: round-zero astrophysical bridge (source cache and base mixture); imported by the next two"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/combine_adaptive_tsnpe_mis_9d.py",
+   "sha256": "3658928dedec6e397fa957e11ffbce38d552cc01d990ea181de322adcb21461d",
+   "role": "Step 5.1: 75,000-row mixture (its rows enter Steps 5.2 to 6)"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/combine_clean_tsnpe_mis_exact_9d.py",
+   "sha256": "2fdf2316a44036b696f625a3bec8728954dbbacbc3366a02b5a381fce333c984",
+   "role": "Step 4: deterministic-mixture weights of the defensive MIS (its rows enter Step 5)"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/combine_crossvalidated_hybrid_is_9d.py",
+   "sha256": "8adccd84e9f05e139dce31417a66a9dbd39ca4edb99e572d3d6de99d9cf20ece",
+   "role": "Step 9: final MIS, the published hyperonic TSNPE+MIS posterior"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/combine_frozen_adaptive_flow_mis_9d.py",
+   "sha256": "28db0c896ae58dba3a441759147189dfab28b76ed5a21eb5fd453765cc2275ce",
+   "role": "Step 5.2: 75,000-row mixture of the 3-member ensemble (its rows enter Steps 5.4 and 6)"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/combine_tsnpe_exact_round_shards.py",
+   "sha256": "5851df754ba3ecd385ff2e1ba24f6d1b55009b8608a8e662547dd295f1ec7b3d",
+   "role": "Step 3: combine the exact parts into training rows"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/combine_tsnpe_round0_exact_shards.py",
+   "sha256": "3b3375d807e8b073755f27a02523616318574aaec95f6e0ccbd14e8d23feb4c2",
+   "role": "Step 2: combine the exact parts into the 947 training rows"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/evaluate_clean_tsnpe_mis_shard_9d.py",
+   "sha256": "366ae051a4c6e42adf32016099e4e1d2452aaeff4b997893bc3017eb8a762597",
+   "role": "Steps 4 and 5.1: exact A1 likelihood of a shard"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/evaluate_crossvalidated_hybrid_shard_9d.py",
+   "sha256": "033ca43a7b8de65d9a271ec323b59a34d850b660e50bf483061c33c08db94b9c",
+   "role": "Step 8: exact A1 likelihood of a shard of the final proposal"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/evaluate_dual_stage_flow_shard_9d.py",
+   "sha256": "c2a87af5ede7689541ae99b5fc145488b6a142a65cb2608da0e58042a4910e02",
+   "role": "Step 5.4: exact A1 likelihood of a shard"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/evaluate_frozen_adaptive_flow_shard_9d.py",
+   "sha256": "4e841b6f6c5bfe5f3c0e67c1abc5399e83e151be919ae3a2956cd37ec23457d9",
+   "role": "Step 5.2: exact A1 likelihood of a shard"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/evaluate_tsnpe_round_9d.py",
+   "sha256": "cf801a1c45d3e792900ec00e663ff917bc4ffb03b53122322ba9ef92f679c14d",
+   "role": "Steps 2-3: exact A1 likelihood and frozen-reference accept/reject of a round"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/extend_tsnpe_bridge_proposal.py",
+   "sha256": "969853280795b9523d57fb19158182f04108077426196aaaf8a96f26830d52d8",
+   "role": "Step 1: 100,000 extra candidates from the frozen bridge"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/freeze_crossvalidated_gmm_bridge_9d.py",
+   "sha256": "14e42ea86934222e6b42beaafb2d0bc54468e8900ddc8388140ac06295848a84",
+   "role": "Step 6: fit and freeze the cross-validated mixture"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/generate_adaptive_tsnpe_mis_9d.py",
+   "sha256": "332c666ae3d64cb85d3c890beffd9b77ae4e01d02eb0a7915a5a830f277a3f54",
+   "role": "Step 5.1: Gaussian-mixture plus Student-t candidates"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/generate_clean_tsnpe_mis_candidates_9d.py",
+   "sha256": "aa92684c8d7837272e8730efe02f6bad069ef6324166bc5f11f5a8397b4633df",
+   "role": "Step 4: 45,000 candidates from the two frozen flows plus the uniform prior"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/generate_tsnpe_round_9d.py",
+   "sha256": "2411059dac7f01c40a549e61939b672f82b52b015a1cb1567192309755ca11fe",
+   "role": "Step 3: truncated proposals of rounds 1 and 2 from the preceding estimator"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/optimize_hybrid_flow_mis_proposal_9d.py",
+   "sha256": "134dfdd7cfdf192cc83ca0e2c04150f15fd0b36510660c8a7787e38cc1c31222",
+   "role": "Step 5.4: optimized parent mixture and its 120,000 candidates"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/prepare_crossvalidated_tsnpe_stages_9d.py",
+   "sha256": "bafbd4ee6a23338fd10f155faa224d2535dbfbce9fdd13629f66f2cf104cb78f",
+   "role": "Step 6: split the Step 5.4 rows into training rows and held-out folds"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/prepare_frozen_tsnpe_curve_resample.py",
+   "sha256": "40014e400710b4b4cc32350dc9e7e93245432062b20a7cf2660da54c9ce9893b",
+   "role": "Step 10: resample for the mass-radius and mass-tidal curves"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/refine_tsnpe_astrophysical_bridge.py",
+   "sha256": "2acde3d7d6998b80cf2306429b99f471d796631f473758536932c88427c6318a",
+   "role": "Step 1: residual-tail refinement of the bridge proposal"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/render_frozen_tsnpe_mass_radius_review.py",
+   "sha256": "577269b6cfa43bb53f390e386226c505a3a144bd4b0532757f4e3d362eaf42e3",
+   "role": "Step 10: comparison bands and figure (checked by route1/fig_hyperonic_a1.py)"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/split_clean_tsnpe_mis_candidates.py",
+   "sha256": "9eb47bc6e634c0676b2af34d346a12eb23ed42e70ad8a8e5c3c98b260d7db425",
+   "role": "Steps 4, 5 and 8: split candidates into exact-evaluation shards"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/split_tsnpe_candidate_proposal.py",
+   "sha256": "f0446eec743fea4b673f5881844fdc8f791b4e95c6ba1b35642ded83395ee7cc",
+   "role": "Steps 2-3: split proposals into exact-evaluation parts"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/split_tsnpe_round0_proposal.py",
+   "sha256": "6ff69d2815860ad122a69dcf09391728595185789fcba39c0115ad7010d7c642",
+   "role": "Step 2: split round zero into pilot and candidate parts"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/train_frozen_adaptive_flow_proposal_9d.py",
+   "sha256": "d652cf12b24a7fb7370967bdb8c06841092e82d4fe03c75700db787d12ee1c89",
+   "role": "Steps 5.2-5.3: the 3-member ('old') and 4-member ('new') zuko flow ensembles"
+  },
+  {
+   "file": "hyperonic_pipeline/tsnpe/train_tsnpe_round_9d.py",
+   "sha256": "a4007e11e8a33fb29225bc4a0b2e2791216d070b462cd65dc7000f6c3aaf7740",
+   "role": "Step 3: NSF density estimators (round fits and the two frozen round-2 flows)"
+  }
+ ]
+}

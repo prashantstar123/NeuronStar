@@ -1,0 +1,45 @@
+{
+ "description": "Fixtures of route2/checks/ultranest.py: the stored UltraNest records (records/evidence_aggregation.json with the combination rule, records/run_values.json with the values of all 27 runs, and records/run_reports/ with the correction reports of the four hyperonic desktop runs), the rows replayed with the exact likelihood, and numbers not stored elsewhere in the repository. Larger inputs are release files (route2/downloads.d/ultranest.json).",
+ "files": [
+  {
+   "file": "route2/fixtures/ultranest/expected.json",
+   "bytes": 9502,
+   "sha256": "9dea2089aab6e5993e5941962b01e9c6f83bb0a8ef4dafd3eaf216db447f6506"
+  },
+  {
+   "file": "route2/fixtures/ultranest/records/evidence_aggregation.json",
+   "bytes": 27487,
+   "sha256": "87a27353ed1a6c67eec42500fc769d27962188ab859928be36a10feb4e97a4c8"
+  },
+  {
+   "file": "route2/fixtures/ultranest/records/run_reports/hyp_j29_desktopB.json",
+   "bytes": 2573,
+   "sha256": "cb3d245caf5e920b26ac7d2539bab328b50b67e41bd9d4156aa3cee8039ef719"
+  },
+  {
+   "file": "route2/fixtures/ultranest/records/run_reports/hyp_j36_desktopB.json",
+   "bytes": 2572,
+   "sha256": "32023a9ce7e32e94ffd9d1ded681344b8642aa570e27da03dcb490a26ecbecd2"
+  },
+  {
+   "file": "route2/fixtures/ultranest/records/run_reports/hyp_k0200_desktopB.json",
+   "bytes": 2577,
+   "sha256": "718350bc7282e9f3a9bfab2956d01e95a59d8bd34d56ba39977a0d13dfb9fddb"
+  },
+  {
+   "file": "route2/fixtures/ultranest/records/run_reports/hyp_k0260_desktopB.json",
+   "bytes": 2571,
+   "sha256": "972410f868619ea53e633b122a22b250e9e4f70880113e634a972a5295a048ff"
+  },
+  {
+   "file": "route2/fixtures/ultranest/records/run_values.json",
+   "bytes": 35296,
+   "sha256": "09035b3aab7b4f724801053b49f83a57b6f9ba8fa253c662e75af22afd3674e5"
+  },
+  {
+   "file": "route2/fixtures/ultranest/replay_rows.npz",
+   "bytes": 34411,
+   "sha256": "a5fc9e9fc80dfc5baf51b53c76c57295e83614cdde22a656c3b1457c432b93fe"
+  }
+ ]
+}

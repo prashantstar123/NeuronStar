@@ -1,0 +1,87 @@
+{
+ "description": "Frozen Evidence Network members and the inputs of the Table VI aggregation.",
+ "files": [
+  {
+   "path": "route2/fixtures/evidence/checkpoints/nucleonic_green_seed9211.pt",
+   "bytes": 1901948,
+   "sha256": "bb34849b1d0874f81bb3e58d081eacb7f22bc582ee901586b61409bc1b4b39c7"
+  },
+  {
+   "path": "route2/fixtures/evidence/checkpoints/nucleonic_green_seed9212.pt",
+   "bytes": 1901948,
+   "sha256": "1f5372dd24be1dfaf05638f472a884973131a52b14809107b91004b4eb8daa02"
+  },
+  {
+   "path": "route2/fixtures/evidence/checkpoints/nucleonic_green_seed9213.pt",
+   "bytes": 1901948,
+   "sha256": "7154e18977161d4c921a98de60a6c02e6283b4cedb9d70eae81125638d111260"
+  },
+  {
+   "path": "route2/fixtures/evidence/checkpoints/hyperonic_green_seed9311.pt",
+   "bytes": 1901948,
+   "sha256": "d77d7984d15852820cf569996de18f933b6ae67aa25824637f148d106c40617b"
+  },
+  {
+   "path": "route2/fixtures/evidence/checkpoints/hyperonic_green_seed9312.pt",
+   "bytes": 1901948,
+   "sha256": "6382b5d28ce1be1f111532997521198739c49b7316973f42c0b2a0a544f8539e"
+  },
+  {
+   "path": "route2/fixtures/evidence/checkpoints/hyperonic_green_seed9313.pt",
+   "bytes": 1901948,
+   "sha256": "15704e1563bc5b8c1eb44f78eaadbf96a344f7581c650565d9db2b8e2a1fd6e5"
+  },
+  {
+   "path": "route2/fixtures/evidence/training_reports/nucleonic_green_seed9211.json",
+   "bytes": 19054,
+   "sha256": "6cdac3d91959b4219dd3f7d94e84d7140acc5f057749159d48ee61622b56c01f"
+  },
+  {
+   "path": "route2/fixtures/evidence/training_reports/nucleonic_green_seed9212.json",
+   "bytes": 19025,
+   "sha256": "4a3468a436c0b5a76fa4162cfd16467ec8fedf3f73cfc24c77693ad591e374ca"
+  },
+  {
+   "path": "route2/fixtures/evidence/training_reports/nucleonic_green_seed9213.json",
+   "bytes": 19053,
+   "sha256": "db50cf118c7cd99f2544656f315d7212d5ff74580e51641488204b20dbb89d85"
+  },
+  {
+   "path": "route2/fixtures/evidence/training_reports/hyperonic_green_seed9311.json",
+   "bytes": 19047,
+   "sha256": "928deca8b50e006a1f7d83785b44d578ab747bc628e0fba4c1c31871ce3364cf"
+  },
+  {
+   "path": "route2/fixtures/evidence/training_reports/hyperonic_green_seed9312.json",
+   "bytes": 19067,
+   "sha256": "04dcf0b3cadb28eec35507c7bfa8e16dc22fa69fedfd2b76e2204fcbaa4ae2f1"
+  },
+  {
+   "path": "route2/fixtures/evidence/training_reports/hyperonic_green_seed9313.json",
+   "bytes": 19098,
+   "sha256": "15f281b16923b404b9979e2114fbefdac50d3aaff7e51a6aaabbdccec99ad8f1"
+  },
+  {
+   "path": "route2/fixtures/evidence/exact_bank/nucleonic_exact_bank.json",
+   "bytes": 3086,
+   "sha256": "a51778eef7b44110e3e74110c89396019a4abad83f7548bd113c2c3231e46446"
+  },
+  {
+   "path": "route2/fixtures/evidence/exact_bank/hyperonic_exact_bank.json",
+   "bytes": 3092,
+   "sha256": "4d72223f8de5fde4d158de3d7609fcc6c1668aceaea675d94d8c310a893c302d"
+  },
+  {
+   "path": "route2/fixtures/evidence/nucleonic_stored_sigma.json",
+   "bytes": 1153,
+   "sha256": "81ef0fdc415e0c90eecfe6ee48c7c0bf9d07f23d96610af5ca903213ffc62788"
+  },
+  {
+   "path": "route2/fixtures/evidence/hyperonic_freeze_manifest.json",
+   "bytes": 3315,
+   "sha256": "8429ec7c307bd287bf929592928950237b8d4a04920a7ec1c15e2e13121e2a3e",
+   "source_sha256": "b25a7424f40281c817568e1b25fc3081586693c4cd55ada96af5249054dc8541",
+   "note": "removed one independence flag; every other key and value unchanged"
+  }
+ ]
+}

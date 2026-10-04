@@ -1,0 +1,296 @@
+{
+ "row_selection": {
+  "seed": 20260925,
+  "per_case": "6 highest weights + 6 random valid + 2 random invalid"
+ },
+ "cases": {
+  "A1": {
+   "nuclear_scenario": "A1",
+   "source_scenario": "A1",
+   "certificate_sha256": "df04ef1fd5c8cc293a33ea44039072bda61aa976c136348fb94d82307924f1f8",
+   "certificate_in": "results/hyperonic/A1/anet_certificate.npz",
+   "rows": 25000,
+   "valid_rows": 23619,
+   "log_evidence": -28.72691050130161,
+   "log_evidence_standard_error": 0.011792471465021487,
+   "posterior_ess": 5584.645874980633,
+   "maximum_normalized_weight": 0.004421486341917549,
+   "component_weights": [
+    0.35,
+    0.55,
+    0.1
+   ],
+   "batches": [
+    {
+     "proposal_seed": 20260944,
+     "rows": 25000,
+     "cloud_seed": 777001,
+     "flow_steps": 1024,
+     "proposal_sha256": "c5227b327cf503d1f35a616e7e79dc2e94a677a57a70844151f35f187c77ec9a",
+     "exact_likelihood_sha256": "6e79fc4b0b08071a5ed569ac140539988dcffd3b4714527ce5bd6c6355a6e617"
+    }
+   ],
+   "resample": {
+    "seed": 20260946,
+    "draws": 6000,
+    "unique_rows": 4339,
+    "sha256": "63af9c88c1b004f6aaba3515e37faa7eb7a32ac80fdadaf8d3fb513c4deaaa87",
+    "in": "results/hyperonic/A1/anet_resample6000.npz"
+   }
+  },
+  "K0_200": {
+   "nuclear_scenario": "K0_200",
+   "source_scenario": "A1",
+   "certificate_sha256": "1bd85fbdd66824f422f8b7ee9e4a601e93c7169d91175ab19a7caa3b465d8fb8",
+   "certificate_in": "route2/fixtures/hyperonic_anet/nuclear_shift_certificates.npz",
+   "rows": 25000,
+   "valid_rows": 23540,
+   "log_evidence": -29.135908795725896,
+   "log_evidence_standard_error": 0.015085306402716304,
+   "posterior_ess": 3737.389078502028,
+   "maximum_normalized_weight": 0.00914346080442857,
+   "component_weights": [
+    0.35,
+    0.55,
+    0.1
+   ],
+   "batches": [
+    {
+     "proposal_seed": 2026092101,
+     "rows": 25000,
+     "cloud_seed": 777001,
+     "flow_steps": 1024,
+     "proposal_sha256": "9956dc17f8e34027030f9c55c230292defb1797f60556ec9b7d471661675cb00",
+     "exact_likelihood_sha256": "593452cc17c86655efef6ae5e145cde4e1324694bbd11865ddb774bfd39559ae"
+    }
+   ],
+   "resample": {
+    "seed": 2026092301,
+    "draws": 6000,
+    "unique_rows": 4259,
+    "sha256": "7a8c7ee500bc94edd7d60591e05b3354eac3eb3a3009c7054c16b5fa88adb231",
+    "in": "route2/fixtures/hyperonic_anet/nuclear_shift_certificates.npz"
+   }
+  },
+  "K0_260": {
+   "nuclear_scenario": "K0_260",
+   "source_scenario": "A1",
+   "certificate_sha256": "64f3087f42a7ba1035c2ee99b59ecd46430ce7d2e66db11969fef0542505daa2",
+   "certificate_in": "route2/fixtures/hyperonic_anet/nuclear_shift_certificates.npz",
+   "rows": 25000,
+   "valid_rows": 23616,
+   "log_evidence": -28.582679876722224,
+   "log_evidence_standard_error": 0.013900851372275862,
+   "posterior_ess": 4287.545639646848,
+   "maximum_normalized_weight": 0.00831932666689014,
+   "component_weights": [
+    0.35,
+    0.55,
+    0.1
+   ],
+   "batches": [
+    {
+     "proposal_seed": 2026092102,
+     "rows": 25000,
+     "cloud_seed": 777001,
+     "flow_steps": 1024,
+     "proposal_sha256": "643eb652766d16cbb7fd3cb60c453f8a2f98dfc87684fddd01cb7209a67dd9d6",
+     "exact_likelihood_sha256": "21d5c0dac70126e6cad5dc7934d726a98422354a043760913ba2a7be0a5017b5"
+    }
+   ],
+   "resample": {
+    "seed": 2026092302,
+    "draws": 6000,
+    "unique_rows": 4262,
+    "sha256": "dd2a824dbddc6a2c39e3dc90ee8b1c57d0b9a53d5e1eb29e8dce12d147d66fd4",
+    "in": "route2/fixtures/hyperonic_anet/nuclear_shift_certificates.npz"
+   }
+  },
+  "Jsym_29": {
+   "nuclear_scenario": "Jsym_29",
+   "source_scenario": "A1",
+   "certificate_sha256": "13df64747e23651dba0461358c6e783276e2d73a05ad548cc40bef92d6b9567f",
+   "certificate_in": "route2/fixtures/hyperonic_anet/nuclear_shift_certificates.npz",
+   "rows": 50000,
+   "valid_rows": 47659,
+   "log_evidence": -28.695169150176593,
+   "log_evidence_standard_error": 0.011651404277940822,
+   "posterior_ess": 6420.330499479772,
+   "maximum_normalized_weight": 0.006249938138730898,
+   "component_weights": [
+    0.35,
+    0.55,
+    0.1
+   ],
+   "batches": [
+    {
+     "proposal_seed": 2026092103,
+     "rows": 25000,
+     "cloud_seed": 777001,
+     "flow_steps": 1024,
+     "proposal_sha256": "f09f1fffbd69b89761c49f4ce81ab00f045d52afe1c23289a514769250cbb09f",
+     "exact_likelihood_sha256": "563948fe26b8c9a760457d7c83d3a9b1100a19d9284e1b658dafe77284267420"
+    },
+    {
+     "proposal_seed": 2026092203,
+     "rows": 25000,
+     "cloud_seed": 777001,
+     "flow_steps": 1024,
+     "proposal_sha256": "77d1d4fbf23499df7b89c076e9b4148fbf1ae3e7cc83913644c1390ff5f2658d",
+     "exact_likelihood_sha256": "63571fe0e51357b27ce5bdf03a7f48f75cc876145683c41151b0ba7b6eeef9bd"
+    }
+   ],
+   "resample": {
+    "seed": 2026092303,
+    "draws": 6000,
+    "unique_rows": 4873,
+    "sha256": "fb8a669c08c092c32aef313d41aeeb93b015c532ee3e35bb1dfec349bcdf61cc",
+    "in": "route2/fixtures/hyperonic_anet/nuclear_shift_certificates.npz"
+   }
+  },
+  "Jsym_36": {
+   "nuclear_scenario": "Jsym_36",
+   "source_scenario": "A1",
+   "certificate_sha256": "fcde44be63527a68073e875178ed2d85eae372877de180121da604fda9c03312",
+   "certificate_in": "route2/fixtures/hyperonic_anet/nuclear_shift_certificates.npz",
+   "rows": 25000,
+   "valid_rows": 23042,
+   "log_evidence": -29.029345700406672,
+   "log_evidence_standard_error": 0.014999278121662997,
+   "posterior_ess": 3773.893308634576,
+   "maximum_normalized_weight": 0.009553042350894202,
+   "component_weights": [
+    0.35,
+    0.55,
+    0.1
+   ],
+   "batches": [
+    {
+     "proposal_seed": 2026092104,
+     "rows": 25000,
+     "cloud_seed": 777001,
+     "flow_steps": 1024,
+     "proposal_sha256": "a1ab0cadce18edcbc10441e8568d030f37cce40371a493a3a04c9eaaf4e84bfa",
+     "exact_likelihood_sha256": "31487fbafcbc3df964b9cb9837553644468717712e3c9e800e196fe001a8f77c"
+    }
+   ],
+   "resample": {
+    "seed": 2026092304,
+    "draws": 6000,
+    "unique_rows": 4245,
+    "sha256": "c5947c590e2a9673656e425b7262e6bda3f152cce235c60206199eb0f0dcf382",
+    "in": "route2/fixtures/hyperonic_anet/nuclear_shift_certificates.npz"
+   }
+  },
+  "J0614": {
+   "nuclear_scenario": "A1",
+   "source_scenario": "J0614",
+   "certificate_sha256": "d9848af7c3d3cf537c4866d9b732422fdaea81d5ba53f1d195e5b5fdeac8b08b",
+   "certificate_in": "results/hyperonic/J0614/anet_certificate.npz",
+   "rows": 25000,
+   "valid_rows": 23620,
+   "log_evidence": -31.371168702252355,
+   "log_evidence_standard_error": 0.0201661479861705,
+   "posterior_ess": 2238.771596985116,
+   "maximum_normalized_weight": 0.004334186930270984,
+   "component_weights": [
+    0.35,
+    0.55,
+    0.1
+   ],
+   "batches": [
+    {
+     "proposal_seed": 2026092105,
+     "rows": 25000,
+     "cloud_seed": 777001,
+     "flow_steps": 1024,
+     "proposal_sha256": "97623e2819f9d71cf0fa24c6f59a22bcda2d9a74ec7b6b0b36bca26b81b8efc2",
+     "exact_likelihood_sha256": "5c25df096b15d2b45bbe4c0db0d5a997f994ee223240722a58372057ba5d1573"
+    }
+   ],
+   "resample": {
+    "seed": 2026092305,
+    "draws": 6000,
+    "unique_rows": 2979,
+    "sha256": "fc715cb8939b7341247d2f3a834d73670f47f7d69d7ed97df4a8df77b7b02a35",
+    "in": "results/hyperonic/J0614/anet_resample6000.npz"
+   }
+  },
+  "J1231": {
+   "nuclear_scenario": "A1",
+   "source_scenario": "J1231",
+   "certificate_sha256": "b9f82bef1497903c2cbafce0b0078959018a22856015116ee9bbab1b0c3eb1b0",
+   "certificate_in": "results/hyperonic/J1231/anet_certificate.npz",
+   "rows": 50000,
+   "valid_rows": 48061,
+   "log_evidence": -29.225385670004975,
+   "log_evidence_standard_error": 0.011361374246808123,
+   "posterior_ess": 6707.770778048129,
+   "maximum_normalized_weight": 0.00829174499712501,
+   "component_weights": [
+    0.35,
+    0.55,
+    0.1
+   ],
+   "batches": [
+    {
+     "proposal_seed": 2026092106,
+     "rows": 25000,
+     "cloud_seed": 777001,
+     "flow_steps": 1024,
+     "proposal_sha256": "63a8bafc0bc3f99d31762a9de8a239a4ce3cafd406deee1d45d6492dadfcc0a8",
+     "exact_likelihood_sha256": "7701647b623321e9a4648613de6528d07ce8d33b5f7ec82a1cd09618f68334fd"
+    },
+    {
+     "proposal_seed": 2026092206,
+     "rows": 25000,
+     "cloud_seed": 777001,
+     "flow_steps": 1024,
+     "proposal_sha256": "f03b99193e7ddbc68208c2aaefe5b921fac86135e318947b454995c51e1009fa",
+     "exact_likelihood_sha256": "a26032f89aac0df8b86de9747bfdefa1770cf14155ca900a0714a063cc228ca7"
+    }
+   ],
+   "resample": {
+    "seed": 2026092306,
+    "draws": 6000,
+    "unique_rows": 4922,
+    "sha256": "036e423b601bdfa4045fd22503a3e8dd7f63da345b536a652b90e366d44653c3",
+    "in": "results/hyperonic/J1231/anet_resample6000.npz"
+   }
+  },
+  "J1614": {
+   "nuclear_scenario": "A1",
+   "source_scenario": "J1614",
+   "certificate_sha256": "f8925993466ba224828df936364c76629062a8242aa62b85904fbe2b78e39589",
+   "certificate_in": "results/hyperonic/J1614/anet_certificate.npz",
+   "rows": 25000,
+   "valid_rows": 23538,
+   "log_evidence": -28.76187255422313,
+   "log_evidence_standard_error": 0.012288207587083315,
+   "posterior_ess": 5235.600841445108,
+   "maximum_normalized_weight": 0.002049266718627029,
+   "component_weights": [
+    0.35,
+    0.55,
+    0.1
+   ],
+   "batches": [
+    {
+     "proposal_seed": 2026092107,
+     "rows": 25000,
+     "cloud_seed": 777001,
+     "flow_steps": 1024,
+     "proposal_sha256": "9e100903331c662a81ee65339b9c953acbeb55c69798c7a27a228fb609bfbe24",
+     "exact_likelihood_sha256": "cbffc70fd92e528bbd38b2442a420b6493d99f6077faf1aeb2a22f73456b2d08"
+    }
+   ],
+   "resample": {
+    "seed": 2026092307,
+    "draws": 6000,
+    "unique_rows": 4032,
+    "sha256": "f9c228f8afe1fbbcd8b5c3dd59249275430d4ddf309245b6ed9020fd1630712d",
+    "in": "results/hyperonic/J1614/anet_resample6000.npz"
+   }
+  }
+ }
+}

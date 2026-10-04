@@ -1,0 +1,17 @@
+{
+ "release": "route2-data-v1",
+ "files": [
+  {
+   "name": "tsnpe_nucleonic_mis_a1_20261003.npz",
+   "bytes": 10068470,
+   "sha256": "4f4c67bfd0ace88f6d69fac383b44284c5f97a462b2ebf4a0f5a674ae1c2a594",
+   "used_by": "route2/checks/tsnpe_nucleonic.py"
+  },
+  {
+   "name": "tsnpe_nucleonic_density_estimator.pt",
+   "bytes": 11979954,
+   "sha256": "78dddcd5ef34c8e9a9e5c530284d19931597cb993191433297899caac38c2b90",
+   "used_by": "route2/checks/tsnpe_nucleonic.py"
+  }
+ ]
+}
