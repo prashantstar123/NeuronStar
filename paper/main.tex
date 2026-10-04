@@ -156,7 +156,10 @@ simulations around one target and must repeat that procedure when the target
 changes \cite{Deistler:2022tsnpe}.
 Within neutron-star EOS inference, neural posterior
 estimation has been applied to model-agnostic EOS representations
-\cite{Carvalho:2025qie}, while neural likelihood estimation has enabled
+\cite{Carvalho:2025qie}, also for a variable number of observations, each
+represented by its posterior samples \cite{Carvalho:2026nbl}, and set-based
+networks have reconstructed the EOS from unordered sets of stars
+\cite{Ferreira:2026bwb}. Neural likelihood estimation has enabled
 inference directly from telescope spectra \cite{Brandes:2024vhw}.
 The advantage of amortization therefore
 comes with a central reliability requirement: every new neural posterior must
@@ -1822,7 +1825,9 @@ shifted the median $R_{1.4}$ by up to $0.056$~km and the 5th and 95th percentile
 by up to $0.083$~km, whereas A-NET+IS agreed with fresh UltraNest runs within
 $0.014$~km in the median. A natural extension for the general inference
 package is a second permutation-invariant aggregation over the individual
-source embeddings, trained across variable source counts. This would allow
+source embeddings, trained across variable source counts, as introduced for
+neural posterior estimation of model-agnostic EOS representations in
+Ref.~\cite{Carvalho:2026nbl}. This would allow
 users to supply arbitrary numbers of NICER and GW observations directly while
 retaining full-likelihood correction, ESS diagnostics, and independent
 sampler validation. This extension is in preparation.

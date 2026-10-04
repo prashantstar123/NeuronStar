@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{56}%
+\begin{thebibliography}{58}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -109,6 +109,12 @@
 \bibitem [{\citenamefont {Carvalho}\ \emph {et~al.}(2025)\citenamefont {Carvalho}, \citenamefont {Ferreira}, \citenamefont {Bejger},\ and\ \citenamefont {Provid{\^e}ncia}}]{Carvalho:2025qie}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Carvalho}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ferreira}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Bejger}},\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Provid{\^e}ncia}},\ }\bibfield  {title} {\bibinfo {title} {{Neural posterior estimation of neutron star equations of state}},\ }\href {https://doi.org/10.1103/6396-4dcy} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {112}},\ \bibinfo {pages} {083044} (\bibinfo {year} {2025})},\ \Eprint {https://arxiv.org/abs/2507.23506} {arXiv:2507.23506 [nucl-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carvalho}\ \emph {et~al.}(2026)\citenamefont {Carvalho}, \citenamefont {Ferreira}, \citenamefont {Bejger},\ and\ \citenamefont {Provid{\^e}ncia}}]{Carvalho:2026nbl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Carvalho}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ferreira}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Bejger}},\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Provid{\^e}ncia}},\ }\bibfield  {title} {\bibinfo {title} {{NS-UNO: Neutron Star EoS Inference from an Unconstrained Number of Observations}},\ }\href@noop {} {\  (\bibinfo {year} {2026})},\ \Eprint {https://arxiv.org/abs/2608.30573} {arXiv:2608.30573 [nucl-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ferreira}\ \emph {et~al.}(2026)\citenamefont {Ferreira}, \citenamefont {Carvalho}, \citenamefont {Bejger},\ and\ \citenamefont {Provid{\^e}ncia}}]{Ferreira:2026bwb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ferreira}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Carvalho}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Bejger}},\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Provid{\^e}ncia}},\ }\bibfield  {title} {\bibinfo {title} {{Set Transformer inference of the neutron star equation of state from stellar observations}},\ }\href@noop {} {\  (\bibinfo {year} {2026})},\ \Eprint {https://arxiv.org/abs/2609.31081} {arXiv:2609.31081 [nucl-th]} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Brandes}\ \emph {et~al.}(2024)\citenamefont {Brandes}, \citenamefont {Modi}, \citenamefont {Ghosh}, \citenamefont {Farrell}, \citenamefont {Lindblom}, \citenamefont {Heinrich}, \citenamefont {Steiner}, \citenamefont {Weber},\ and\ \citenamefont {Whiteson}}]{Brandes:2024vhw}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Brandes}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Modi}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Ghosh}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Farrell}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Lindblom}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Heinrich}}, \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Steiner}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Weber}},\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Whiteson}},\ }\bibfield  {title} {\bibinfo {title} {{Neural simulation-based inference of the neutron star equation of state directly from telescope spectra}},\ }\href {https://doi.org/10.1088/1475-7516/2024/09/009} {\bibfield  {journal} {\bibinfo  {journal} {JCAP}\ }\textbf {\bibinfo {volume} {09}},\ \bibinfo {pages} {009}},\ \Eprint {https://arxiv.org/abs/2403.00287} {arXiv:2403.00287 [astro-ph.HE]} \BibitemShut {NoStop}%
