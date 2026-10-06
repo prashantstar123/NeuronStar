@@ -193,7 +193,7 @@ If you use NeuronStar, please cite the paper:
 > Evidence Estimation*, [arXiv:2610.05121](https://arxiv.org/abs/2610.05121) [astro-ph.HE] (2026).
 
 ```bibtex
-@article{Thakur2026NeuronStar,
+@article{Thakur:2026smp,
     author = "Thakur, Prashant",
     title = "{Fast Bayesian Updating of the Neutron-Star Equation of State with Neural Posterior and Evidence Estimation}",
     eprint = "2610.05121",
