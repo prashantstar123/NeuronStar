@@ -2,7 +2,7 @@
 
 **NeuronStar** is the open-source code and reproduction package of the paper **"Fast Bayesian Updating of the Neutron-Star Equation of State with Neural
 Posterior and Evidence Estimation"** by **Prashant Thakur** (Department of Physics, Yonsei University).
-arXiv: the link will be added here when the paper is posted.
+Paper: [arXiv:2610.05121](https://arxiv.org/abs/2610.05121).
 
 The package has three parts:
 
@@ -190,14 +190,17 @@ For any other problem, open an issue on GitHub and attach the files in `build/lo
 If you use NeuronStar, please cite the paper:
 
 > P. Thakur, *Fast Bayesian Updating of the Neutron-Star Equation of State with Neural Posterior and
-> Evidence Estimation*, in preparation (2026). arXiv: the link will be added here when the paper is posted.
+> Evidence Estimation*, [arXiv:2610.05121](https://arxiv.org/abs/2610.05121) [astro-ph.HE] (2026).
 
 ```bibtex
-@article{Thakur2026FastBayesianEOS,
-  author = {Thakur, Prashant},
-  title  = {Fast Bayesian Updating of the Neutron-Star Equation of State with Neural Posterior and Evidence Estimation},
-  year   = {2026},
-  note   = {In preparation; arXiv link to be added}
+@article{Thakur2026NeuronStar,
+    author = "Thakur, Prashant",
+    title = "{Fast Bayesian Updating of the Neutron-Star Equation of State with Neural Posterior and Evidence Estimation}",
+    eprint = "2610.05121",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.HE",
+    month = "10",
+    year = "2026"
 }
 ```
 
